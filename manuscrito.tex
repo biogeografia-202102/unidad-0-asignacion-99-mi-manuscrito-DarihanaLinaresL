@@ -38,19 +38,27 @@
 
 \setcounter{secnumdepth}{3}
 
+\usepackage{longtable,booktabs}
 
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
 
 \title{Título\\
 Subtítulo\\
 Subtítulo  }
- 
 
 
 
-\author{\Large Nombre de el/la
-estudiante\vspace{0.05in} \newline\normalsize\emph{Afiliación,
-normalmente algo tal que ``Estudiante, Universidad Autónoma de Santo
-Domingo (UASD)''}  }
+\author{\Large Darihana Linares Laureano\vspace{0.05in} \newline\normalsize\emph{Afiliación, normalmente algo tal que ``Estudiante de Licenciatura en
+Geografía mención recursos naturales y ecoturismo, Universidad Autónoma
+de Santo Domingo (UASD)''}  }
 
 
 \date{}
@@ -96,9 +104,9 @@ Domingo (UASD)''}  }
 \makeatother
 \hypersetup{breaklinks=true,
             bookmarks=true,
-            pdfauthor={Nombre de el/la estudiante (Afiliación,
-normalmente algo tal que ``Estudiante, Universidad Autónoma de Santo
-Domingo (UASD)'')},
+            pdfauthor={Darihana Linares Laureano (Afiliación, normalmente algo tal que ``Estudiante de Licenciatura en
+Geografía mención recursos naturales y ecoturismo, Universidad Autónoma
+de Santo Domingo (UASD)'')},
              pdfkeywords = {palabra clave 1, palabra clave 2},  
             pdftitle={Título\\
 Subtítulo\\
@@ -115,7 +123,10 @@ Subtítulo},
 \def\fps@figure{htbp}
 \makeatother
 
-\usepackage{pdflscape} \newcommand{\blandscape}{\begin{landscape}} \newcommand{\elandscape}{\end{landscape}} \usepackage{float} \floatplacement{figure}{H} \newcommand{\beginsupplement}{ \setcounter{table}{0} \renewcommand{\thetable}{S\arabic{table}} \setcounter{figure}{0} \renewcommand{\thefigure}{S\arabic{figure}} }
+\usepackage{pdflscape} \newcommand{\blandscape}{\begin{landscape}}
+\newcommand{\elandscape}{\end{landscape}} \usepackage{float}
+\floatplacement{figure}{H}
+\newcommand{\beginsupplement}{ \setcounter{table}{0} \renewcommand{\thetable}{S\arabic{table}} \setcounter{figure}{0} \renewcommand{\thefigure}{S\arabic{figure}} }
 
 
 % add tightlist ----------
@@ -125,8 +136,7 @@ Subtítulo},
 \begin{document}
 	
 % \pagenumbering{arabic}% resets `page` counter to 1 
-%    
-
+%
 % \maketitle
 
 {% \usefont{T1}{pnc}{m}{n}
@@ -139,9 +149,9 @@ Subtítulo},
 
 {
    \vskip 13.5pt\relax \normalsize\fontsize{11}{12} 
-\textbf{\authorfont Nombre de el/la
-estudiante} \hskip 15pt \emph{\small Afiliación, normalmente algo tal
-que ``Estudiante, Universidad Autónoma de Santo Domingo (UASD)''}   
+\textbf{\authorfont Darihana Linares Laureano} \hskip 15pt \emph{\small Afiliación, normalmente algo tal que ``Estudiante de Licenciatura en
+Geografía mención recursos naturales y ecoturismo, Universidad Autónoma
+de Santo Domingo (UASD)''}   
 
 }
 
@@ -163,8 +173,7 @@ que ``Estudiante, Universidad Autónoma de Santo Domingo (UASD)''}
 \noindent Resumen del manuscrito
 
 
-\vskip 8.5pt \noindent \emph{Keywords}: palabra clave 1, palabra clave
-2 \par
+\vskip 8.5pt \noindent \emph{Keywords}: palabra clave 1, palabra clave 2 \par
 
     \hbox{\vrule height .2pt width 39.14pc}
 
@@ -176,40 +185,78 @@ que ``Estudiante, Universidad Autónoma de Santo Domingo (UASD)''}
 \vskip 6.5pt
 
 
-\noindent  \hypertarget{introducciuxf3n}{%
-\section{Introducción}\label{introducciuxf3n}}
+\noindent  \section{Introducción}\label{introducciuxf3n}
+
+\subsection{Pregutas de investigación a
+incorporar.}\label{pregutas-de-investigaciuxf3n-a-incorporar.}
+
+Análisis de agrupamiento (cluster analysis, aa): Los cuadros (o
+quadrats) de 1 hectárea, ¿se organizan en grupos discontinuos según la
+composición de las especies de mi familia seleccionada? Si existe algún
+patrón, ¿es consistente con alguna variable ambiental/atributo? ¿Hay
+especies indicadoras o con preferencia por determinadas condiciones
+ambientales/atributos?
+
+Ecología espacial (ee): ¿Alguna(s) especies de mi familia presenta(n)
+patrón aglomerado? ¿Cuál(es)? ¿Se asocia con alguna variable? ¿Predicen
+bien la ocurrencia de dicha(s) especie(s) los modelos de distribución de
+especies (SDM)?
+
+Diversidad (di): Según los análisis de estimación de riqueza, ¿está
+suficientemente representada mi familia? Consideremos como buena
+representación un 85\% ¿Existe asociación de la diversidad alpha con
+variables ambientales/atributos? ¿Con cuáles? ¿Existe contribución local
+o por alguna especie a la diversidad beta?
+
+\section{Metodología}\label{metodologuxeda}
 
 \ldots
 
-\hypertarget{metodologuxeda}{%
-\section{Metodología}\label{metodologuxeda}}
+\section{Resultados}\label{resultados}
+
+Ver tabla \ref{tab:abun_sp} y figura \ref{fig:abun_sp_q}
+
+\begin{longtable}[]{@{}lr@{}}
+\caption{\label{tab:abun_sp}Abundancia por especie de la familia
+Myrtaceae}\tabularnewline
+\toprule
+Latin & n\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Latin & n\tabularnewline
+\midrule
+\endhead
+Eugenia galalonensis & 1975\tabularnewline
+Eugenia oerstediana & 1838\tabularnewline
+Eugenia coloradoensis & 609\tabularnewline
+Chamguava schippii & 541\tabularnewline
+Eugenia nesiotica & 502\tabularnewline
+Psidium friedrichsthalianum & 58\tabularnewline
+Myrcia gatunensis & 56\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{figure}
+\centering
+\includegraphics{manuscrito_files/figure-latex/unnamed-chunk-3-1.pdf}
+\caption{\label{fig:abun_sp_q}Abundancia por especie por quadrat}
+\end{figure}
+
+\section{Discusión}\label{discusiuxf3n}
+
+\section{Agradecimientos}\label{agradecimientos}
+
+\section{Información de soporte}\label{informaciuxf3n-de-soporte}
 
 \ldots
 
-\hypertarget{resultados}{%
-\section{Resultados}\label{resultados}}
-
-\ldots
-
-\hypertarget{discusiuxf3n}{%
-\section{Discusión}\label{discusiuxf3n}}
-
-\hypertarget{agradecimientos}{%
-\section{Agradecimientos}\label{agradecimientos}}
-
-\hypertarget{informaciuxf3n-de-soporte}{%
-\section{Información de soporte}\label{informaciuxf3n-de-soporte}}
-
-\ldots
-
-\hypertarget{script-reproducible}{%
 \section{\texorpdfstring{\emph{Script}
-reproducible}{Script reproducible}}\label{script-reproducible}}
+reproducible}{Script reproducible}}\label{script-reproducible}
 
 \ldots
 
-\hypertarget{referencias}{%
-\section{Referencias}\label{referencias}}
+\section{Referencias}\label{referencias}
 
 
 

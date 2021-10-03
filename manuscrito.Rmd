@@ -37,17 +37,43 @@ header-includes:
     }
 ---
 
+```{r, include=FALSE}
+source("Análisis.R", local = knitr::knit_global())
+```
+
 # Introducción
 
-\ldots
+## Pregutas de investigación a incorporar.
+Análisis de agrupamiento (cluster analysis, aa):
+Los cuadros (o quadrats) de 1 hectárea, ¿se organizan en grupos discontinuos según la composición de las especies de mi familia seleccionada?
+Si existe algún patrón, ¿es consistente con alguna variable ambiental/atributo?
+¿Hay especies indicadoras o con preferencia por determinadas condiciones ambientales/atributos?
+
+Ecología espacial (ee):
+¿Alguna(s) especies de mi familia presenta(n) patrón aglomerado? ¿Cuál(es)? ¿Se asocia con alguna variable?
+¿Predicen bien la ocurrencia de dicha(s) especie(s) los modelos de distribución de especies (SDM)?
+
+Diversidad (di):
+Según los análisis de estimación de riqueza, ¿está suficientemente representada mi familia? Consideremos como buena representación un 85%
+¿Existe asociación de la diversidad alpha con variables ambientales/atributos? ¿Con cuáles?
+¿Existe contribución local o por alguna especie a la diversidad beta?
+
 
 # Metodología
 
 \ldots
 
 # Resultados
+Ver tabla \ref{tab:abun_sp} y figura \ref{fig:abun_sp_q}
 
-\ldots
+```{r, echo=FALSE}
+knitr::kable(abun_sp,
+             caption = "\\label{tab:abun_sp}Abundancia por especie de la familia Myrtaceae")
+```
+
+```{r, echo=FALSE, fig.cap="\\label{fig:abun_sp_q}Abundancia por especie por quadrat"}
+abun_sp_q
+```
 
 # Discusión
 
