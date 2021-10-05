@@ -13,7 +13,7 @@ title: |
         | Subtítulo
 author:
 - name: Darihana Linares Laureano
-  affiliation: Afiliación, normalmente algo tal que "Estudiante de Licenciatura en Geografía mención recursos naturales y ecoturismo, Universidad Autónoma de Santo Domingo (UASD)"
+  affiliation: "Estudiante de Licenciatura en Geografía mención recursos naturales y ecoturismo, Universidad Autónoma de Santo Domingo (UASD)"
 abstract: "Resumen del manuscrito"
 keywords: "palabra clave 1, palabra clave 2"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
@@ -37,11 +37,10 @@ header-includes:
     }
 ---
 
-```{r, include=FALSE}
-source("Análisis.R", local = knitr::knit_global())
-```
+
 
 # Introducción
+
 
 ## Pregutas de investigación a incorporar.
 Análisis de agrupamiento (cluster analysis, aa):
@@ -58,6 +57,7 @@ Según los análisis de estimación de riqueza, ¿está suficientemente represen
 ¿Existe asociación de la diversidad alpha con variables ambientales/atributos? ¿Con cuáles?
 ¿Existe contribución local o por alguna especie a la diversidad beta?
 
+@Hubbell2005barro
 
 # Metodología
 
@@ -66,14 +66,7 @@ Según los análisis de estimación de riqueza, ¿está suficientemente represen
 # Resultados
 Ver tabla \ref{tab:abun_sp} y figura \ref{fig:abun_sp_q}
 
-```{r, echo=FALSE}
-knitr::kable(abun_sp,
-             caption = "\\label{tab:abun_sp}Abundancia por especie de la familia Myrtaceae")
-```
 
-```{r, echo=FALSE, fig.cap="\\label{fig:abun_sp_q}Abundancia por especie por quadrat"}
-abun_sp_q
-```
 
 # Discusión
 
