@@ -40,10 +40,11 @@ header-includes:
 
 
 # Introducción
-La Biogeografía a través de la historia ha evolucionado y demostrado su importancia en el estudio de la diversidad biológica y sus patrones en el espacio y en el tiempo con relación a variables ambientales. Según @Lomolino2010biogeografia, esta es más la síntesis de las ciencias geográficas y las ciencias biológicas, debido a que estudia la distribución y la variedad en las formas de vida existente en un ambiente natural, también se estudian los patrones que se producen espacialmente, considerando que existe una relación con variables como latitud, clima, suelo y elevación. 
-Esta se divide en dos subdisciplinas, la biogeografía histórica y la biogeografía ecológica. Donde la primera, solo le interesa conocer y reedificar como se origina, se propaga y perecen los distintos organisnmos, flora y fauna en un lugar. En cambio, la segunda subdisciplina intenta determinar, contabilizar y eplicar la distribución y la variedad geográfica de la diversidad en las correlaciones entre los organismos y su ambiente tanto físico como biótico (@Lomolino2010biogeografia). 
-Este estudio esta orientado en la biogeografía ecológica.
 
+ quitar
+
+Ecología númerica
+La myrtaceae es una familia 
 BCI
 
 objeto de estudio y las preguntas
@@ -54,14 +55,18 @@ Los cuadros (o quadrats) de 1 hectárea, ¿se organizan en grupos discontinuos s
 Si existe algún patrón, ¿es consistente con alguna variable ambiental/atributo?
 ¿Hay especies indicadoras o con preferencia por determinadas condiciones ambientales/atributos?
 
-Ecología espacial (ee):
-¿Alguna(s) especies de mi familia presenta(n) patrón aglomerado? ¿Cuál(es)? ¿Se asocia con alguna variable?
-¿Predicen bien la ocurrencia de dicha(s) especie(s) los modelos de distribución de especies (SDM)?
+Técnicas de ordenación (ordination analysis, to):
+En un espacio bidimensional, ¿existen tendencias apreciables de ordenación de las especies de mi familia seleccionada?
+Si existen tendencias de ordenación, ¿se asocian éstas con variables ambientales/atributos?
 
 Diversidad (di):
 Según los análisis de estimación de riqueza, ¿está suficientemente representada mi familia? Consideremos como buena representación un 85%
 ¿Existe asociación de la diversidad alpha con variables ambientales/atributos? ¿Con cuáles?
 ¿Existe contribución local o por alguna especie a la diversidad beta?
+
+Ecología espacial (ee):
+¿Alguna(s) especies de mi familia presenta(n) patrón aglomerado? ¿Cuál(es)? ¿Se asocia con alguna variable?
+¿Predicen bien la ocurrencia de dicha(s) especie(s) los modelos de distribución de especies (SDM)?
 
 @Hubbell2005barro
 
