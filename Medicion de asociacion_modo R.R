@@ -77,7 +77,7 @@ env_num <- bci_env_grid %>%
   mutate(
     riqueza_mifam = specnumber(mc_myrtc),
     abundancia_mifam = rowSums(mc_myrtc)) %>% 
-  rename_all(gsub, pattern = '_mtc$', replacement = '') %>% 
+  rename_all(gsub, pattern = '_pct$', replacement = '') %>% 
   rename_all(gsub, pattern = '_| ', replacement = '\n')
 env_num %>% tibble
 
