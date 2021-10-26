@@ -140,11 +140,11 @@ w_dend_reord <- reorder.hclust(lista_cl$cl_ward, mi_fam_norm_d)
 plot(w_dend_reord, hang = -1)
 rect.hclust(
   tree = w_dend_reord,
-  k = anch_sil_ward$n_grupos_optimo)
+  k = 5) # anch_sil_ward$n_grupos_optimo)
 plot(w_dend_reord, hang = -1)
 rect.hclust(
   tree = w_dend_reord,
-  k = anch_sil_ward$n_grupos_optimo + 1)
+  k = 3) #anch_sil_ward$n_grupos_optimo + 1)
 #' 
 #' Comparando el dendrograma con el mapa de calor. Verificar si el número de grupos hace sentido.
 #' 
@@ -198,7 +198,7 @@ cl_pvclust_ward <-
   pvclust(t(mi_fam_norm),
           method.hclust = "ward.D2",
           method.dist = "euc",
-          iseed = 191, # Resultado reproducible
+          #iseed = 191, # Resultado reproducible
           parallel = TRUE)
 # Añadir los valores de p
 plot(cl_pvclust_ward, hang = -1)
@@ -231,13 +231,13 @@ table(grupos_upgma_k2)
 #' 
 #' Ward:
 #' 
-(grupos_ward_k4 <- as.factor(cutree(lista_cl$cl_ward, k = 4)))
-table(grupos_ward_k4)
+(grupos_ward_k3 <- as.factor(cutree(lista_cl$cl_ward, k = 3)))
+table(grupos_ward_k3)
 #'
 #' Guardaré estos vectores en archivos para reutilizarlos en *scripts* posteriores:
 #' 
 saveRDS(grupos_upgma_k2, 'grupos_upgma_k2.RDS')
-saveRDS(grupos_ward_k4, 'grupos_ward_k4.RDS')
+saveRDS(grupos_ward_k3, 'grupos_ward_k3.RDS')
 #' 
 #' Evita usar este, y cualquier otro procedimiento, de manera mecánica. En tu caso, quizá tengas que cortar tus dendrogramas en más o menos grupos de sitios. También podría resultar que alguno de dichos métodos, o ambos, sean irrelevante para tu caso, por lo que probablemente tendrás que elegir otro que haga sentido ecológico a tus datos (por ejemplo, *complete*).
 #' 
