@@ -23,8 +23,8 @@ load('biodata/Myrtaceae.Rdata')
 load('biodata/matriz_ambiental.Rdata')
 grupos_upgma_k2 <- readRDS('grupos_upgma_k2.RDS')
 table(grupos_upgma_k2) #Importante, tener en cuenta los desiguales tamaños de los grupos
-grupos_ward_k4 <- readRDS('grupos_ward_k4.RDS')
-table(grupos_ward_k4)
+grupos_ward_k3 <- readRDS('grupos_ward_k3.RDS')
+table(grupos_ward_k3)
 #' 
 #' ### Paletas
 #' 
@@ -117,27 +117,27 @@ mapa_zn %>% mapshot(
 #' 
 #' Objeto común:
 #' 
-(m_amb_ward_k4 <- bci_env_grid %>%
+(m_amb_ward_k3 <- bci_env_grid %>%
     select_if(is.numeric) %>% select(-id) %>% 
-    mutate(grupos_ward_k4) %>%
+    mutate(grupos_ward_k3) %>%
     st_drop_geometry() %>% 
-    pivot_longer(-grupos_ward_k4, names_to = "variable", values_to = "valor"))
+    pivot_longer(-grupos_ward_k3, names_to = "variable", values_to = "valor"))
 #' 
 #' Pruebas, en este caso ANOVA (evalúa homogeneidad de medias; no se cumplen muchos de los supuestos requeridos para esta prueba) y Kruskal-Wallis (evalúa homogeneidad de medianas):
 #' 
-m_amb_ward_k4 %>% 
+m_amb_ward_k3 %>% 
   group_by(variable) %>% 
   summarise(
-    p_valor_a = oneway.test(valor ~ grupos_ward_k4)$p.value,
-    p_valor_k = kruskal.test(valor ~ grupos_ward_k4)$p.value) %>%
+    p_valor_a = oneway.test(valor ~ grupos_ward_k3)$p.value,
+    p_valor_k = kruskal.test(valor ~ grupos_ward_k3)$p.value) %>%
   arrange(p_valor_k) %>%
   print(n=Inf)
 #' 
 #' Gráficos:
 #' 
-m_amb_ward_k4 %>% 
+m_amb_ward_k3 %>% 
   group_by(variable) %>% 
-  ggplot() + aes(x = grupos_ward_k4, y = valor, fill = grupos_ward_k4) + 
+  ggplot() + aes(x = grupos_ward_k3, y = valor, fill = grupos_ward_k3) + 
   geom_boxplot() + 
   scale_fill_brewer(palette = 'Accent') +
   theme_bw() +
@@ -146,22 +146,22 @@ m_amb_ward_k4 %>%
 #' 
 #' Mapas:
 #' 
-mapa_ward_k4 <- mapView(
-  bci_env_grid %>% mutate(grupos_ward_k4),
+mapa_ward_k3 <- mapView(
+  bci_env_grid %>% mutate(grupos_ward_k3),
   layer.name = 'Grupos (3) Ward',
   alpha.regions = 0.6,
   map.types = 'OpenTopoMap',
   legend = T,
   col.regions = colores_grupos[1:3],
-  zcol = 'grupos_ward_k4') %>%
+  zcol = 'grupos_ward_k3') %>%
   addStaticLabels(label = bci_env_grid$id) %>% 
   leaflet::setView(
     lng = -79.85136,
     lat = 9.15097,
     zoom = 15)
-mapa_ward_k4
-mapa_ward_k4 %>% mapshot(
-  file = 'mapa_ward_k4.png', 
+mapa_ward_k3
+mapa_ward_k3 %>% mapshot(
+  file = 'mapa_ward_k3.png', 
   remove_controls = c("zoomControl", "layersControl", "homeButton")
 )
 #' 
