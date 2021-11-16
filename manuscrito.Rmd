@@ -41,7 +41,7 @@ header-includes:
 
 # Introducción
 
- quitar
+
 
 Ecología númerica
 La myrtaceae es una familia 
