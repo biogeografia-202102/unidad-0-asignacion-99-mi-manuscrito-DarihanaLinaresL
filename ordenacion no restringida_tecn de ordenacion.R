@@ -258,20 +258,36 @@ plot(mi_fam_ca,
      main = "Análisis de correspondencia, escalamiento 2")
 par(mfrow = c(1, 1))
 #' 
-#' Excluyendo especie *Thevetia ahouai*, abreviada como *Thevahou*.
+#' Excluyendo especie *Chamguava schippii*, abreviada como *Chamschi*.
 #' 
-mi_fam_ca <- cca(mi_fam[, -grep('Thevahou', colnames(mi_fam))])
+mi_fam_ca <- cca(mi_fam[, -grep('Chamschi', colnames(mi_fam))])
 summary(mi_fam_ca)
 summary(mi_fam_ca, scaling = 1)
 screeplot(mi_fam_ca, bstick = TRUE, npcs = length(mi_fam_ca$CA$eig))
 par(mfrow = c(1, 2))
 plot(mi_fam_ca,
      scaling = 1,
-     main = "CA, escalamiento 1, sin Thevetia ahouai"
+     main = "CA, escalamiento 1, sin Chamguava schippii"
 )
 plot(mi_fam_ca,
      scaling = 2,
-     main = "CA, escalamiento 2, sin Thevetia ahouai")
+     main = "CA, escalamiento 2, sin Chamguava schippii")
+par(mfrow = c(1, 1))
+#' 
+#' #' Excluyendo especie *Myrcia gatunensis*, abreviada como *Myrcgatu*.
+#' 
+mi_fam_ca <- cca(mi_fam[, -grep('Myrcgatu', colnames(mi_fam))])
+summary(mi_fam_ca)
+summary(mi_fam_ca, scaling = 1)
+screeplot(mi_fam_ca, bstick = TRUE, npcs = length(mi_fam_ca$CA$eig))
+par(mfrow = c(1, 2))
+plot(mi_fam_ca,
+     scaling = 1,
+     main = "CA, escalamiento 1, sin Myrcia gatunensis"
+)
+plot(mi_fam_ca,
+     scaling = 2,
+     main = "CA, escalamiento 2, sin Myrcia gatunensis")
 par(mfrow = c(1, 1))
 #' 
 #' Análisis de coordenadas principales (PCoA)

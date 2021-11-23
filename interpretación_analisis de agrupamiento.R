@@ -61,8 +61,8 @@ par(mfrow = c(1,1))
 #' 
 #' En mi caso, exceptuando el dendrograma generado por medio del enlace simple, detecto al menos 2 grupos consistentes (integrados por múltiples posibles subgrupos), los cuales mencionaré usando los identificadores de sitios:
 #' 
-#' - Un grupo pequeño, compuesto por los sitios 1, 42, 12, 21, 11, 2 y 16.
-#' - Un "grupo" heterogéneo y grande, conformado por 25, 31,..., 26,..., 35,..., 34,...,32, 17,..., 30, que también parece incluir a 44, 49, 47, 48, 50.
+#' - Un grupo pequeño, compuesto por los sitios 14 y 19.
+#' - Un "grupo" heterogéneo y grande, conformado por el resto de sitios.
 #' 
 #' Además de los grupos anteriores, detecto elementos que no forman grupos, es decir, sitios que aparecen aislados del resto, como por ejemplo el 46 y, en algunos métodos, también el 9.
 #' 
@@ -134,17 +134,17 @@ anch_sil_ward <- calcular_anchuras_siluetas(
   cluster = lista_cl$cl_ward)
 anch_sil_ward
 #' 
-#' En este caso, el valor máximo, que ocupa la posición número 2, no se diferencia mucho del de la posición 3. Al parecer, sería igualmente válido elegir 2 o 3 particiones, por tener promedios de anchuras de siluetas bastante parecidos. Por tal razón, cortaré el dendrograma en 2 y en 3 grupos, respectivamente:
+#' En este caso, el valor máximo, que ocupa la posición número 3, no se diferencia mucho del de la posición 4. Al parecer, sería igualmente válido elegir 3 o 4 particiones, por tener promedios de anchuras de siluetas bastante parecidos. Por tal razón, cortaré el dendrograma en 3 y en 4 grupos, respectivamente:
 #' 
 w_dend_reord <- reorder.hclust(lista_cl$cl_ward, mi_fam_norm_d)
 plot(w_dend_reord, hang = -1)
 rect.hclust(
   tree = w_dend_reord,
-  k = 5) # anch_sil_ward$n_grupos_optimo)
+  k = 3) # anch_sil_ward$n_grupos_optimo)
 plot(w_dend_reord, hang = -1)
 rect.hclust(
   tree = w_dend_reord,
-  k = 3) #anch_sil_ward$n_grupos_optimo + 1)
+  k = 4) #anch_sil_ward$n_grupos_optimo + 1)
 #' 
 #' Comparando el dendrograma con el mapa de calor. Verificar si el número de grupos hace sentido.
 #' 
@@ -223,7 +223,7 @@ pvrect(cl_pvclust_ward, alpha = 0.91, border = 4)
 #' UPGMA:
 (grupos_upgma_k2 <- as.factor(cutree(lista_cl$cl_upgma, k = 2)))
 #' 
-#' En este caso, los sitios 1 y 2 pertenecen al grupo 1, los sitios 3 al 6 pertenecen al grupo 2, nuevamente, del 7 al 9 pertenecen al grupo 1, el sitio 10 pertenece al grupo 2, y así sucesivamente. Preguntaré cuántos sitios hay en cada grupo mediante la función `table`:
+#' En este caso, los sitios del 1 al 13 pertenecen al grupo 1, los sitios 14 y 19 pertenecen al grupo 2, nuevamente, del 15 al 18 pertenecen al grupo 1, los sitios del 20 al 50 10 pertenecen al grupo 1. Preguntaré cuántos sitios hay en cada grupo mediante la función `table`:
 #' 
 table(grupos_upgma_k2)
 #' 

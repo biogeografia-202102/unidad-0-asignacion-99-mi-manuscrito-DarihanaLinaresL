@@ -240,7 +240,7 @@ mi_fam_combinada <- colSums(mi_fam)
 mi_fam_combinada %>% sort
 mi_fam_combinada_chao <- estimacion_riqueza_chao(
   mc = mi_fam_combinada,
-  n_raras = 10)
+  n_raras = 60)
 mi_fam_combinada_chao$asintoticos_estimacion
 mi_fam_combinada_chao$no_asintoticos_rarefaccion_extrapolacion
 mi_fam_combinada_chao$no_asintoticos_rarefaccion_extrapolacion_grafico
@@ -258,7 +258,7 @@ mi_fam_k3 <- mi_fam %>%
 mi_fam_k3 %>% rowSums %>% sort
 mi_fam_k3_chao <- estimacion_riqueza_chao(
   mc = mi_fam_k3,
-  n_raras = 10)
+  n_raras = 60)
 mi_fam_k3_chao$asintoticos_estimacion
 mi_fam_k3_chao$no_asintoticos_rarefaccion_extrapolacion
 mi_fam_k3_chao$no_asintoticos_rarefaccion_extrapolacion_grafico
