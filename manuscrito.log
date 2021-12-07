@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.17)  3 OCT 2021 17:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.17)  6 DEC 2021 17:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -508,20 +508,20 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
-Package hyperref Info: Option `breaklinks' set `true' on input line 108.
+Package hyperref Info: Option `breaklinks' set `true' on input line 106.
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 108.
+(hyperref)                setting the option has no effect on input line 106.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 108.
+(hyperref)                removing `\\' on input line 106.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 108.
+(hyperref)                removing `\\' on input line 106.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 108.
+Package hyperref Info: Option `colorlinks' set `true' on input line 106.
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
@@ -546,23 +546,23 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 ) (./manuscrito.aux)
 \openout1 = `manuscrito.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 126.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 124.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
@@ -602,7 +602,7 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 
 \big@size=\dimen120
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring ON on input line 126.
+Package hyperref Info: Link coloring ON on input line 124.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -610,9 +610,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count102
 )
-LaTeX Info: Redefining \ref on input line 126.
-LaTeX Info: Redefining \pageref on input line 126.
-LaTeX Info: Redefining \nameref on input line 126.
+LaTeX Info: Redefining \ref on input line 124.
+LaTeX Info: Redefining \pageref on input line 124.
+LaTeX Info: Redefining \nameref on input line 124.
 (./manuscrito.out) (./manuscrito.out)
 \@outlinefile=\write3
 \openout3 = `manuscrito.out'.
@@ -646,69 +646,93 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <11> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 142.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 142.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 140.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 140.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <11> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 142.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 140.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 178.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 175.
 
-LaTeX Warning: Reference `tab:abun_sp' on page 1 undefined on input line 209.
+LaTeX Warning: Reference `tab:tecnicas' on page 1 undefined on input line 205.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+
+LaTeX Warning: Reference `tab:abun_sp' on page 3 undefined on input line 343.
 
 
-LaTeX Warning: Reference `fig:abun_sp_q' on page 1 undefined on input line 209.
+LaTeX Warning: Reference `fig:abun_sp_q' on page 3 undefined on input line 343.
 
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/it' tried instead on input line 220.
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 231.
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 354.
+[3]
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 364.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 231
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 364
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 231
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 364
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 231
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 364
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 231
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 364
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-) [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 238.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
+)
+Overfull \hbox (6.34013pt too wide) in paragraph at lines 371--373
+[]\T1/ppl/m/n/10.95 Britannica, E. (2016). \T1/ppl/m/it/10.95 Myr-taceae\T1/ppl
+/m/n/10.95 . Re-trieved from [][]$https : / / www . britannica . com / plant / 
+Myrtaceae$[][] 
+ []
+
+
+Overfull \hbox (45.81474pt too wide) in paragraph at lines 383--385
+[]\T1/ppl/m/n/10.95 Lorenzo-Cáceres, J. M. S. de. (s.f.). \T1/ppl/m/it/10.95 Fa
+-milia myr-taceae\T1/ppl/m/n/10.95 . Re-trieved from [][]$https : / / www . arb
+olesornamentales .
+ []
+
+
+Overfull \hbox (2.94415pt too wide) in paragraph at lines 395--399
+[]\T1/ppl/m/n/10.95 Pineda, P. (2014). \T1/ppl/m/it/10.95 Análi-sis del sis-tem
+a de parce-las per-ma-nentes de medi-ción en los bosques de guatemala.
+ []
+
+[4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 409.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 409.
 (./manuscrito.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 238.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 238.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 409.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 409.
 Package rerunfilecheck Info: File `manuscrito.out' has not changed.
-(rerunfilecheck)             Checksum: 73D160639156F38FA45AA981FDCF9619;1177.
+(rerunfilecheck)             Checksum: 26EB5394285537CFFC802629967BC6C3;1305.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 238.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 409.
  ) 
 Here is how much of TeX's memory you used:
- 9993 strings out of 492982
- 138676 string characters out of 6134896
- 211119 words of memory out of 5000000
- 13448 multiletter control sequences out of 15000+600000
+ 10009 strings out of 492982
+ 138948 string characters out of 6134896
+ 212893 words of memory out of 5000000
+ 13452 multiletter control sequences out of 15000+600000
  24209 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  32i,5n,31p,317b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -718,10 +742,10 @@ e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /urw/palatino/uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palati
 no/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.p
 fb>
-Output written on manuscrito.pdf (2 pages, 71891 bytes).
+Output written on manuscrito.pdf (4 pages, 85616 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 109 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
+ 25 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
