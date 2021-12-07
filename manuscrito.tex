@@ -39,6 +39,15 @@
 \setcounter{secnumdepth}{3}
 
 
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
 
 \title{Título\\
 Subtítulo\\
@@ -201,8 +210,7 @@ estructura, el crecimiento y su productividad (Pineda, 2014). En el
 estudio de las plantas a través de la Ecología Númerica se usan diversas
 técnicas que permiten obtener información sobre el rango de asociación,
 agrupamiento, ordenamiento, diversidad, autocorrelación, etcétera,
-diferentes herramientas para usar las ténicas (ver tabla
-\ref{tab:tecnicas}).
+diferentes herramientas para usar las ténicas.
 
 La medición de la asociación es un coeficiente que sirve para medir y
 asociar los datos de variables cualitativos y cuantitativos. La medición
@@ -299,40 +307,49 @@ cosmetología y en la producción de especias (Almeida, 2019; Britannica,
 
 El estudio de la biodiversidad de la flora en especial de una especie
 vegetal es importante, debido a que permite conocer sus caracteristicas
-propias,ecosistemicas, su distribución, su capacidad productiva, su
+propias, ecosistemicas, su distribución, su capacidad productiva, su
 potencial de uso y aportes a los humanos como a su ecosistema. Por todo
-lo anterior, es importante determinar el objetivo de este estudio es: a)
-identificar si los grupos de mi familia, Myrtaceae, se organizan de
-forma discontinua y acorde a la composición de las especies; b) indagar
-si existe algun tipo de patrón que sea o no sea consistente con alguna
-variable ambiental o atributo; c) determinar cuantas especies
-indicadoras hay o si hay alguna con preferencia por ciertas condiciones
-ambientales o atributos; d) investigar si hay tendencias de ordenación
-que se distingan
+lo anterior, es importante determinar el objetivo de este estudio, el
+cual se fragmenta asi: a) identificar si los grupos de mi familia,
+Myrtaceae, se organizan de forma discontinua y acorde a la composición
+de las especies; b) indagar si existe algun tipo de patrón que sea o no
+sea consistente con alguna variable ambiental o atributo; c) determinar
+cuantas especies indicadoras hay o si hay alguna con preferencia por
+ciertas condiciones ambientales o atributos; d) investigar, en un
+espacio bidimensional, si hay una tendencia de ordenanción visible de
+las especies de Myrtaceae; e) conocer si las tendencias de ordenación se
+asocian con las variables ambientales o atributos; f) determinar, de
+acuerdo a la estimación de riqueza, si mi familia esta bien
+representada, tomando como buena representación un 85\%; g) investigar
+si existe una alguna asociación entre la diversidad alpha y las
+variables ambientales o atributos y cuales son estas; h) conocer si hay
+algún tipo de contribución local o de alguna especie a la diversida
+beta; i) identificar si hay alguna especie que presente algún patrón
+aglomerado, cuál es y si presenta alguna asociación con las variables
+ambientales; j) y determinar si los modelos de distribución de especies
+(SDM) predicen adecuadamente las ocurrencias de las especies.
 
 \section{Área de estudio}\label{uxe1rea-de-estudio}
 
-BCI (Isla de Barrio Colorado) es una isla que pertenece a Panamá, con
-una parcela permanente de medición y monitoreo forestal con
+El área usada para este estudio se encuentra en BCI (Isla de Barrio
+Colorado), que es una isla perteneciente a Panamá, la cual se formó
+cuando las aguas del río Chagres fueron represadas para construir el
+Canal de Panamá (ver figura \ref{fig:bci}). Según (Pérez et al., 2005),
+es considerada como una colina con una superficie de 1,500 hectáreas
+sobresaliente a 137 m en el lago Gatún, y que esta localizada entre los
+9º 09' N y 79º 51' W. Esta isla se caracteriza por sus suelos arcillosos
+con profundidades entre los 50 cm y 1 m, y su clima es común de las
+tierras bajas tropicales. El área de estudio, especificamente, es una
+parcela permanente forestal para su medición y monitoreo de 50 hectáreas
+en BCI, establecida en 1980 por
 
-\subsection{Pregutas de investigación a
-incorporar.}\label{pregutas-de-investigaciuxf3n-a-incorporar.}
-
-Técnicas de ordenación (ordination analysis, to): En un espacio
-bidimensional, ¿existen tendencias apreciables de ordenación de las
-especies de mi familia seleccionada? Si existen tendencias de
-ordenación, ¿se asocian éstas con variables ambientales/atributos?
-
-Diversidad (di): Según los análisis de estimación de riqueza, ¿está
-suficientemente representada mi familia? Consideremos como buena
-representación un 85\% ¿Existe asociación de la diversidad alpha con
-variables ambientales/atributos? ¿Con cuáles? ¿Existe contribución local
-o por alguna especie a la diversidad beta?
-
-Ecología espacial (ee): ¿Alguna(s) especies de mi familia presenta(n)
-patrón aglomerado? ¿Cuál(es)? ¿Se asocia con alguna variable? ¿Predicen
-bien la ocurrencia de dicha(s) especie(s) los modelos de distribución de
-especies (SDM)?
+\begin{figure}
+\centering
+\includegraphics[width=0.50000\textwidth]{mapa bci.jpg}
+\caption{Mapa de la Isla Barro Colorado y la parcela
+permante\label{fig:bci} (Fricker, Saatchi, Meyer, Gillespie, \& Sheng,
+2012)}
+\end{figure}
 
 \section{Metodología}\label{metodologuxeda}
 
@@ -375,6 +392,12 @@ Britannica, E. (2016). \emph{Myrtaceae}. Retrieved from
 De la Llata Loyola, M. D. (2003). \emph{Ecología y medio ambiente}.
 Editorial Progreso.
 
+\hypertarget{ref-fricker2012application}{}
+Fricker, G. A., Saatchi, S. S., Meyer, V., Gillespie, T. W., \& Sheng,
+Y. (2012). Application of semi-automated filter to improve waveform
+lidar sub-canopy elevation model. \emph{Remote Sensing}, \emph{4}(6),
+1494--1518.
+
 \hypertarget{ref-legendre2012numerical}{}
 Legendre, P., \& Legendre, L. (2012). \emph{Numerical ecology}.
 Elsevier.
@@ -390,6 +413,13 @@ Princeton university press.
 \hypertarget{ref-pereztree}{}
 Perez, R., \& R, C. (s.f.). \emph{Tree atlas of panama}. Retrieved from
 \url{http://ctfs.si.edu/PanamaAtlas/famdescr.php?Family=Myrtaceae}
+
+\hypertarget{ref-perez2005metodologia}{}
+Pérez, R., Aguilar, S., Condit, R., Foster, R., Hubbell, S., \& Lao, S.
+(2005). Metodologia empleada en los censos de la parcela de 50 hectareas
+de la isla de barro colorado, panamá. \emph{Centro de Ciencias
+Forestales Del Tropico (CTFS) Y Instituto Smithsonian de Investigaciones
+Tropicales (STRI)}, 1--24.
 
 \hypertarget{ref-pineda2014analisis}{}
 Pineda, P. (2014). \emph{Análisis del sistema de parcelas permanentes de
