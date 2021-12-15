@@ -38,6 +38,7 @@
 
 \setcounter{secnumdepth}{3}
 
+\usepackage{longtable,booktabs}
 
 \usepackage{graphicx,grffile}
 \makeatletter
@@ -313,9 +314,9 @@ propias, ecosistémicas, su distribución, su capacidad productiva, su
 potencial de uso y aportes a los humanos como a su ecosistema. Por todo
 lo anterior, es importante determinar el objetivo de este estudio, el
 cual se fragmenta así: \emph{a)} identificar si los grupos de mi
-familia, Myrtaceae, se organizan de forma discontinua y acorde a la
-composición de las especies; \emph{b)} indagar si existe algún tipo de
-patrón que sea o no sea consistente con alguna variable ambiental o
+familia, \emph{Myrtaceae}, se organizan de forma discontinua y acorde a
+la composición de las especies; \emph{b)} indagar si existe algún tipo
+de patrón que sea o no sea consistente con alguna variable ambiental o
 atributo; \emph{c)} determinar cuántas especies indicadoras hay o si hay
 alguna con preferencia por ciertas condiciones ambientales o atributos;
 \emph{d)} investigar, en un espacio bidimensional, si hay una tendencia
@@ -332,27 +333,40 @@ alguna asociación con las variables ambientales; \emph{j)} y determinar
 si los modelos de distribución de especies (\emph{SDM}) predicen
 adecuadamente las ocurrencias de las especies.
 
-\subsection{Área de estudio}\label{uxe1rea-de-estudio}
+\section{Área de estudio}\label{uxe1rea-de-estudio}
 
 El área usada para este estudio se encuentra en \emph{BCI} (Isla de
 Barrio Colorado), que es una isla perteneciente a Panamá, la cual se
 formó cuando las aguas del río Chagres fueron represadas para construir
-el Canal de Panamá (ver figura \ref{fig:bci_map}). Es considerada como
-una colina con una superficie de 1,500 hectáreas sobresaliente a 137 m
-en el lago Gatún, y que está localizada entre los 9º 09' N y 79º 51' W.
-Esta isla se caracteriza por sus suelos arcillosos con profundidades
-entre los 50 cm y 1 m, y su clima es común de las tierras bajas
-tropicales (Pérez et al., 2005). El área de estudio, específicamente, es
-una parcela permanente forestal para su medición y monitoreo de 50
-hectáreas, establecida en 1980 por Stephen Hubbell y Robin Foster, en el
-bosque húmedo tropical de \emph{BCI} (Hubbell, Foster, \& Condit, 2005).
+el Canal de Panamá. Es considerada como una colina con una superficie de
+1,500 hectáreas sobresaliente a 137 m en el lago Gatún, y que está
+localizada entre los 9º 09' N y 79º 51' W. Esta isla se caracteriza por
+sus suelos arcillosos con profundidades entre los 50 cm y 1 m, y su
+clima es común de las tierras bajas tropicales con temperatura promedio
+anual de 27º C, y variación diurna de 9º C. También tiene unas
+precipitaciones anuales de 2,600 mm, con su estación lluviosa (mayo a
+diciembre), y su estación seca para el resto de meses (Pérez et al.,
+2005; Sugasti, Eng, \& Pinzón, 2018). Según la clasificación de zonas de
+vida de Holdridge, BCI se encuentra ubicada en la zona de vida de bosque
+húmedo tropical; Claver Farías \& others (1984), dice que conforme a la
+clasificación de climática de Köppen esta tiene un clima tropical húmedo
+con precipitaciones abundantes; y de acuerdo con el mapa de la ANAM
+(2000) su vegetación se caracteriza por tener bosques semicaducifolio
+tropical de tierras bajas (Rodríguez-Castro \& Flores, 2021).
 
-Los datos extraidos de las especies forestales de la parcela se
-obtuvieron a tráves de multiples censos desde 1982 hasta 2015 (un total
-de 8 censos), en los cuales se hicieron identificación, marcado y
-monitoreo de los tallos leñosos individuales de más de 10 mm de diámetro
-a altura del pecho. Durante los 35 años se censarón más de 350,000
-árboles individuales (Hubbell et al., 2005).
+El área de estudio, específicamente, es una parcela permanente forestal
+para su medición y monitoreo de 50 hectáreas, establecida en 1980 por
+Stephen Hubbell y Robin Foster, en el bosque húmedo tropical de
+\emph{BCI}. Esta parcela se caracteriza por su forma rectangular con
+1000 m de largo y 400 m de ancho, además, esta se ubica en la parte
+cental de una meseta en la isla (Hubbell, Foster, \& Condit, 2005; Pérez
+et al., 2005). Los datos extraidos de las especies forestales de la
+parcela se obtuvieron a tráves de multiples censos desde 1982 hasta 2015
+(un total de 8 censos), en los cuales se hicieron identificación,
+marcado y monitoreo de los tallos leñosos individuales de más de 10 mm
+de diámetro a altura del pecho. Durante los 35 años se censarón más de
+350,000 árboles individuales (Hubbell et al., 2005). Ver figura
+\ref{fig:bci_map}
 
 \begin{figure}
 \centering
@@ -364,12 +378,14 @@ permante\label{fig:bci_map}}
 \section{Metodología y materiales}\label{metodologuxeda-y-materiales}
 
 Para el estudio de la biodiversidead de la familia \emph{Myrtaceae} se
-usaron los datos censales de las 50 parcelas forestales de \emph{BCI},
-los cuales fueron tratados y procesados con distintos algoritmos y
-técnicas de medición, cálculo, análisis e interpretación por medio del
-entorno de desarrollo intregado y libre, \emph{RStudio} (R Core Team,
-2020). En cuanto a los gráficos presentes se obtuvieron por medio
-\emph{R}, usando paquetes y funciones (ver tabla).
+usaron los datos censales de las 50 parcelas forestales de \emph{BCI}
+que están presentes en el repositorio \texttt{scripts-de-analisis-BCI}
+(Batlle, 2020), de los cuales fueron tratados y procesados con distintos
+algoritmos y técnicas de medición, cálculo, análisis e interpretación
+por medio del entorno de desarrollo intregado y libre, \emph{RStudio} (R
+Core Team, 2020). En cuanto a los gráficos presentes se obtuvieron por
+medio \emph{R}, usando paquetes y funciones (ver
+tabla\ref{tab:materiales}).
 
 \section{Resultados}\label{resultados}
 
@@ -381,7 +397,183 @@ Ver tabla \ref{tab:abun_sp} y figura \ref{fig:abun_sp_q}
 
 \section{Información de soporte}\label{informaciuxf3n-de-soporte}
 
-\ldots
+\begin{longtable}[]{@{}cc@{}}
+\caption{\label{tab:materiales} Materiales usados en el
+estudio}\tabularnewline
+\toprule
+\begin{minipage}[b]{0.14\columnwidth}\centering\strut
+Materiales\strut
+\end{minipage} & \begin{minipage}[b]{0.80\columnwidth}\centering\strut
+Uso\strut
+\end{minipage}\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+\begin{minipage}[b]{0.14\columnwidth}\centering\strut
+Materiales\strut
+\end{minipage} & \begin{minipage}[b]{0.80\columnwidth}\centering\strut
+Uso\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+RStudio\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Redacción del manuscrito, procesamientos de datos censales de la familia
+\emph{Myrtaceae} por medio de Scripts.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library vegan\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Conjunto de herramientas para hacer análisis de diversidad, ordenación
+de comunidad y análisis de disimilaridad.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library tidiyverse\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Colección de paquetes que permiten transformar, importar, visualizar,
+modelar y presentar distintos datos.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library sf\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Creación de simple features, ampliando objetos tipo data.frame con una
+columna de lista de características simples.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library mapview\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Para ver objetos espaciales de forma interactiva sobre un mapa
+base.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library RColorBrewer\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Para crear paletas de colores para mapas temáticos.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library ez\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Permiten una visualización y análisis de datos simples y con
+especificaciones consistentes.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library psych\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Conjunto de herramientas para hacer análisis de datos
+multivariados.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library tmap\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Para visualizar, con mapas temáticos, la distribución de datos
+espaciales.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library adespatial\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Herramienta para hacer análisis espaciales, a distintas escalas, de
+datos multivariados.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library broom\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Para resumir información de objetos estadísticos en tablas.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library cluster\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Para el clúster análisis o de agrupamiento, que permiten encontrar
+grupos de datos.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library gclus\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Ordena en matrices de diagramas, dispersión y coordenadas paralelas con
+un índice, los paneles.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library magittr\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Paquete que permite, mediante mecanismos, cadenas de comandos con el
+operador pipa.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library pvclust\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Paquete que permite implementar un remuestreo multiescala para evaluar
+inconsistencia en análisis de agrupamiento jerárquico.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library indicspecies\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Estima el valor estadístico de la relación presencia-abundancia de
+especies y sus sitios.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library plyr\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Conjunto de herramientas que permiten separar, aplicar y combinar datos
+para generar resúmenes estadísticos de ellos.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library SpadeR\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Estima diversos índices de biodiversidad y medidas de similitud de datos
+individuales tomados de diversas comunidades.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library iNEXT\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Paquete que permite calcular y trazar la rarefacción y extrapolación de
+diversidad de especies.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library vegetarian\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Para calcular la diversidad por comunidad en un conjunto de datos.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library ape\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Paquete que permite hacer análisis filogenéticos y evolutivos de
+árboles.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library spdep\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Conjunto de funciones para crear matrices de ponderaciones espaciales de
+puntos de patrones polígonos, entre otros.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library ade4\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Herramientas para análisis de datos multivariados.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library adegraphics\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Sirve para hacer representaciones gráficas de datos multivariados.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library gridExtra\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Ofrece funciones para poder trabajar con gráficos en \emph{grid} y crear
+diversos trazados en una página y dibujar tablas.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library grid\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Reescribe los gráficos, sus capacidades y da soporte a la
+interacción.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\centering\strut
+library gtable\strut
+\end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
+Herramientas que permiten trabajar más fácil con tablas.\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
 
 \section{\texorpdfstring{\emph{Script}
 reproducible}{Script reproducible}}\label{script-reproducible}
@@ -396,6 +588,11 @@ reproducible}{Script reproducible}}\label{script-reproducible}
 Almeida, S. (2019). \emph{Myrtaceae, familia}. Retrieved from
 \url{https://knoow.net/es/ciencias-tierra-vida/biologia-es/myrtaceae-familia/}
 
+\hypertarget{ref-jose_ramon_martinez_batlle_2020_4402362}{}
+Batlle, J. R. M. (2020). biogeografia-master/scripts-de-analisis-BCI:
+Long coding sessions (Version v0.0.0.9000).
+\url{https://doi.org/10.5281/zenodo.4402362}
+
 \hypertarget{ref-borcard2011numerical}{}
 Borcard, D., Gillet, F., Legendre, P., \& others. (2011).
 \emph{Numerical ecology with r} (Vol. 2). Springer.
@@ -403,6 +600,11 @@ Borcard, D., Gillet, F., Legendre, P., \& others. (2011).
 \hypertarget{ref-encymyrtaceae}{}
 Britannica, E. (2016). \emph{Myrtaceae}. Retrieved from
 \url{https://www.britannica.com/plant/Myrtaceae}
+
+\hypertarget{ref-claver1984guia}{}
+Claver Farías, I., \& others. (1984). Guía para la elaboración de
+estudios del medio físico: Contenido y metodología. \emph{Ministerio de
+Obras Públicas Y Urbanismo. Madrid}.
 
 \hypertarget{ref-de2003ecologia}{}
 De la Llata Loyola, M. D. (2003). \emph{Ecología y medio ambiente}.
@@ -445,6 +647,17 @@ los~\ldots{}.
 \hypertarget{ref-R2020ALanguage}{}
 R Core Team. (2020). \emph{R: A language and environment for statistical
 computing}. Retrieved from \url{https://www.R-project.org/}
+
+\hypertarget{ref-rodriguez2021colonizacion}{}
+Rodríguez-Castro, L., \& Flores, N. (2021). Colonización de la hepática
+epífila leptolejeunea elliptica (lehm \& lindenb)
+schiffn.(Lejeuneaceae), sobre dos especies de arbustos de la isla barro
+colorado (bci). \emph{Tecnociencia}, \emph{23}(1), 82--103.
+
+\hypertarget{ref-sugasti2018medicion}{}
+Sugasti, L., Eng, B., \& Pinzón, R. (2018). Medición continúa de flujo
+de co2 ensuelo en una parcela de bosque tropical en isla barro colorado,
+canal de panamá. \emph{Universidad Tecnológica de Panamá}, 1--7.
 
 \hypertarget{ref-whittaker1972evolution}{}
 Whittaker, R. H. (1972). Evolution and measurement of species diversity.
