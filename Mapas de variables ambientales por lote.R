@@ -119,3 +119,4 @@ png(
   width = 2000, height = 1200, res = 350, pointsize = 12)
 mapas_var_amb_nom_tmap
 dev.off()
+

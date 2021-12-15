@@ -340,19 +340,20 @@ Barrio Colorado), que es una isla perteneciente a Panamá, la cual se
 formó cuando las aguas del río Chagres fueron represadas para construir
 el Canal de Panamá. Es considerada como una colina con una superficie de
 1,500 hectáreas sobresaliente a 137 m en el lago Gatún, y que está
-localizada entre los 9º 09' N y 79º 51' W. Esta isla se caracteriza por
-sus suelos arcillosos con profundidades entre los 50 cm y 1 m, y su
-clima es común de las tierras bajas tropicales con temperatura promedio
-anual de 27º C, y variación diurna de 9º C. También tiene unas
-precipitaciones anuales de 2,600 mm, con su estación lluviosa (mayo a
-diciembre), y su estación seca para el resto de meses (Pérez et al.,
-2005; Sugasti, Eng, \& Pinzón, 2018). Según la clasificación de zonas de
-vida de Holdridge, BCI se encuentra ubicada en la zona de vida de bosque
-húmedo tropical; Claver Farías \& others (1984), dice que conforme a la
-clasificación de climática de Köppen esta tiene un clima tropical húmedo
-con precipitaciones abundantes; y de acuerdo con el mapa de la ANAM
-(2000) su vegetación se caracteriza por tener bosques semicaducifolio
-tropical de tierras bajas (Rodríguez-Castro \& Flores, 2021).
+localizada entre los 9\(^\circ\) 09' N y 79\(^\circ\) 51' W. Esta isla
+se caracteriza por sus suelos arcillosos con profundidades entre los 50
+cm y 1 m, y su clima es común de las tierras bajas tropicales con
+temperatura promedio anual de 27\(^\circ\) C, y variación diurna de
+9\(^\circ\) C. También tiene unas precipitaciones anuales de 2,600 mm,
+con su estación lluviosa (mayo a diciembre), y su estación seca para el
+resto de meses (Pérez et al., 2005; Sugasti, Eng, \& Pinzón, 2018).
+Según la clasificación de zonas de vida de Holdridge, BCI se encuentra
+ubicada en la zona de vida de bosque húmedo tropical; Claver Farías \&
+others (1984), dice que conforme a la clasificación de climática de
+Köppen esta tiene un clima tropical húmedo con precipitaciones
+abundantes; y de acuerdo con el mapa de la ANAM (2000) su vegetación se
+caracteriza por tener bosques semicaducifolio tropical de tierras bajas
+(Rodríguez-Castro \& Flores, 2021).
 
 El área de estudio, específicamente, es una parcela permanente forestal
 para su medición y monitoreo de 50 hectáreas, establecida en 1980 por
@@ -386,6 +387,22 @@ por medio del entorno de desarrollo intregado y libre, \emph{RStudio} (R
 Core Team, 2020). En cuanto a los gráficos presentes se obtuvieron por
 medio \emph{R}, usando paquetes y funciones (ver
 tabla\ref{tab:materiales}).
+
+Para inciar los análisis estadísticos de datos con dimensiones diversas,
+Buzai \& Baxendale (2009) y Borcard et al. (2011), recomiendan realizar
+un análisis exploratorio de datos (EDA), debido a que es una herramienta
+imprescindible para conseguir, con una primera inmediación, información
+genérica de los datos, realizar transformaciones a variables de ser
+necesarias, y poder conducir más análisis. Se usaron los paquetes
+\texttt{vegan}, \texttt{tidyverse}, \texttt{sf}, \texttt{mapview} y
+\texttt{RColorBrewer} para cargar los datos censales, matriz de
+comunidad y matriz ambiental, y así poder extraer los datos de la
+familia \emph{Myrtaceae}, de las variables ambientales y transformarlos
+en tablas, matrices, e incluso generar gráficos de mapas. También, se
+usaron las librerías \texttt{psych} y \texttt{ez}, en conjunto con las
+anteriores para determinar la existencia de correlaciones de la
+\emph{Myrtaceae} con distintas variables ambientales con la función
+\texttt{cor}.
 
 \section{Resultados}\label{resultados}
 
@@ -600,6 +617,11 @@ Borcard, D., Gillet, F., Legendre, P., \& others. (2011).
 \hypertarget{ref-encymyrtaceae}{}
 Britannica, E. (2016). \emph{Myrtaceae}. Retrieved from
 \url{https://www.britannica.com/plant/Myrtaceae}
+
+\hypertarget{ref-buzai2009analisis}{}
+Buzai, G. D., \& Baxendale, C. A. (2009). Análisis exploratorio de datos
+espaciales. \emph{Geografía Y Sistemas de Información Geográfica, No
+1,(2009)}.
 
 \hypertarget{ref-claver1984guia}{}
 Claver Farías, I., \& others. (1984). Guía para la elaboración de
