@@ -388,21 +388,107 @@ Core Team, 2020). En cuanto a los gráficos presentes se obtuvieron por
 medio \emph{R}, usando paquetes y funciones (ver
 tabla\ref{tab:materiales}).
 
-Para inciar los análisis estadísticos de datos con dimensiones diversas,
-Buzai \& Baxendale (2009) y Borcard et al. (2011), recomiendan realizar
-un análisis exploratorio de datos (EDA), debido a que es una herramienta
-imprescindible para conseguir, con una primera inmediación, información
-genérica de los datos, realizar transformaciones a variables de ser
-necesarias, y poder conducir más análisis. Se usaron los paquetes
+Para iniciar los análisis estadísticos de datos con dimensiones
+diversas, Buzai \& Baxendale (2009) y Borcard et al. (2011), recomiendan
+realizar un análisis exploratorio de datos (EDA), debido a que es una
+herramienta imprescindible para conseguir una primera inmediación,
+información genérica de los datos, realizar transformaciones a variables
+de ser necesarias, y poder conducir más análisis. Se usaron los paquetes
 \texttt{vegan}, \texttt{tidyverse}, \texttt{sf}, \texttt{mapview} y
 \texttt{RColorBrewer} para cargar los datos censales, matriz de
 comunidad y matriz ambiental, y así poder extraer los datos de la
 familia \emph{Myrtaceae}, de las variables ambientales y transformarlos
 en tablas, matrices, e incluso generar gráficos de mapas. También, se
 usaron las librerías \texttt{psych} y \texttt{ez}, en conjunto con las
-anteriores para determinar la existencia de correlaciones de la
-\emph{Myrtaceae} con distintas variables ambientales con la función
-\texttt{cor}.
+anteriores para ver correlaciones de la \emph{Myrtaceae} con distintas
+variables ambientales con la función \texttt{cor}, y generar mapas de
+variables ambientales por cada cuadro con \texttt{ggplot2}.
+
+La medida de los coeficientes de asociación de la familia
+\emph{Myrtaceae} con los modos \emph{Q} y \emph{R} {[}{]} se realizó
+mediante funciones pertenecientes a las librerias \texttt{vegan},
+\texttt{adespatial}, \texttt{broom}, \texttt{tidyverse}, \texttt{sf},
+\texttt{cluster} y \texttt{gclus}. En el modo \emph{Q} se mide la
+abundancia de las especies de \emph{Myrtaceae} con la función
+\texttt{dist.ldc} que calcula la distancia euclidea entre dos sitios y
+se usa también el método de transformación \emph{Hellinger} {[}{]} y asi
+obtener el grado de disimilaridad entre sitios. También, se calculó la
+distancia de \emph{Jaccard} \emph{Dj} {[}{]} utilizando la función
+\texttt{vegdist} que convierte la matriz de comunidad en una de
+presencia/ausencia para calcular la matriz de distancia. En cuanto a la
+asociación de las variables ambientales, se hizo un nuevo ambiente con
+la función \texttt{env} para las variables transfomardas con la función
+\texttt{scale}. De igual manera, se usó la función \texttt{env\_mix}
+para asociar las variables ambientales heterogeneidad ambiental, hábitat
+y quebrada, generando una matriz de disimilaridad.
+
+Con el modo \emph{R} de medición de asociación, se mensuró el grado de
+asociación entre especies haciendo una transformación de la matriz de
+comunidad usando la estandarización \emph{Chi} con la función
+\texttt{decostand}, luego se calcula la distancia con la función
+\texttt{dist} y se reresenta la matriz en un mapa de calor con la
+función \texttt{coldiss}. Se calculó la distancia de \emph{Jaccard}
+{[}{]} entre especies usando la matriz de comunidad transpuesta
+convertida a una de presencia/ausencia con la función \texttt{vegdist}.
+En cuanto a la asociación de variables ambientales númericas, usando el
+índice de \emph{rho} de \emph{Spearman} {[}{]} con los verbos
+\texttt{select}, \texttt{mutate} y \texttt{matches} de la herramienta
+\texttt{dplyr} y también la función \texttt{cor} para correlación.
+
+Los análisis de agrupamiento o cluster análisis aplicados a la familia
+\emph{Myrtaceae} fueron realizados usando las librerías
+\texttt{magrittr}, \texttt{broom}, \texttt{tidyverse}, \texttt{mapview}
+y \texttt{indicspecies}. Para el estudio se usó el agrupamiento
+jerárquico (\emph{AJ}) con un enfoque aglomerativo por enlace simple
+{[}{]}, completo {[}{]}, promedio {[}{]} y el método de \emph{Ward} de
+varianza mínima {[}{]}. Se agruparon pares de objetos según la mayor
+similaridad (vecino más próximo o mínima distancia), partiendo del
+agrupamiento por enlace simple, utilizando la matriz de comunidad
+transformada por medio del método de normalización con la función
+\texttt{decostand} y la distancia euclidea con la función
+\texttt{vegdist}. El agrupamiento jerárquico se hizo conn la función
+\texttt{hclust} para método simple y se generó un dendrograma (gráfico)
+con la función \texttt{plot} del resultado de este AJ. Para el
+agrupamiento completo usando la menor similaridad (máxima distancia o
+vecino más lejano) se empleó la función \texttt{hclust} y la matriz de
+distancia de cuerdas o \emph{chord} {[}{]}, con tal de generar un
+dendrograma con la función \texttt{plot}. En cuanto al agrupamiento por
+enlace promedio (UPGMA, WPGMA, UPGMC, WPGMC), se usó el UPGMA {[}{]},
+para máximizar la correlación entre las distancias cofenética
+(coeficiente de correlación de Pearson), para esto se usó la función
+\texttt{hclust} y para obtener el gráfico la función \texttt{plot}.
+Finalmente, el agrupamiento por Ward {[}{]}, que define los grupos de
+una forma donde la suma de cuadrados se minimice en cada uno de ellos
+usando las funciones \texttt{hclust} y \texttt{plot}.
+
+De todos los metodos anteriores de agrupamiento, se han seleccionado
+ideal para la familia \emph{Myrtaceae} se usó la función \texttt{map} y
+así coparar sus valores. Además, para la elección del número de clusters
+se usó la función \texttt{calcular\_anchuras\_siluetas} en base a la
+matriz de comunidad original, la matriz de distancias y objeto de
+clúster usando UPGMA y Ward, luego, se hizo un nuevo dengrama con la
+función \texttt{reorder.hclust} y un mapa de calor con la función
+\texttt{heatmap}. Finalmente, se hizo una evaluación para ver si el
+número de clusters obtenidos por los métodos anteriores son los ideales
+usando el método \emph{bootstrap} {[}{]}, usando el paquete
+\texttt{pvclust} para generar dendogramas con trazos en rectangulos y
+lineas que dividen el gráfico acorde al número de grupos.
+
+En cuanto al agrupamiento de variables se usaron los grupos obtenidos
+por UPGMA para evaluar la homogeneidad por medio de pruebas \emph{t}
+{[}{]}, basadas en la distribución \emph{t} de \emph{Student} {[}{]} y
+la suma de rangos de \emph{Wilcoxon} {[}{]}, a partir de esto se
+generaron gráficos de caja y mapas presentando la ubicación por cuadrado
+de cada grupo en la parcela permanente. Y para la homogeneidad de los
+grupos Ward se usó el método ANOVA {[}{]} y Kruskal/Wallis {[}{]}.
+
+Cerrando con el clusters análisis, se obtuvieron las especies
+indicadoras y las especies con preferencias por hábitats; la primera
+mediante \texttt{IndVal} con las funciones \texttt{multipatt} y
+\texttt{strassoc} y su significancia o valor p con la función
+\texttt{p.adjust}; las especies con preferencias por hábitats se
+obtuvieron mediante el coeficiente de correlación biserial puntual
+{[}{]} con las funciones \texttt{multipatt} y \texttt{strassoc}.
 
 \section{Resultados}\label{resultados}
 
