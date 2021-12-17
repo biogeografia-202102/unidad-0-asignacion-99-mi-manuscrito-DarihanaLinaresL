@@ -73,7 +73,7 @@ Los datos extraídos de las especies forestales de la parcela se obtuvieron a tr
 
 # Metodología y materiales
 
-Para el estudio de la biodiversidad de la familia *Myrtaceae* se usaron los datos censales de las 50 parcelas forestales de *BCI* que están presentes en el repositorio `scripts-de-analisis-BCI` [@jose_ramon_martinez_batlle_2020_4402362], de los cuales fueron tratados y procesados con distintos algoritmos y técnicas de medición, cálculo, análisis e interpretación por medio del entorno de desarrollo integrado y libre, *RStudio* [@R2020ALanguage]. En cuanto a los gráficos presentes se obtuvieron por medio *R*, usando paquetes y funciones (ver tabla\ref{tab:materiales}). 
+Para el estudio de la biodiversidad de la familia *Myrtaceae* se usaron los datos censales de las 50 parcelas forestales de *BCI* que están presentes en el repositorio `scripts-de-analisis-BCI` [@jose_ramon_martinez_batlle_2020_4402362], de los cuales fueron tratados y procesados con distintos algoritmos y técnicas de medición, cálculo, análisis e interpretación por medio del entorno de desarrollo integrado y libre, *RStudio* [@R2020ALanguage]. En cuanto a los gráficos presentes se obtuvieron por medio *R*, usando paquetes y funciones (ver tabla \ref{tab:materiales}). 
 
 Para iniciar los análisis estadísticos de datos con dimensiones diversas, @buzai2009analisis y @borcard2011numerical, recomiendan realizar un análisis exploratorio de datos (EDA), debido a que es una herramienta imprescindible para conseguir una primera inmediación, información genérica de los datos, realizar transformaciones a variables de ser necesarias, y poder conducir más análisis. Se usaron los paquetes `vegan`, `tidyverse`, `sf`, `mapview` y `RColorBrewer` para cargar los datos censales, matriz de comunidad y matriz ambiental, y así poder extraer los datos de la familia *Myrtaceae*, de las variables ambientales y transformarlos en tablas, matrices, e incluso generar gráficos de mapas. También, se usaron las librerías `psych` y `ez`, en conjunto con las anteriores para ver correlaciones de la *Myrtaceae* con distintas variables ambientales con la función `cor`, y generar mapas de variables ambientales por cada cuadro con `ggplot2`.
 
@@ -104,8 +104,30 @@ Además, se hizo una versión reversa de la matriz Hellinger con `rev` y luego s
 
 
 # Resultados
+## Análisis Exploratorio de Datos (EDA)
+La aplicación de los EDA en el estudio produjo informaciones generales sobre la familia *Myrtaceae*, sus especies, su abundancia, las variables ambientales, y datos generales de correlación con las variables ambientales.
+La parcela de muestreo permanente (de ahora en adelante *pmp*) de 50 hectáreas en BCI tiene 5579 individuos (abundancia) pertenecientes a la familia *Myrtaceae* y una riqueza de 7 especies. Las especies que más destacan por su abundancia son las *Eugenia galalonensis* (1975 individuos) y *Eugenia oerstediana* (1838 individuos), en cambio, las especies con menor número de individuos en la parcela son *Myrcia gatunensis* (56 individuos) y *Psidium friedrichsthalianum* (50 individuos), ver tabla \ref{tab:specabu} y figuras \ref{fig:abumifam} y \ref{fig:riqmifam}.
 
 
+|           Especies          	| Número      	|
+|:---------------------------:	|:-----------:	|
+|     Eugenia galalonensis    	|     1975    	|
+|     Eugenia oerstediana     	|     1838    	|
+|    Eugenia coloradoensis    	|     609     	|
+|      Chamguava schippii     	|     541     	|
+|      Eugenia nesiotica      	|     502     	|
+| Psidium friedrichsthalianum 	|      58     	|
+|      Myrcia gatunensis      	|      56     	|
+Table: \label{tab:specabu} Abundancia por especies de la familia *Myrtaceae*
+
+De acuerdo con los resúmenes estadístico el 50% de la abundancia de especies, según la mediana, es mayor de 541 individuos (*Chamguava schippii*) y la abundancia de especie promedio en *pmp* es de 797 individuos. En cuanto a la riqueza de la familia *Myrtaceae*, indica que el 50% de la riqueza, según la mediana, es de 6 especies y una riqueza promedio de 5.5, también hay que agregar que la riqueza mínima es de 4 especies en *pmp*. De igual manera, hay que mencionar que la riqueza y la abundancia varía por cuadro de 1h en *pmp*, arroja que los sitios con mayor riqueza son los cuadros 13, 14, 17, 22 y 40 (7), en cambio los de menor riqueza son los cuadros 2, 5, 11, 36, 46 y 47 (4); y los sitios con mayor abundancia fueron los cuadros 19, 20, 15, 40 y 38, y los de menor abundancia fueron los cuadros 1, 36, 30, 2 y 9; donde coinciden el sitio 40 con mayor riqueza y abundancia por cuadro, y los sitios 2 y 36 con menor riqueza y abundancia, lo que indica que existe una distribución aleatoria y desigual de las riquezas y abundancias en los sitios de *pmp* (ver figura \ref{fig:abuxcua}).
+De las especies de *Myrtaceae* que presentan una correlación simple (de Pearson) positiva significativa, en comparación a las demás, están *Chamguava schippii* y *Eugenia galalonensis* con un índice de correlación de 0.30, también *Chamguava schippii* con *Eugenia Nesiotica* con un índice de correlación de 0.29 (ver figura \ref{fig:corresp}).
+
+En cuanto a las variables ambientales que se destacan en *pmp* están: la geológica, que de acuerdo con el Mapa geológico del canal de Panamá y sus alrededores [@stewart1980geologic] y los resultados de EDA la *pmp* se caracteriza, por sus rocas basalto, tipo intrusiva y extrusiva, del Mioceno medio y superior (Tb). También se caracteriza por tener hábitats de bosque viejo y bajito en su mayoría al oeste de la parcela, en algunas partes del centro y al este de *pmp*; por sus hábitat de bosque viejo y alto al centro y este de *pmp*; se agregan los bosques jóvenes de los sitios 30 y 35;  y los bosques de pendiente baja concentradas al este y con algunos sitios aleatorios en *pmp*; al final, está el bosque de pantano en el centro de *pmp* (ver figura \ref{fig:ambvar}).
+
+Por último, se destacan las variables de terreno como elevación media que predomina la mitad hacía el norte de la parcela en un 50% en adelante. También se destaca la forma vertiente del terreno donde en una escala de o a 1, esta predomina en casi toda la parcela sobre el 50%. En cuanto a minerales, el aluminio se manifiesta al oeste de las parcelas, superior al 50% y en uno que otro lugar entre la parte este de la parcela. El hierro se manifiesta en un porcentaje superior al 75% al este de la parcela. Finalmente, el pH se manifiesta desde la mitad de los sitios de la parcela hacia el este como alcalino y el resto como ácido (ver figura \ref{fig:varnum}).
+
+## Asociación de especies y variables ambientales
 
 
 # Discusión
@@ -144,6 +166,18 @@ Además, se hizo una versión reversa de la matriz Hellinger con `rev` y luego s
 | library grid         	| Reescribe los gráficos, sus capacidades y da soporte a la interacción.                                                        	|
 | library gtable       	| Herramientas que permiten trabajar más fácil con tablas.                                                                      	|
 Table: \label{tab:materiales} Materiales usados en el estudio
+
+![Abundancia por cuadros de *Myrtaceae*\label{fig:abumifam}](mapa_cuadros_abun_mi_familia.png){width=80%}
+
+![Riqueza por cuadros de *Myrtaceae*\label{fig:riqmifam}](mapa_cuadros_riq_mi_familia.png){width=80%}
+
+![Abundancia por especies por cuadros\label{fig:abuxcua}](abuespecua.png){width=100%}
+
+![Matriz de correlación simple (Pearson) entre las especies de *Myrtaceae*\label{fig:corresp}](correlacion de pearson entre especies.png){width=70%}
+
+![Variables ambientales nominales\label{fig:ambvar}](mapas_variables_ambientales_nominales_tmap.png){width=90%}
+
+![Variables ambientales númericas\label{fig:varnum}](mapas_variables_ambientales_numericas.png){width=100%}
 
 # *Script* reproducible
 

@@ -385,8 +385,8 @@ que están presentes en el repositorio \texttt{scripts-de-analisis-BCI}
 algoritmos y técnicas de medición, cálculo, análisis e interpretación
 por medio del entorno de desarrollo integrado y libre, \emph{RStudio} (R
 Core Team, 2020). En cuanto a los gráficos presentes se obtuvieron por
-medio \emph{R}, usando paquetes y funciones (ver
-tabla\ref{tab:materiales}).
+medio \emph{R}, usando paquetes y funciones (ver tabla
+\ref{tab:materiales}).
 
 Para iniciar los análisis estadísticos de datos con dimensiones
 diversas, Buzai \& Baxendale (2009) y Borcard et al. (2011), recomiendan
@@ -594,6 +594,93 @@ abundancias de especies transformadas sin tendencias.
 
 \section{Resultados}\label{resultados}
 
+\subsection{Análisis Exploratorio de Datos
+(EDA)}\label{anuxe1lisis-exploratorio-de-datos-eda}
+
+La aplicación de los EDA en el estudio produjo informaciones generales
+sobre la familia \emph{Myrtaceae}, sus especies, su abundancia, las
+variables ambientales, y datos generales de correlación con las
+variables ambientales. La parcela de muestreo permanente (de ahora en
+adelante \emph{pmp}) de 50 hectáreas en BCI tiene 5579 individuos
+(abundancia) pertenecientes a la familia \emph{Myrtaceae} y una riqueza
+de 7 especies. Las especies que más destacan por su abundancia son las
+\emph{Eugenia galalonensis} (1975 individuos) y \emph{Eugenia
+oerstediana} (1838 individuos), en cambio, las especies con menor número
+de individuos en la parcela son \emph{Myrcia gatunensis} (56 individuos)
+y \emph{Psidium friedrichsthalianum} (50 individuos), ver tabla
+\ref{tab:specabu} y figuras \ref{fig:abumifam} y \ref{fig:riqmifam}.
+
+\begin{longtable}[]{@{}cc@{}}
+\caption{\label{tab:specabu} Abundancia por especies de la familia
+\emph{Myrtaceae}}\tabularnewline
+\toprule
+Especies & Número\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Especies & Número\tabularnewline
+\midrule
+\endhead
+Eugenia galalonensis & 1975\tabularnewline
+Eugenia oerstediana & 1838\tabularnewline
+Eugenia coloradoensis & 609\tabularnewline
+Chamguava schippii & 541\tabularnewline
+Eugenia nesiotica & 502\tabularnewline
+Psidium friedrichsthalianum & 58\tabularnewline
+Myrcia gatunensis & 56\tabularnewline
+\bottomrule
+\end{longtable}
+
+De acuerdo con los resúmenes estadístico el 50\% de la abundancia de
+especies, según la mediana, es mayor de 541 individuos (\emph{Chamguava
+schippii}) y la abundancia de especie promedio en \emph{pmp} es de 797
+individuos. En cuanto a la riqueza de la familia \emph{Myrtaceae},
+indica que el 50\% de la riqueza, según la mediana, es de 6 especies y
+una riqueza promedio de 5.5, también hay que agregar que la riqueza
+mínima es de 4 especies en \emph{pmp}. De igual manera, hay que
+mencionar que la riqueza y la abundancia varía por cuadro de 1h en
+\emph{pmp}, arroja que los sitios con mayor riqueza son los cuadros 13,
+14, 17, 22 y 40 (7), en cambio los de menor riqueza son los cuadros 2,
+5, 11, 36, 46 y 47 (4); y los sitios con mayor abundancia fueron los
+cuadros 19, 20, 15, 40 y 38, y los de menor abundancia fueron los
+cuadros 1, 36, 30, 2 y 9; donde coinciden el sitio 40 con mayor riqueza
+y abundancia por cuadro, y los sitios 2 y 36 con menor riqueza y
+abundancia, lo que indica que existe una distribución aleatoria y
+desigual de las riquezas y abundancias en los sitios de \emph{pmp} (ver
+figura \ref{fig:abuxcua}). De las especies de \emph{Myrtaceae} que
+presentan una correlación simple (de Pearson) positiva significativa, en
+comparación a las demás, están \emph{Chamguava schippii} y \emph{Eugenia
+galalonensis} con un índice de correlación de 0.30, también
+\emph{Chamguava schippii} con \emph{Eugenia Nesiotica} con un índice de
+correlación de 0.29 (ver figura \ref{fig:corresp}).
+
+En cuanto a las variables ambientales que se destacan en \emph{pmp}
+están: la geológica, que de acuerdo con el Mapa geológico del canal de
+Panamá y sus alrededores (R. Stewart, Stewart, \& Woodring, 1980) y los
+resultados de EDA la \emph{pmp} se caracteriza, por sus rocas basalto,
+tipo intrusiva y extrusiva, del Mioceno medio y superior (Tb). También
+se caracteriza por tener hábitats de bosque viejo y bajito en su mayoría
+al oeste de la parcela, en algunas partes del centro y al este de
+\emph{pmp}; por sus hábitat de bosque viejo y alto al centro y este de
+\emph{pmp}; se agregan los bosques jóvenes de los sitios 30 y 35; y los
+bosques de pendiente baja concentradas al este y con algunos sitios
+aleatorios en \emph{pmp}; al final, está el bosque de pantano en el
+centro de \emph{pmp} (ver figura \ref{fig:ambvar}).
+
+Por último, se destacan las variables de terreno como elevación media
+que predomina la mitad hacía el norte de la parcela en un 50\% en
+adelante. También se destaca la forma vertiente del terreno donde en una
+escala de o a 1, esta predomina en casi toda la parcela sobre el 50\%.
+En cuanto a minerales, el aluminio se manifiesta al oeste de las
+parcelas, superior al 50\% y en uno que otro lugar entre la parte este
+de la parcela. El hierro se manifiesta en un porcentaje superior al 75\%
+al este de la parcela. Finalmente, el pH se manifiesta desde la mitad de
+los sitios de la parcela hacia el este como alcalino y el resto como
+ácido (ver figura \ref{fig:varnum}).
+
+\subsection{Asociación de especies y variables
+ambientales}\label{asociaciuxf3n-de-especies-y-variables-ambientales}
+
 \section{Discusión}\label{discusiuxf3n}
 
 \section{Agradecimientos}\label{agradecimientos}
@@ -778,6 +865,43 @@ Herramientas que permiten trabajar más fácil con tablas.\strut
 \bottomrule
 \end{longtable}
 
+\begin{figure}
+\centering
+\includegraphics[width=0.80000\textwidth]{mapa_cuadros_abun_mi_familia.png}
+\caption{Abundancia por cuadros de \emph{Myrtaceae}\label{fig:abumifam}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.80000\textwidth]{mapa_cuadros_riq_mi_familia.png}
+\caption{Riqueza por cuadros de \emph{Myrtaceae}\label{fig:riqmifam}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1.00000\textwidth]{abuespecua.png}
+\caption{Abundancia por especies por cuadros\label{fig:abuxcua}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.70000\textwidth]{correlacion de pearson entre especies.png}
+\caption{Matriz de correlación simple (Pearson) entre las especies de
+\emph{Myrtaceae}\label{fig:corresp}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.90000\textwidth]{mapas_variables_ambientales_nominales_tmap.png}
+\caption{Variables ambientales nominales\label{fig:ambvar}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1.00000\textwidth]{mapas_variables_ambientales_numericas.png}
+\caption{Variables ambientales númericas\label{fig:varnum}}
+\end{figure}
+
 \section{\texorpdfstring{\emph{Script}
 reproducible}{Script reproducible}}\label{script-reproducible}
 
@@ -907,6 +1031,12 @@ com.
 \hypertarget{ref-salazar2000coeficientes}{}
 Salazar, M. E. R. (2000). \emph{Coeficientes de asociación}. Plaza y
 Valdes.
+
+\hypertarget{ref-stewart1980geologic}{}
+Stewart, R., Stewart, J., \& Woodring, W. (1980). \emph{Geologic map of
+the panama canal and vicinity, republic of panama: Mapa geologico del
+canal de panama y sus alrededores, republica de panama}. United States
+Geological Survey.
 
 \hypertarget{ref-sugasti2018medicion}{}
 Sugasti, L., Eng, B., \& Pinzón, R. (2018). Medición continúa de flujo
