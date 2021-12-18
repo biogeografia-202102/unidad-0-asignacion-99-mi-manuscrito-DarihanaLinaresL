@@ -135,6 +135,15 @@ Según la fórmula de similaridad de *Jaccard* ambos sitios comparten 4 especies
 
 En cuanto a las variables ambientales, los resultados del análisis de correlación para las variables de suelo o edáficas indican que similaridades importantes para los sitios limitados por los cuadros 12-16 de la matriz de disimilaridad ordenada (ver figura \ref{fig:suelodis}), creando lo que es un gran cluster de variables edáficas muy similares. Mientras que, las variables mixtas (`heterogeneidad ambiental`, `habitat` y `quebrada`) se aprecia en la matriz de disimilaridad ordenada (ver figura \ref{fig:mixtadis}) un gigantesco grupo de sitios que comparten similitudes, estos sitios están limitados por los cuadros 25-27; en este conjunto se puede apreciar la similitud, en específico, de el cuadro 2 y el 7 con un hábitat de bosque viejo y relieve bajo, en ambos cuadros hay quebrada y además, poseen unos valores moderados de heterogeneidad ambiental; si se observan los mapas de riqueza y abundancia de la familia *Myrtaceae* (ver figuras \ref{fig:riqmifam} y \ref{fig:abuxcua}), el sitio 2 presenta la riqueza más baja y una abundancia baja a diferencia del sitio 7 que tiene una riqueza alta y una abundancia media, por lo que no se considera que tengan relación con la riqueza y la abundancia de la especie, pero si tienen una similaridad.
 
+En el caso de los grados de asociación entre las especies, en función de abundancia, según señala el mapa de calor ordenado (ver figura \ref{fig:asoespec}) obtenido con el método de transfromación *Chi*, existe un patrón de dependencia alto entre las especies que se relacionan en la diagonal desde *Eugenia oerstediana* hasta *Eugenia coloradoensis* (cuadros de color rosa intenso centrales), y una dependencia moderada entre la especie *Psidium friedrichsthalianum* y el resto, a excepción de las especies *Myrcia gatunensis* y *Chamguava schippii* que no presentan ningún patrón de dependencia con ninguna de las especies de la familia *Myrtaceae* presente en la parcela de BCI (cuadros de color azul).
+Conforme al mapa de calor obtenido por la distancia de *Jaccard*, se confirma la existencia del patrón de dependencia alto entre las especies relacionadas en la diagonal desde *Eugenia oerstediana* hasta *Eugenia neosiotica*, dejando a las especies *Psidium friedrichsthalianum*, *Myrcia gatunensis* y * Chamguava schippi* como especies sin dependencia alguna según su abundancia (ver figura \ref{fig:dependenciajacc}).
+
+Para las variables edáficas, los índices de correlación obtenidos por el método Pearson, indican que existe una relación significativa positiva de 0.32 entre la abundancia de *Myrtaceae* y el aluminio; del mismo modo, señala que existen relaciones dependientes positiva entre la riqueza de *Myrtaceae* y el fósforo (0.36), y el aluminio (0.36), por lo que el resto de variables edáficas no tienen una asociación significativa positiva con la distribución de las especies y su abundancia (ver figura \ref{fig:chivardep}). Lo mismo sucede, usar el método de *Spearman*, confirmando que existe una relación positiva significativa entre aluminio y la abundancia de *Myrtaceae*, también, que existe una relación positiva la riqueza de *Myrtaceae* con el aluminio y con el fósforo; hay que destacar que se obtuvo un índice correlación negativo significativo entre la riqueza de la familia y el calcio, por lo que esta variable edáfica y la riqueza de la familia no tienen ninguna asociación (ver figura \ref{fig:mspearman}).
+
+La correlación de *Pearson* presenta 6 asociaciones significativas entre las variables geomorfológicas y la abundancia de la familia, una relación positiva con la geomorfología de `llanura` (0.51) y con `elevación media` (0.29), indicando que tienen existe una dependencia significativa. También se obtuvieron asociaciones negativas significativas entre la abundancia de la familia y las variables `pendiente media`, `vaguada`, `vertiente` y `heterogeneidad ambiental` (ver figura \ref{fig:pearson_geom}). En cambio, la correlación de *Spearman* solo tiene 3 asociaciones significativas, de las cuales coinciden las negativas con las variables de `vaguada` y `heterogeneidad ambiental` y una positiva con `elevación media` (ver figura \ref{fig:spearm_geom}). En el caso de la riqueza, no existe ninguna correlación significativa con las variables geomorfológicas en ambos métodos usados, por lo que la riqueza de la familia no tiene una dependencia considerable con la geomorfología.
+
+## Ordenación simple (no restringida) o canónica (restringida)
+
 # Discusión
 
 # Agradecimientos
@@ -191,6 +200,20 @@ Table: \label{tab:materiales} Materiales usados en el estudio
 ![Matriz de disimilaridad de las variables edáficas en la parcela de BCI. El color fucsia o rosa indica una corta distancia o que son muy similares los sitios, y el celeste indica una gran distancia o que los sitios son poco similares.\label{fig:suelodis}](variables de suelo_disimilaridad.png){width=100%}
 
 ![Matriz de disimilaridad de variables mixtas (`heterogeneidadambiental`, `hábitat` y `quebrada`). El color fucsia o rosa indica una corta distancia o que son muy similares los sitios, y el celeste indica una gran distancia o que los sitios son poco similares.\label{fig:mixtadis}](Variables mixtas.png){width=100%}
+
+![Mapa de asociación entre especies según la abundancia. El color rosa indica que existe dependencia y el azul que no existe de dependencia.\label{fig:asoespec}](dependencia_especies.png){width=100%}
+
+![Mapa de dependencia entre especies según datos de presencia/ausencia. El color rosa indica que existe dependencia y el azul que no existe de dependencia.\label{fig:dependenciajacc}](depn_espc_jacc.png){width=100%}
+
+![Matriz de correlación de Pearson, asociación entre riqueza y abundacia de *Myrtaceae* y las variables edáficas.\label{fig:chivardep}](Chi_var_edaf_asoc_R.png){width=100%}
+
+![Matriz de Spearman, asociación entre riqueza y abundancia de *Myrtaceae* con las variables edáficas.\label{fig:mspearman}](matriz_correlacion_suelo_abun_riq_spearman.png){width=100%}
+
+![Matriz de Pearson, asociación entre riqueza y abundancia de *Myrtaceae* y las variables geomorfológicas.\label{fig:pearson_geom}](Matriz_correlacion_pearson.png){width=100%}
+
+![Matriz de Spearman, asociación entre riqueza y abundancia de *Myrtaceae* y las variables geomorfológicas.\label{fig:spearm_geom}](matriz_correlacion_geomorf_abun_riq_spearman.png){width=100%}
+
+
 
 # *Script* reproducible
 

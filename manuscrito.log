@@ -1,0 +1,3192 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.17)  18 DEC 2021 13:21
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**manuscrito.tex
+(./manuscrito.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+) (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup4
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+)) (/usr/share/texlive/texmf-dist/tex/latex/abstract/abstract.sty
+Package: abstract 2009/06/08 v1.2a configurable abstracts
+\abstitleskip=\skip43
+\absleftindent=\skip44
+\absrightindent=\skip45
+\absparindent=\skip46
+\absparsep=\skip47
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip48
+\LTright=\skip49
+\LTpre=\skip50
+\LTpost=\skip51
+\LTchunksize=\count90
+\LTcapwidth=\dimen111
+\LT@head=\box26
+\LT@firsthead=\box27
+\LT@foot=\box28
+\LT@lastfoot=\box29
+\LT@cols=\count91
+\LT@rows=\count92
+\c@LT@tables=\count93
+\c@LT@chunks=\count94
+\LT@p@ftn=\toks18
+) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen112
+\lightrulewidth=\dimen113
+\cmidrulewidth=\dimen114
+\belowrulesep=\dimen115
+\belowbottomsep=\dimen116
+\aboverulesep=\dimen117
+\abovetopsep=\dimen118
+\cmidrulesep=\dimen119
+\cmidrulekern=\dimen120
+\defaultaddspace=\dimen121
+\@cmidla=\count95
+\@cmidlb=\count96
+\@aboverulesep=\dimen122
+\@belowrulesep=\dimen123
+\@thisruleclass=\count97
+\@lastruleclass=\count98
+\@thisrulewidth=\dimen124
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen125
+\Gin@req@width=\dimen126
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grffile.sty
+Package: grffile 2017/06/30 v1.18 Extended file name support for graphics (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grffile Info: Option `multidot' is set to `true'.
+Package grffile Info: Option `extendedchars' is set to `false'.
+Package grffile Info: Option `space' is set to `true'.
+Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 494.
+) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box30
+\beforetitleunit=\skip52
+\aftertitleunit=\skip53
+\ttl@plus=\dimen127
+\ttl@minus=\dimen128
+\ttl@toksa=\toks19
+\titlewidth=\dimen129
+\titlewidthlast=\dimen130
+\titlewidthfirst=\dimen131
+)
+\c@hypothesis=\count99
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen132
+\Hy@linkcounter=\count100
+\Hy@pagecounter=\count101
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count102
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4383.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2018/02/06 v6.86b Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count103
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen133
+\Fld@menulength=\count104
+\Field@Width=\dimen134
+\Fld@charsize=\dimen135
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count105
+\c@Item=\count106
+\c@Hfootnote=\count107
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count108
+\c@bookmark@seq@number=\count109
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip54
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+Package hyperref Info: Option `breaklinks' set `true' on input line 116.
+
+Package hyperref Warning: Option `bookmarks' has already been used,
+(hyperref)                setting the option has no effect on input line 116.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 116.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 116.
+
+Package hyperref Info: Option `colorlinks' set `true' on input line 116.
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count110
+\float@exts=\toks20
+\float@box=\box31
+\@float@everytoks=\toks21
+\@floatcapt=\box32
+) (./manuscrito.aux)
+\openout1 = `manuscrito.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 134.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\big@size=\dimen136
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count111
+\scratchdimen=\dimen137
+\scratchbox=\box33
+\nofMPsegments=\count112
+\nofMParguments=\count113
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen138
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
+\everyMPtoPDFconversion=\toks23
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box34
+Package hyperref Info: Link coloring ON on input line 134.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count117
+)
+LaTeX Info: Redefining \ref on input line 134.
+LaTeX Info: Redefining \pageref on input line 134.
+LaTeX Info: Redefining \nameref on input line 134.
+(./manuscrito.out) (./manuscrito.out)
+\@outlinefile=\write3
+\openout3 = `manuscrito.out'.
+
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <11> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 150.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 150.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <11> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 150.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 185.
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 343.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 343
+.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 343
+.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 343
+.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 343
+.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+<mapa_cuadros2.png, id=81, 995.72pt x 762.85pt>
+File: mapa_cuadros2.png Graphic file (type png)
+<use mapa_cuadros2.png>
+Package pdftex.def Info: mapa_cuadros2.png  used on input line 374.
+(pdftex.def)             Requested size: 469.7661pt x 359.90144pt.
+[3]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 383.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [4pdfTeX warning (ext4): destination with the same identifier (name{figure.1}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.406 
+       <./mapa_cuadros2.png>] [5] [6] [7] [8]
+
+LaTeX Warning: Reference `fig:spearm_geom' on page 9 undefined on input line 77
+9.
+
+
+Overfull \hbox (3.54733pt too wide) in paragraph at lines 840--842
+ \T1/ppl/m/n/10.95 RColorBrewer| 
+ []
+
+[9] [10]
+<mapa_cuadros_abun_mi_familia.png, id=157, 995.72pt x 762.85pt>
+File: mapa_cuadros_abun_mi_familia.png Graphic file (type png)
+<use mapa_cuadros_abun_mi_familia.png>
+Package pdftex.def Info: mapa_cuadros_abun_mi_familia.png  used on input line 9
+71.
+(pdftex.def)             Requested size: 375.80984pt x 287.91882pt.
+<mapa_cuadros_riq_mi_familia.png, id=158, 995.72pt x 762.85pt>
+File: mapa_cuadros_riq_mi_familia.png Graphic file (type png)
+<use mapa_cuadros_riq_mi_familia.png>
+Package pdftex.def Info: mapa_cuadros_riq_mi_familia.png  used on input line 97
+8.
+(pdftex.def)             Requested size: 375.80984pt x 287.91882pt.
+[11pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.981 
+       <./mapa_cuadros_abun_mi_familia.png>]
+<abuespecua.png, id=165, 1129.21875pt x 858.95906pt>
+File: abuespecua.png Graphic file (type png)
+<use abuespecua.png>
+Package pdftex.def Info: abuespecua.png  used on input line 984.
+(pdftex.def)             Requested size: 469.75426pt x 357.3264pt.
+[12pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.987 
+       <./mapa_cuadros_riq_mi_familia.png>]
+<correlacion de pearson entre especies.png, id=171, 493.0922pt x 273.27094pt>
+File: correlacion de pearson entre especies.png Graphic file (type png)
+<use correlacion de pearson entre especies.png>
+Package pdftex.def Info: correlacion de pearson entre especies.png  used on inp
+ut line 990.
+(pdftex.def)             Requested size: 328.84268pt x 182.2441pt.
+<mapas_variables_ambientales_nominales_tmap.png, id=172, 412.97144pt x 247.7828
+5pt>
+File: mapas_variables_ambientales_nominales_tmap.png Graphic file (type png)
+<use mapas_variables_ambientales_nominales_tmap.png>
+Package pdftex.def Info: mapas_variables_ambientales_nominales_tmap.png  used o
+n input line 997.
+(pdftex.def)             Requested size: 412.97041pt x 247.78224pt.
+[13pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1000 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1000 
+        <./abuespecua.png (PNG copy)> <./correlacion de pearson entre especies.
+png (PNG copy)>]
+<mapas_variables_ambientales_numericas.png, id=178, 819.06pt x 520.344pt>
+File: mapas_variables_ambientales_numericas.png Graphic file (type png)
+<use mapas_variables_ambientales_numericas.png>
+Package pdftex.def Info: mapas_variables_ambientales_numericas.png  used on inp
+ut line 1003.
+(pdftex.def)             Requested size: 469.76855pt x 298.44118pt.
+<matriz de disimilaridad ordenada.png, id=179, 752.8125pt x 505.13719pt>
+File: matriz de disimilaridad ordenada.png Graphic file (type png)
+<use matriz de disimilaridad ordenada.png>
+Package pdftex.def Info: matriz de disimilaridad ordenada.png  used on input li
+ne 1009.
+(pdftex.def)             Requested size: 469.77148pt x 315.21667pt.
+[14pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1015 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1015 
+        <./mapas_variables_ambientales_nominales_tmap.png (PNG copy)> <./mapas_
+variables_ambientales_numericas.png (PNG copy)>]
+<matriz de disimilaridad de jaccard.png, id=184, 752.8125pt x 413.29407pt>
+File: matriz de disimilaridad de jaccard.png Graphic file (type png)
+<use matriz de disimilaridad de jaccard.png>
+Package pdftex.def Info: matriz de disimilaridad de jaccard.png  used on input 
+line 1018.
+(pdftex.def)             Requested size: 469.77148pt x 257.90454pt.
+[15pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1024 
+        <./matriz de disimilaridad ordenada.png (PNG copy)>]
+<variables de suelo_disimilaridad.png, id=189, 752.8125pt x 478.03593pt>
+File: variables de suelo_disimilaridad.png Graphic file (type png)
+<use variables de suelo_disimilaridad.png>
+Package pdftex.def Info: variables de suelo_disimilaridad.png  used on input li
+ne 1027.
+(pdftex.def)             Requested size: 469.77148pt x 298.30489pt.
+[16pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1033 
+        <./matriz de disimilaridad de jaccard.png (PNG copy)>]
+<Variables mixtas.png, id=194, 752.8125pt x 729.47531pt>
+File: Variables mixtas.png Graphic file (type png)
+<use Variables mixtas.png>
+Package pdftex.def Info: Variables mixtas.png  used on input line 1036.
+(pdftex.def)             Requested size: 469.77148pt x 455.20857pt.
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1043 
+        <./variables de suelo_disimilaridad.png (PNG copy)>]
+<dependencia_especies.png, id=199, 934.99312pt x 526.96875pt>
+File: dependencia_especies.png Graphic file (type png)
+<use dependencia_especies.png>
+Package pdftex.def Info: dependencia_especies.png  used on input line 1046.
+(pdftex.def)             Requested size: 469.76384pt x 264.76222pt.
+[18pdfTeX warning (ext4): destination with the same identifier (name{figure.11}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1051 
+        <./Variables mixtas.png (PNG copy)>]
+<depn_espc_jacc.png, id=204, 903.375pt x 530.73282pt>
+File: depn_espc_jacc.png Graphic file (type png)
+<use depn_espc_jacc.png>
+Package pdftex.def Info: depn_espc_jacc.png  used on input line 1054.
+(pdftex.def)             Requested size: 469.7577pt x 275.98265pt.
+[19pdfTeX warning (ext4): destination with the same identifier (name{figure.12}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1059 
+        <./dependencia_especies.png (PNG copy)>]
+<Chi_var_edaf_asoc_R.png, id=210, 1129.21875pt x 601.4972pt>
+File: Chi_var_edaf_asoc_R.png Graphic file (type png)
+<use Chi_var_edaf_asoc_R.png>
+Package pdftex.def Info: Chi_var_edaf_asoc_R.png  used on input line 1062.
+(pdftex.def)             Requested size: 469.75426pt x 250.22244pt.
+[20pdfTeX warning (ext4): destination with the same identifier (name{figure.13}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1067 
+        <./depn_espc_jacc.png (PNG copy)>]
+<matriz_correlacion_suelo_abun_riq_spearman.png, id=215, 1110.0672pt x 624.4128
+pt>
+File: matriz_correlacion_suelo_abun_riq_spearman.png Graphic file (type png)
+<use matriz_correlacion_suelo_abun_riq_spearman.png>
+Package pdftex.def Info: matriz_correlacion_suelo_abun_riq_spearman.png  used o
+n input line 1070.
+(pdftex.def)             Requested size: 469.7482pt x 264.23335pt.
+<Matriz_correlacion_pearson.png, id=216, 1701.35625pt x 752.8125pt>
+File: Matriz_correlacion_pearson.png Graphic file (type png)
+<use Matriz_correlacion_pearson.png>
+Package pdftex.def Info: Matriz_correlacion_pearson.png  used on input line 107
+7.
+(pdftex.def)             Requested size: 469.75656pt x 207.85687pt.
+[21pdfTeX warning (ext4): destination with the same identifier (name{figure.14}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1082 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1082 
+        <./Chi_var_edaf_asoc_R.png (PNG copy)> <./matriz_correlacion_suelo_abun
+_riq_spearman.png (PNG copy)>]
+<matriz_correlacion_geomorf_abun_riq_spearman.png, id=221, 1261.44pt x 709.56pt
+>
+File: matriz_correlacion_geomorf_abun_riq_spearman.png Graphic file (type png)
+<use matriz_correlacion_geomorf_abun_riq_spearman.png>
+Package pdftex.def Info: matriz_correlacion_geomorf_abun_riq_spearman.png  used
+ on input line 1085.
+(pdftex.def)             Requested size: 469.74744pt x 264.23293pt.
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 1091.
+[22pdfTeX warning (ext4): destination with the same identifier (name{figure.16}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1165 \end{verbatim}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{figure.17}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1165 \end{verbatim}
+                      <./Matriz_correlacion_pearson.png (PNG copy)> <./matriz_c
+orrelacion_geomorf_abun_riq_spearman.png (PNG copy)>]
+Overfull \hbox (16.86488pt too wide) in paragraph at lines 1165--1165
+[]\T1/cmtt/m/n/10.95 #' Censo (el objeto se carga con prefijo "censo") y matriz
+ de comunidad (prefijo "mc")[] 
+ []
+
+
+Overfull \hbox (16.86488pt too wide) in paragraph at lines 1165--1165
+[]\T1/cmtt/m/n/10.95 load('biodata/matriz_ambiental.Rdata') #Matriz ambiental, 
+se carga como "bci_env_grid"[] 
+ []
+
+[23]
+Overfull \hbox (746.79474pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Es una colección de paquetes con los que podrás importa
+r, transformar, visualizar, modelar y presentar datos. La colección se compone 
+de 8 paquetes, de los cuales verás sobre todo 3: `dplyr`, `tidyr` y `ggplot2`.[
+] 
+ []
+
+
+Overfull \hbox (2959.21779pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Todos estos paquetes comparten estructuras comunes. Una
+ de las herramientas que incorpora la colección es la pipa `%>%` (**SHORTCUT: `
+CTRL+SHIFT+M`**), la cual importa desde el paquete `magrittr`. Usarás la pipa p
+ara construir "tuberías" de procesamiento sin necesidad de crear objetos interm
+edios. En una tubería, puedes interpretar la pipa como **"luego"**, y verás más
+ adelante por qué. La función principal de la pipa (tiene muchas, pero esta es 
+la más importante) es pasar el resultado del objeto a su izquierda como primer 
+argumento de la función a su derecha. El siguiente ejemplo explica su uso:[] 
+ []
+
+
+Overfull \hbox (775.0866pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' > La idea del *pipe* pertenece a la tradición de sistem
+as tipo Unix y, en origen, su función era comunicar distintos procesos, usando 
+la salida estándar de uno (*stdout*) como entrada estándar (*stdin*) del siguie
+nte.[] 
+ []
+
+
+Overfull \hbox (763.76985pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Su ventaja radica en que, si necesitaras continuar proc
+esando los datos, no tendrás que anidar ni crear objetos intermedios. En el sig
+uiente ejemplo, asigno el resultado de una cadena al objeto nombrado `resultado
+`:[] 
+ []
+
+
+Overfull \hbox (842.98705pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Puedes leer lo anterior como *"objeto1 pasa como primer
+ argumento de funcion1, **luego** el resultado de funcion1 pasa como primer arg
+umento de funcion2, **luego** el resultado de funcion2 pasa como primer argumen
+to de funcion3*.[] 
+ []
+
+
+Overfull \hbox (113.05719pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Para replicar esta operación sin la pipa, podrías reali
+zarlo de, por ejemplo, dos maneras distintas:[] 
+ []
+
+[24]
+Overfull \hbox (3575.98022pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Notarás que, comparada con estas dos últimas opciones, 
+la tubería es más limpia que estas dos últimas opciones. La tubería puedes leer
+la de forma encandenada, a diferencia del estilo anidado y de creación de objet
+os intermedios, que añade una cierta complejidad de lectura para el usuario/a, 
+sobre todo para personas sin conocimientos de programación. Precisamente por es
+ta razón fue que decidí introducir la colección tidyverse, para así mostrarte a
+lgunas ideas que podrás aplicar a tus datos y, en principio, para facilitarte l
+a vida ("*no me ayude' tali*"). Ahora bien, si decides programar en R más adela
+nte, deberás aprender las capacidades de programación orientada a objetos y pro
+gramación funcional de R.[] 
+ []
+
+
+Overfull \hbox (695.8694pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' > `sf` te ayudará a leer el objeto `bci_env_grid` como 
+un *simple feature*, el cual se encuentra dentro del archivo `biodata/matriz_am
+biental.Rdata`. Esto extenderá las capacidades espaciales del objeto.[] 
+ []
+
+
+Overfull \hbox (650.60243pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Te servirá para manipular datos mediante verbos. Los ve
+rbos de `dplyr` que conocerás son (hay muchos otros): `select()`, `filter()`, `
+arrange()`, `mutate()`, `group_by()`, `summarise()` y `join`.[] 
+ []
+
+
+Overfull \hbox (1233.41464pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Comúnmente, necesitas seleccionar una o varias columnas
+ de una tabla. Para esto existe el verbo `select`. Te muestro un ejemplo aplica
+do a la matriz de comunidad (que por ahora la verás como `simple feature`), sel
+eccionando las columnas `id` (número identificador de quadrat) y `pH` (pH del s
+uelo):[] 
+ []
+
+
+Overfull \hbox (809.03682pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' > Importante: el objeto `bci_env_grid` permanece intact
+o, a menos que se use dicho nombre para reasignarlo a otro objeto. Mientras no 
+se use el asignador `<-`, sólo verás que manipulo y visualizo copias del objeto
+ original.[] 
+ []
+
+
+Overfull \hbox (412.95085pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Fíjate en la clase del objeto `bci_env_grid`. Para ello
+ usaré la función de R `class`. No sólo se admiten verbos `dplyr`, cualquier fu
+nción puede usarse:[] 
+ []
+
+
+Overfull \hbox (2223.62956pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' El objeto `bci_env_grid` es a la vez de clase `sf` (*si
+mple feature*) y `data.frame`, es decir, es tanto tabla como objeto espacial, p
+or lo que se puede representar en un mapa. Este objeto no pierde la clase `sf`,
+ por lo que verás que aparece información geométrica y geoespacial en el encabe
+zado, y luego un extracto de la tabla de datos (como máximo, las 10 primeras fi
+las). Para convertirlo a un simple `data.frame`, hay que "tumbar" su geometría 
+con `st_drop_geometry`:[] 
+ []
+
+
+Overfull \hbox (237.54135pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Fíjate ahora en la clase de `bci_env_grid %>% select(id
+, pH) %>% st_drop_geometry`, que en este caso es sólo `data.frame`:[] 
+ []
+
+
+Overfull \hbox (2087.82866pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' > Al introducir un `<enter>` después de la pipa, el cód
+igo puede continuar en la línea siguiente. Esto se hace para evitar que la líne
+a de código sea legible sin necesidad de desplazarse hacia la derecha (es acons
+ejable no superar los 80 caracteres en una misma línea de código, según recomie
+ndan en la [Google's R Style Guide](https://google.github.io/styleguide/Rguide.
+html)). Como convención, escribiré un `<enter>` después de cada operador pipa.[
+] 
+ []
+
+[25]
+Overfull \hbox (1425.79926pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Seleccionaré, y a la vez renombraré, dos columnas con `
+select` (recuerda: no estoy modificando el objeto original, simplemente trabajo
+ en copias no asignadas). De paso, sólo mostraré las 6 primeras filas al aplica
+r `head` al final de la tubería (no sólo se admiten verbos `dplyr`, cualquier f
+unción de R puede entrar en la tubería):[] 
+ []
+
+
+Overfull \hbox (1148.53908pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Otra funcionalidad de `select` es poder seleccionar col
+umnas según patrones. Por ejemplo, si quisera seleccionar únicamente las variab
+les sobre geomorfología (todas las columnas que comienzan por `geomorf`), podrí
+a hacerlo con relativa facilidad usando la función de ayuda `contains`[] 
+ []
+
+
+Overfull \hbox (135.69067pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' ...y también usando expresiones regulares con `matches`
+, usando por ejemplo dos cadenas de caracteres...[] 
+ []
+
+
+Overfull \hbox (644.94406pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' ...o pidiendo todas las columnas que comienzan por mayú
+sculas, excepto las que comienzan por "U", lo cual excluye las coordenadas (e.g
+. `UTM.NS`), y deja sólo los elementos de análisis de suelo.[] 
+ []
+
+
+Overfull \hbox (1091.95537pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Pruebo también con la matriz de comunidad. Por ejemplo,
+ introduzco en la tubería la función `colSums`, que devuelve un vector cuyos el
+ementos están nombrados (tienen un atributo, en este caso, el nombre de especie
+), donde cada elemento representa la abundancia por especie.[] 
+ []
+
+
+Overfull \hbox (231.88298pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Uso a continuación el verbo `arrange` para mostrar los 
+registros de la matriz ambiental ordenados ascendentemente por pH.[] 
+ []
+
+
+Overfull \hbox (147.00742pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Ahora usaré `arrange` para mostrar los registros de la 
+matriz ambiental ordenados DESCendentemente por pH.[] 
+ []
+
+[26]
+Overfull \hbox (356.36714pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Usaré el verbo `mutate` para crear una nueva columna. P
+or ejemplo, creo una columna que contenga `habitat` y `quebrada` separadas por 
+una coma:[] 
+ []
+
+
+Overfull \hbox (299.78343pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Ahora `mutate`, pero con números: creo una columna de á
+rea de cada cuadro (necesitas también la función `st_area`, del paquete `sf`):[
+] 
+ []
+
+
+Overfull \hbox (588.36035pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' ...y ahora más complejo: obtengo la densidad de individ
+uos por metro cuadrado, ordenados descendentemente por dicha densidad, y conser
+vando sólo los 6 registros con mayores densidades.[] 
+ []
+
+
+Overfull \hbox (11.20651pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Los verbos `group_by` y `summarise` son útiles para pro
+ducir resúmenes por grupos.[] 
+ []
+
+
+Overfull \hbox (803.37845pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Agruparé la matriz ambiental por la columna `habitat`, 
+dejando sólo las variables numericas que hagan sentido (por ejemplo, excluyo `i
+d`, `UTM.EW`, `UTM.NS`), y lo asignaré a `agrupado_por_habitat` para luego reut
+ilizarlo:[] 
+ []
+
+
+Overfull \hbox (373.34225pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Observa el encabezado: el objeto es `A tibble: 50 x 32`
+ y hay 5 grupos (`Groups:   habitat [5]`). Calculo cuántos elementos (filas) ha
+y por grupo:[] 
+ []
+
+
+Overfull \hbox (152.66579pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' ...y también algunos estadísticos de las columnas `pH`,
+ `abundancia_global` y `riqueza_global` por ejemplo:[] 
+ []
+
+[27]
+Overfull \hbox (311.10017pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Ejecuto también un ANOVA de una vía, de la `riqueza_glo
+bal` respecto de `habitat` de tipo `Old*` (e.g. `OldHigh`, `OldLow`, `OldSlope`
+)[] 
+ []
+
+
+Overfull \hbox (1295.65672pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' El resultado sugiere que "existen 'diferencias signific
+ativas' de `riqueza_global` entre `habitat` de tipo `Old*`". Esta expresión, "d
+iferencias significativas", resuena mucho en ciencia hoy en día, y más bien "ch
+irría". De ella hablaré más adelante, por lo pronto, donde quiera que la veas, 
+levanta una ceja.[] 
+ []
+
+
+Overfull \hbox (2133.09563pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Finalmente, te muestro `join`. Más que una función, `jo
+in` es una función genérica con varios métodos para unir tablas que comparten a
+l menos un atributo en común, siendo `inner_join` el más usado. Imagina un caso
+ de uso: calculas abundancia de tu familia de plantas por cada quadrat de 1 ha.
+ Ahora necesitas unir dicha información a la matriz ambiental. Aunque hay múlti
+ples soluciones, `inner_join` es la que con mayor consistencia resuelve este pr
+oblema.[] 
+ []
+
+
+Overfull \hbox (633.62732pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Obtendré una tabla con dos columnas: código identificad
+or de quadrat de 1 ha (le llamaré `id`), y abundancia de todas las plantas de m
+i familia por quadrat (le llamaré `abundancia_mi_familia`)[] 
+ []
+
+
+Overfull \hbox (50.81511pt too wide) in paragraph at lines 1507--1507
+[]  \T1/cmtt/m/n/10.95 mutate(id = as.numeric(id)) %>% #Numérico, garantiza com
+patibilidad con id de bci_env_grid[] 
+ []
+
+
+Overfull \hbox (1703.05943pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Dado que `id_abundancia_fam` y `bci_env_grid` comparten
+ el campo `id`, a través de éste se puede realizar la unión. Primero escribiré 
+`bci_env_grid`, luego la función `inner_join`, que tiene como argumentos la tab
+la `x` y la tabla `y`. La tabla `x`, primer argumento, será `bci_env_grid`, y l
+a tabla `y` será `id_abundancia_fam`. El campo de unión será `id`, el cual es c
+ompartido.[] 
+ []
+
+
+Overfull \hbox (594.01872pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' El resultado muestra la `bci_env_grid`, ahora con los d
+atos de mi familia como parte de la matriz. Nótese que no asigné el objeto, por
+ lo que la matriz ambiental original sigue intacta.[] 
+ []
+
+[28]
+Overfull \hbox (1069.32188pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Te ayudará a reordenar datos, mediante transformación d
+e su estructura, para organizarlos de forma "tidy". Los verbos de `tidyr` que c
+onocerás son (también cuenta con muchas otras): `pivot_longer()` (antiguamente 
+`gather()`) y `pivot_wider()` (antiguamente `spread()`).[] 
+ []
+
+
+Overfull \hbox (724.16125pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Cuando necesitas reunir varias columnas, o lo que es lo
+ mismo, hacerlas que pivoten a lo largo en la tabla, utilizas este verbo. Pasas
+ de tener una tabla organizada a lo ancho a tenerla organizada a lo largo.[] 
+ []
+
+
+Overfull \hbox (203.59113pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' *Tomado de: UC Business Analytics R Programming Guide. 
+Reshaping Your Data with tidyr. https://uc-r.github.io/tidyr*[] 
+ []
+
+
+Overfull \hbox (356.36714pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Es común realizar "reunión" columnas cuando nos interes
+a aplicar análisis masivos a múltiples variables utilizando un criterio de agru
+pamiento.[] 
+ []
+
+
+Overfull \hbox (1154.19745pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Pongo un ejemplo. Por tipo de hábitat, ¾cuánto es el pr
+omedio de los porcentajes de cada uno de los 10 tipos de unidades geomorfológic
+as? `pivot_longer` lo hará al final, pero primero, hay que seleccionar solo las
+ columnas de porcentajes de unidades geomorfológicas y la de habitat...[] 
+ []
+
+
+Overfull \hbox (90.4237pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' ...luego reunir todas las columnas de geomorfología piv
+otando en torno a la columna `habitat`...[] 
+ []
+
+
+Overfull \hbox (763.76985pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' ...y finalmente obtener las medias de porcentajes de ge
+omorfología por cada grupo de habitat, presentando en orden alfabético los tipo
+s de hábitat y luego, dentro de cada tipo de hábitat, descendentemente por medi
+a.[] 
+ []
+
+
+Overfull \hbox (231.88298pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' `pivot_longer` también es útil para realizar paneles de
+ gráficos de muchas variables, como verás en la siguiente sección.[] 
+ []
+
+
+Overfull \hbox (1295.65672pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' La operación contraria a `pivot_longer` se realiza con 
+`pivot_wider`. Supongamos que ahora necesitamos que la tabla anterior se muestr
+e a lo ancho, pivtoando igualmente `habitat`, expandiendo la columna `variable`
+ y utilizando como relleno de las celdas, los valores de la columna media. Esto
+ se consigue así:[] 
+ []
+
+
+Overfull \hbox (1861.49382pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Un gráfico `ggplot` utiliza capas para mostrar la infor
+mación. Los objetos fuente son `data.frame`. Puedes combinar varias fuentes de 
+datos y, de una fuente de datos, puedes estilizar cada elemento a graficar medi
+ante las denominadas capas "estéticas" (`aes`). Igualmente, puedes combinar dis
+tintas geometrías mediante las funciones `geom_* `. La estructura `ggplot` util
+iza el símbolo `+` para agregar capas.[] 
+ []
+
+[29]
+Overfull \hbox (627.96895pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Explicaré su uso con ejemplos, descomponiendo las parte
+s de una sentencia `ggplot` para fines didácticos, aunque se pueden generar grá
+ficos escribiendo todas las partes en una sola sentencia.[] 
+ []
+
+
+Overfull \hbox (1125.9056pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Primero incluiré la función `ggplot`, para crear un esp
+acio de coordenadas según los datos disponibles en `bci_env_grid`. Lo escribo c
+omo primera parte de la estructura y, lógicamente, como no especifico datos más
+ detalles, sólo se creará un espacio (sin coordenadas) a rellenar.[] 
+ []
+
+
+Overfull \hbox (939.17935pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' A continuación, definiré las variables estéticas sobre 
+las que construiré la simbología, añadiéndolas al objeto anterior mediante el o
+perador `+`. Utilizaré las variables `riqueza_global` y `abundancia_global` par
+a hacer un gráfico de dispersión.[] 
+ []
+
+
+Overfull \hbox (1091.95537pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' El espacio de coordenadas ya está creado, y `ggplot2` e
+stá preparado para aceptar geometrías. Le añadiré una capa de puntos mediante `
+geom_point`, a la cual no tendré que definirle coordenadas de mapeo `x` e `y`, 
+porque las tomará de la definición global realizada en `p1`:[] 
+ []
+
+
+Overfull \hbox (1267.36487pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Dado que en `p1` definí las coordenadas de mapeo `aes(x
+ = abundancia_global, y = riqueza_global)`, puedo añadir, además de `geom_point
+`, más capas que reaprovechen dicha definición. Por ejemplo, añadiré una capa d
+e resumen a `p2` basada en modelo (`geom_smoot`), por ejemplo usando un modelo 
+lineal `lm`.[] 
+ []
+
+
+Overfull \hbox (118.71556pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' En `p3`, tanto `geom_point` como `geom_smooth` aprovech
+an las coordenadas del mapeo definido en `p1`.[] 
+ []
+
+
+Overfull \hbox (169.6409pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Una forma alterna permite definir la capa estética dent
+ro de la geometría con resultado idéntico. Por ejemplo:[] 
+ []
+
+
+Overfull \hbox (1018.39655pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Esta forma tiene la ventaja de ser más corta, pero tien
+e la desventaja de que impide reutilizar las coordenadas de mapeo para otras ge
+ometrías, como vimos con `geom_point` y `geom_smooth` en `p3`, que aprovechaban
+ el mismo mapeo de coordenadas simultáneamente.[] 
+ []
+
+
+Overfull \hbox (367.68388pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Con una variable categórica, se pueden estilizar los el
+ementos del gráfico. Por ejemplo, haré que los puntos se coloreen en función de
+ `habitat`.[] 
+ []
+
+
+Overfull \hbox (197.93275pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Ahora mostraré cómo construir el último gráfico con una
+ sentencia de conjunto, sin reaprovechar objetos anteriores:[] 
+ []
+
+
+Overfull \hbox (3921.14085pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Las posibilidades de personalización de gráficos de `gg
+plot2` son enormes y superan el cometido de esta introducción. Sin embargo, te 
+mostraré algunas funcionalidades adicionales que usarás en la asignatura. Un gr
+áfico muy usado en estadística es el diagrama de cajas (*box-plot*). Este gráfi
+co resume, a golpe de vista, los principales estadísticos descriptivos de un co
+njunto de datos (cuartiles, extremos, *outliers*, dispersión). Visita [la entra
+da de Wikipedia sobre *box-plot](https://es.wikipedia.org/wiki/Diagrama_de_caja
+) para aprender más sobre este útil gráficos. Es común que el *box-plot* se use
+ para comparar una variable entre distintos tratamientos. En el siguiente ejemp
+lo, muestro la variable `abundancia_global` considerando a `habitat` como trata
+miento:[] 
+ []
+
+[30]
+Overfull \hbox (1295.65672pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Los dos gráficos anteriores son muy informativos, pero 
+tienen la desventaja de que para poder compararlos, debo moverme a lo largo de 
+la hoja. Una solución ideal sería verlos a ambos en un panel de gráficos. Esto 
+es posible utilizando `facet_*`, reordenando los datos previamente con `pivot_l
+onger` de `tidyr`[] 
+ []
+
+
+Overfull \hbox (350.70877pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Necesitamos tres columnas, una con los nombres de los h
+ábitats, otra con los nombres de las variables, y otra con los valores, algo ta
+l que...[] 
+ []
+
+
+Overfull \hbox (1352.24043pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' Construiré el gráfico definiendo a `habitat` en el eje 
+`x`, y valor en `y`, mientras que usaré `variable` para establecer facetas del 
+panel, donde el eje `y`, que es el valor, quedará libre para cada variable, pue
+sto que la abundancia y la riqueza tienen escalas de medición muy diferentes. Q
+uedará algo tal que esto...[] 
+ []
+
+
+Overfull \hbox (1567.25853pt too wide) in paragraph at lines 1507--1507
+[]\T1/cmtt/m/n/10.95 #' En resumen, usa `tidyverse` para sacar el máximo provec
+ho de tus datos. El paquete `dplyr` te ayuda a manipular eficientemente; `tidyr
+` te servirá para reordenar los datos, ya sea para obtener resúmenes estadístic
+os eficientemente, como para generar gráficos de resumen; `ggplot2` te ayudará 
+con la parte gráfica, que es siempre importante en tu manuscrito.[] 
+ []
+
+
+Overfull \hbox (73.4486pt too wide) in paragraph at lines 1617--1617
+[]\T1/cmtt/m/n/10.95 #' title: "Análisis exploratorio de datos. Mapas de riquez
+a y abundancia global y de mi familia"[] 
+ []
+
+[31] [32] [33]
+Overfull \hbox (22.52325pt too wide) in paragraph at lines 1691--1691
+[]\T1/cmtt/m/n/10.95 mapa_cuadros_pendiente %>% mapshot(file = 'mapa_cuadros_pe
+ndiente.png') #Genera archivo[] 
+ []
+
+[34]
+Overfull \hbox (11.20651pt too wide) in paragraph at lines 1762--1762
+[]\T1/cmtt/m/n/10.95 #' title: "Análisis exploratorio de datos. Correlaciones e
+ntre variables ambientales"[] 
+ []
+
+
+Overfull \hbox (1595.55038pt too wide) in paragraph at lines 1762--1762
+[]\T1/cmtt/m/n/10.95 #' El objeto que generaré, denominado `env_num`, no tendrá
+ las columnas `id` y las de coordenadas UTM, y añadiré la abundancia y riqueza 
+de mi familia. Al mismo tiempo, insertaré un enter (`\n`) en nombres largos de 
+variables, para acomodar los nombres de variables al panel de correlaciones; po
+r ejemplo, el nombre `riqueza_global` se renombra a `riqueza\nglobal`.[] 
+ []
+
+[35]
+Overfull \hbox (28.18163pt too wide) in paragraph at lines 1762--1762
+[]\T1/cmtt/m/n/10.95 #' #### Todas las variables (se empasta). Comentado, sólo 
+mostrado para fines didácticos[] 
+ []
+
+
+Overfull \hbox (5.54814pt too wide) in paragraph at lines 1886--1886
+[]\T1/cmtt/m/n/10.95 #' title: "Análisis exploratorio de datos. Mapas de variab
+les ambientales por lotes"[] 
+ []
+
+[36]
+Overfull \hbox (1250.38976pt too wide) in paragraph at lines 1886--1886
+[]\T1/cmtt/m/n/10.95 #' Uní los dos archivos anteriores en un único KML nombrad
+o como `mapa_cuadros_1ha_para_google_earth.kml`, el cual muestra los puntos com
+o rótulos identificadores de cada cuadro de 1 Ha dentro de sus correspondientes
+ polígonos. Visualizar dicho archivo en GoogleEarth para un "recorrido virtual"
+ por BCI.[] 
+ []
+
+
+Overfull \hbox (22.52325pt too wide) in paragraph at lines 1886--1886
+[]  \T1/cmtt/m/n/10.95 ggtitle('Cuadros de 1 Ha de BCI. Variables ambientales n
+uméricas escaladas de 0 a 1')[] 
+ []
+
+[37]
+Overfull \hbox (96.08208pt too wide) in paragraph at lines 1886--1886
+[]  \T1/cmtt/m/n/10.95 tm_layout(main.title="Cuadros de 1 Ha de BCI. Variables 
+ambientales numéricas escaladas de 0 a 1",[] 
+ []
+
+[38]
+Overfull \hbox (56.47348pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' ### Modo Q para datos cuantitativos de especies (abunda
+ncia). Datos de mi familia asignada[] 
+ []
+
+
+Overfull \hbox (254.51646pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' Aplicado a mi familia asignada de BCI, en la forma de m
+atriz de distancia euclídea, utilizando la transformación *Hellinger*:[] 
+ []
+
+[39]
+Overfull \hbox (944.83772pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' Para interpretar esta matriz, es necesario representarl
+a gráficamente. En la representación elegida a continuación, color fucsia (mage
+nta, rosa) significa "corta distancia=muy similares", y cian (celeste) signific
+a "gran distancia=poco similares":[] 
+ []
+
+
+Overfull \hbox (1776.61826pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' Una forma alterna de guardar el gráfico es mediante fun
+ciones de R. La calidad de gráficos exigida en revistas, suele requerir usar di
+chas funciones específicas, porque permiten más control. A continuación uso una
+ de ellas, la función `png`, con la cual "abro un dispositivo gráfico. Luego, i
+mprimo el gráfico que deseo guardar y finalmente cierro el dispositivo mediante
+ `dev.off` Por ejemplo:[] 
+ []
+
+
+Overfull \hbox (577.04361pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' MUY IMPORTANTE. La última función, `dev.off()`, es nece
+saria para cerrar el dispositivo. Si no la ejecutas, no se generarán gráficos e
+n el dispositivo estándar (e.g. pestaña `Plots`)[] 
+ []
+
+
+Overfull \hbox (1714.37617pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' Habitualmente, sólo dispones de datos de presencia/ause
+ncia. En tales casos, existe un conjunto de herramientas basadas en métricas de
+ disimilaridad o de similaridad, con las que podrás analizar patrones de asocia
+ción. En la bibliografía, encontrarás muchos ejemplos de las métricas (de disim
+ilaridad o similaridad) de Jaccard o de Sorensen (esta última equivalente a "Br
+ay-Curtis").[] 
+ []
+
+
+Overfull \hbox (2664.9825pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' Un error común consiste en referirse a los índices de J
+accard y de Sorensen "a secas", sin especificar si se trata de disimilaridad (d
+istancia) o de similaridad. Toda métrica de disimilaridad tiene un complemento 
+a 1 que la convierte en métrica de similaridad, y viceversa; por lo tanto, se t
+rata de mediciones claramente opuestas. Cuando el/la autor/a no declara qué est
+á midiendo, la interpretación podría resultar ambigua e incluso contradictoria.
+ Por esta razón, es necesario especificar si se trata de un índice de disimilar
+idad o de similaridad.[] 
+ []
+
+
+Overfull \hbox (2834.73363pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' Si alguna vez te enfrentas a textos donde no se especif
+ica qué tipo de métrica se usa, te sugiero preguntarte ¾qué mide este índice? S
+i comparas varios sitios por pares, y notas que a mayor valor del índice en cue
+stión observas mayor similitud o parecido entre los sitios (e.g. mayor proporci
+ón de especies compartidas), entonces se trata de un índice de similaridad. Si 
+por el contrario, a mayor valor se evidencia mayor disimilitud o diferencia ent
+re pares de sitios (e.g. mayor proporción de especies NO compartidas), entonces
+ se trata de un índice de distancia o disimilaridad.[] 
+ []
+
+
+Overfull \hbox (90.4237pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' Recalco: **es imprescindible declarar qué tipo de métri
+ca estás usando**. Ejemplos de redacción:[] 
+ []
+
+
+Overfull \hbox (486.50967pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' - Correcto: "índice de **disimilaridad** de Jaccard", "
+índice de **similaridad** de Sorensen", o simplemente "**similaridad** de Jacca
+rd", "**distancia** de Jaccard".[] 
+ []
+
+
+Overfull \hbox (288.46669pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' A continuación, muestro cómo calcular la **distancia de
+ Jaccard** (**D<sub>J</sub>**) en un único paso usando la función `vegdist`.[] 
+
+ []
+
+
+Overfull \hbox (11.20651pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 mi_fam_jac %>% tidy # Mostrando sólo las primeras 10 combi
+naciones en modo data.frame[] 
+ []
+
+
+Overfull \hbox (973.12958pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' El argumento `binary=T` en `vegdist` "ordena" que se re
+alice primero `decostand(mc_apcyn_melic_saptc, method = 'pa')`, lo cual convier
+te la matriz de comunidad en una de presencia/ausencia, con la que posteriormen
+te se calculará la matriz de distancia.[] 
+ []
+
+[40]
+Overfull \hbox (1674.76758pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' En esta matriz de disimilaridad, al igual que en la ant
+erior, un valor pequeño (rosa) significa que los sitios comparados son muy pare
+cidos. Por ejemplo, en el gráfico no ordenado (izquierda), verás que, por ejemp
+lo, los sitios 1 y 2, y los sitios 7 y 1 son similares; en el gráfico ordenado 
+por valor de distancia (derecha), notarás por ejemplo que 37 y 41 son muy simil
+ares.[] 
+ []
+
+
+Overfull \hbox (2155.72911pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' La distancia de Jaccard (**D<sub>J</sub>**) se puede ex
+presar como "la proporción de especies no compartidas". En este caso, para la c
+omparación entre los sitios 1 y 2, dicho valor es de 20%, que equivale a decir 
+"hay sólo un 20% de exclusividad" (por lo tanto, hay mucha similaridad). Si se 
+tratara de la similaridad de Jaccard (**S<sub>J</sub>**) obtendríamos el comple
+mento a 1, que equivale de hecho a "la proporción de especies compartidas", es 
+decir, 80%.[] 
+ []
+
+
+Overfull \hbox (1369.21555pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' Como la distancia de Jaccard (**D<sub>J</sub>**) es el 
+complemento a 1 de la similaridad de Jaccard (**S<sub>J</sub>**), es decir, **D
+<sub>J</sub>=1-S<sub>J</sub>**, y dado que arriba calculamos la distancia, para
+ obtener la similaridad, sólo hay que restarle el valor de distancia a 1 (**S<s
+ub>J</sub>=1-D<sub>J</sub>**).[] 
+ []
+
+
+Overfull \hbox (231.88298pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' Dado que este resultado muestra la similaridad, podemos
+ leerlo como "el sitio 1 y el 2 comparten un 80% de sus especies".[] 
+ []
+
+
+Overfull \hbox (1052.34677pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' La fórmula de la similaridad de Jaccard es **S<sub>J</s
+ub>=a/(a+b+c)**, donde **a** es el número de especies compartidas (presentes en
+ ambos sitios comparados), **b** el número de especies exclusivas del sitio 2, 
+y **c** el número de especies exclusivas del sitio 1.[] 
+ []
+
+
+Overfull \hbox (101.74045pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' Para obtener las variables **a**, **b** y **c**, usaré 
+La función `betadiver` del paquete `vegan`:[] 
+ []
+
+
+Overfull \hbox (939.17935pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' Puedes notar que ambos sitios comparten 4 especies (**a
+**), que el sitio 2 no tiene especies exclusivas (**b**) y que el sitio 1 tiene
+ 1 especie exclusiva (**c**). Es decir, de 5 especies en total en ambos sitios,
+ hay 4 compartidas, por lo tanto:[] 
+ []
+
+
+Overfull \hbox (130.0323pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' Con `betadiver` también puedes calcular índices de simi
+laridad. Por ejemplo, el Jaccard se calcula así:[] 
+ []
+
+
+Overfull \hbox (16.86488pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' No obstante, usaremos esta función en los análisis de d
+iversidad beta más adelante.[] 
+ []
+
+
+Overfull \hbox (362.02551pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' Además de la distancia de Jaccard, otra distancia muy u
+tilizada es la de Sorensen o Bray-Curtis. Se calcula fácilmente con la función 
+`vegdist`:[] 
+ []
+
+
+Overfull \hbox (50.81511pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' ### Modo Q para datos cuantitativos, NO de abundancia d
+e especies (variables ambientales)[] 
+ []
+
+
+Overfull \hbox (1759.64314pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' En este ejemplo, usaré sólo variables de suelo, todas c
+uantitativas, puedes combinar con otras variables que hayas detectado como rele
+vantes en el análisis de correlación. Nota que convertiré cada variable en punt
+uaciones *z* mediante la función `scale`. Dado que cada variable tiene su propi
+a escala de medición, si se compararan sin transformación, se obtendrían result
+ados inconsistentes.[] 
+ []
+
+[41]
+Overfull \hbox (186.61601pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' ### Modo Q para datos cualitativos y cuantitativos (mix
+tos), NO de abundancia de especies (variables ambientales)[] 
+ []
+
+
+Overfull \hbox (175.29927pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' En este ejemplo, usaré las siguientes variables mixtas 
+(funciona igualmente para datos cualitativos solamente):[] 
+ []
+
+
+Overfull \hbox (350.70877pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' - `hetereogeneidad_ambiental`. Índice cuantitativo calc
+ulado como la diversidad de Simpson a partir de frecuencias de tipos de micro-h
+ábitats.[] 
+ []
+
+
+Overfull \hbox (910.8875pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' - `habitat`. Tipo de hábitat. Asume los siguientes valo
+res posibles: *OldHigh*, *OldLow* y *OldSlope* (bosque viejo en relieve alto, e
+n vertientes y relieve bajo, respectivamente), *Swamp* (bosque en área encharca
+ble) *Young* (bosque joven).[] 
+ []
+
+
+Overfull \hbox (45.15674pt too wide) in paragraph at lines 2039--2039
+[]\T1/cmtt/m/n/10.95 #' - `quebrada`. Informa sobre si hay o no quebrada. Los v
+alores posibles son *Yes* o *No*.[] 
+ []
+
+[42]
+Overfull \hbox (497.82642pt too wide) in paragraph at lines 2158--2158
+[]\T1/cmtt/m/n/10.95 #' En este caso, las variables usaré los valores de abunda
+ncias de especies como variables. Es decir, **compararé el grado de asociación 
+entre especies, NO entre sitios**.[] 
+ []
+
+
+Overfull \hbox (1482.38297pt too wide) in paragraph at lines 2158--2158
+[]\T1/cmtt/m/n/10.95 #' Aunque se podría usar el índice de correlación como mét
+rica de la dependencia (tal como mostré en el script `aed_5_correlaciones_varia
+bles_ambientales.R`), tanto los doble-ceros (ausencias de una misma especie en 
+dos lugares), como los *outliers* de abundancia, contribuirían a aumentar de ma
+nera ficticia el índice de correlación de Pearson.[] 
+ []
+
+
+Overfull \hbox (1188.14767pt too wide) in paragraph at lines 2158--2158
+[]\T1/cmtt/m/n/10.95 #' Por tal razón, es recomendable aplicar la transformació
+n *Chi* a la matriz de comunidad transpuesta. Al utilizar una matriz transpuest
+o, lograrás comparar especies, NO sitios (recuerda que en modo R comparamos des
+criptores, no objetos). Explico el procedimiento a continuación, paso a paso.[]
+ 
+ []
+
+
+Overfull \hbox (712.84451pt too wide) in paragraph at lines 2158--2158
+[]\T1/cmtt/m/n/10.95 #' Primero, sustituyo el caracter de espacio por un <enter
+> en los nombres de las especies (caracter \\n), para facilitar la lectura de l
+os nombres en la diagonal del mapa de calor. Luego transpongo la matriz.[] 
+ []
+
+
+Overfull \hbox (2285.87164pt too wide) in paragraph at lines 2158--2158
+[]\T1/cmtt/m/n/10.95 #' En el mapa de calor **ordenado** (el de la derecha), se
+ identifica al menos un patrón de dependencia entre las especies relacionadas e
+n la diagonal desde *Eugenia oerstediana* hasta *Eugenia coloradoensis* (cuadro
+s de color rosa centrales). También se observan las especies que no parecen aso
+ciarse con otras, situadas en los extremos de la diagonal, y relacionadas con o
+tras por medio de valores pequeños de distancia (cuadros azules), como *Myrcia 
+gatunensis* y *Chamguava schippi*.[] 
+ []
+
+
+Overfull \hbox (939.17935pt too wide) in paragraph at lines 2158--2158
+[]\T1/cmtt/m/n/10.95 #' Arriba usé la distancia de Jaccard para evaluar asociac
+ión entre sitios. Dicha métrica también se puede usar para evaluar la distancia
+ entre especies, usando como fuente la matriz de comunidad transpuesta converti
+da a binaria (presencia/ausencia)[] 
+ []
+
+
+Overfull \hbox (50.81511pt too wide) in paragraph at lines 2158--2158
+[]\T1/cmtt/m/n/10.95 #' ### Modo R para datos cuantitativos, NO de abundancia d
+e especies (variables ambientales)[] 
+ []
+
+
+Overfull \hbox (1227.75627pt too wide) in paragraph at lines 2158--2158
+[]\T1/cmtt/m/n/10.95 #' En modo R evalúas asociación entre descriptores, es dec
+ir, entre variables. La métrica comúnmente usada es el índice de correlación de
+ Pearson. Sin embargo, si los datos no presentan distribución normal, puedes em
+plear métricas más flexibles, como el índice *rho* de Spearman o **tau** de Ken
+dall.[] 
+ []
+
+
+Overfull \hbox (1810.56848pt too wide) in paragraph at lines 2158--2158
+[]\T1/cmtt/m/n/10.95 #' En este ejemplo, mostraré la correlación entre variable
+s de suelo y la abundancia y riqueza globales y de mi familia asignada. Haré lo
+ propio con variables geomorfológicas. Ya tuviste ocasión de usar estos métodos
+ en el [*script* de análisis exploratorio de datos, sección correlación](aed_5_
+correlaciones_variables_ambientales.md). En este *script*, añadirás al análisis
+ el índice *rho* de Spearman.[] 
+ []
+
+[43]
+Overfull \hbox (62.13185pt too wide) in paragraph at lines 2262--2262
+[]\T1/cmtt/m/n/10.95 #' title: "Análisis de agrupamiento (cluster analysis). <b
+r> Parte 1: agrupamiento jerárquico"[] 
+ []
+
+[44]
+Overfull \hbox (622.31058pt too wide) in paragraph at lines 2262--2262
+[]\T1/cmtt/m/n/10.95 #' Las técnicas de agrupamiento se clasifican según los al
+goritmos que emplean y el orden de ejecución, así como según el tipo de enfoque
+ inferencial. Los algoritmos de agrupamiento pueden ser:[] 
+ []
+
+
+Overfull \hbox (509.14316pt too wide) in paragraph at lines 2262--2262
+[]\T1/cmtt/m/n/10.95 #' - Por aglomeración o por división. En referencias en es
+pañol encontrarás "aglomerativos" y "divisivos", pero ten presente que la prime
+ra grafía no está en el Diccionario.[] 
+ []
+
+
+Overfull \hbox (973.12958pt too wide) in paragraph at lines 2262--2262
+[]\T1/cmtt/m/n/10.95 #' El agrupamiento jerárquico (AJ) es una técnica de agrup
+amiento secuencial que consiste en la repetición de un procedimiento dado para 
+agrupar objetos hasta que todos encuentran un lugar. **Los resultados del AJ co
+múnmente se muestran en dendrogramas**.[] 
+ []
+
+
+Overfull \hbox (1499.35808pt too wide) in paragraph at lines 2262--2262
+[]\T1/cmtt/m/n/10.95 #' Dentro del AJ es frecuente usar un enfoque aglomerativo
+, lo cual implica aplicar algoritmos secuenciales desde abajo hacia arriba. Baj
+o este enfoque, se comienza con una colección discontinua de objetos que son su
+bsecuentemente agrupados en grupos (clusters) cada vez más grandes, hasta alcan
+zar un único grupo que engloba a todos los subgrupos.[] 
+ []
+
+
+Overfull \hbox (820.35356pt too wide) in paragraph at lines 2262--2262
+[]\T1/cmtt/m/n/10.95 #' El AJ aglomerativo dispone de varios algoritmos de reso
+lución del agrupamiento por pares, que son los denominados **"criterios de enla
+ce"**. Los más usados son: "de enlace simple", "de enlace completo" y "de enlac
+e promedio".[] 
+ []
+
+
+Overfull \hbox (2631.03227pt too wide) in paragraph at lines 2262--2262
+[]\T1/cmtt/m/n/10.95 #' Normalmente, en el análisis de agrupamiento nos interes
+a agrupar sitios en función de sus descriptores que, en una matriz de comunidad
+, son sus especies, y en una matriz ambiental son las variables que caracteriza
+n los microhábitats. En mi caso y en el de ustedes, los sitios son los 50 cuadr
+os de 1 Ha (quadrats); el resultado de este primer script serán dendrogramas co
+n los que podremos explorar, de manera visual y analítica, cuántos grupos hacen
+ sentido y, con suerte, determinar a qué grupo parece pertenecer cada sitio (si
+guiente script).[] 
+ []
+
+
+Overfull \hbox (1273.02324pt too wide) in paragraph at lines 2262--2262
+[]\T1/cmtt/m/n/10.95 #' Dado que los cuadros en BCI están autocorrelacionados e
+spacialmente, violamos el supuesto de independencia de las observaciones. Esto 
+limita el alcance de nuestros resultados, pero no los invalida, y al mismo tiem
+po nos ofrecen una oportunidad estupenda para evaluar las técnicas mostradas a 
+continuación.[] 
+ []
+
+
+Overfull \hbox (927.86261pt too wide) in paragraph at lines 2262--2262
+[]\T1/cmtt/m/n/10.95 #' Este método utiliza, como criterio de enlace para agrup
+ar sucesivamente pares de objetos, la mayor similaridad ("mínima distancia" o "
+vecino más próximo"). Comúnmente, los dendrogramas muestran un encadenamiento d
+e objetos, a modo de escaleras.[] 
+ []
+
+
+Overfull \hbox (1041.03003pt too wide) in paragraph at lines 2262--2262
+[]\T1/cmtt/m/n/10.95 #' Para aplicar este método, debes transformar la matriz d
+e comunidad utilizando alguno de los métodos explicados en medición de la asoci
+ación. En este caso, utilizaré el método de normalización y luego obtendré la d
+istancia euclidea (distancia de cuerdas o *chord*).[] 
+ []
+
+[45]
+Overfull \hbox (390.31737pt too wide) in paragraph at lines 2262--2262
+[]\T1/cmtt/m/n/10.95 #' Es importante, para garantizar consistencia a lo largo 
+del agrupamiento, asignar los nombres de sitios al atributo `labels` del objeto
+ de distancias.[] 
+ []
+
+
+Overfull \hbox (577.04361pt too wide) in paragraph at lines 2262--2262
+[]\T1/cmtt/m/n/10.95 #' Posteriormente, el agrupamiento jerárquico lo realizaré
+ con la función `hclust` del paquete `stats` (se carga por defecto al abrir R),
+ especificando el argumento `method = 'single'`:[] 
+ []
+
+
+Overfull \hbox (260.17484pt too wide) in paragraph at lines 2262--2262
+[]     \T1/cmtt/m/n/10.95 main = "Sitios de BCI según composición de especies d
+e Myrtaceae\nEnlace simple a partir de matriz de distancia de cuerdas",[] 
+ []
+
+
+Overfull \hbox (1007.0798pt too wide) in paragraph at lines 2262--2262
+[]\T1/cmtt/m/n/10.95 #' En este caso, el criterio de enlace para agrupar sucesi
+vamente pares de objetos es la menor similaridad ("máxima distancia" o "vecino 
+más lejano"). Crearé el dendrograma a partir de la misma matriz de distancia de
+ cuerdas empleada en el dendrograma anterior.[] 
+ []
+
+
+Overfull \hbox (271.49158pt too wide) in paragraph at lines 2262--2262
+[]     \T1/cmtt/m/n/10.95 main = "Sitios de BCI según composición de especies d
+e Myrtaceae\nEnlace completo a partir de matriz de distancia de cuerdas",[] 
+ []
+
+
+Overfull \hbox (1753.98477pt too wide) in paragraph at lines 2262--2262
+[]\T1/cmtt/m/n/10.95 #' En este caso, el criterio de enlace para agrupar sucesi
+vamente pares de objetos es el promedio entre grupos, el cual a su vez puede se
+r de dos tipos: media o centroide. Este método es más bien una familia de submé
+todos, clasificados en función del tipo de promedio empleado y el peso asignado
+ a las distancias originales (número de elementos de los clusters que se agrupa
+n progresivamente).[] 
+ []
+
+
+Overfull \hbox (2715.90784pt too wide) in paragraph at lines 2262--2262
+[]\T1/cmtt/m/n/10.95 #' Así, dependiendo de si se media o centroide, o si se po
+nderan o no las distancias originales, se producen cuatro combinaciones de subm
+étodos: grupos de pares no ponderados con media aritmética (unweighted pair-gro
+up method using arithmetic averages, UPGMA), grupos de pares ponderados con med
+ia aritmética (WPGMA), grupos de pares no ponderados con centroide (UPGMC) y gr
+upos de pares ponderados con centroide (WPGMC). El más usado es UPGMA, porque m
+áximiza la correlación entre la distancia cofenética (ver siguiente script) y l
+a matriz de distancia original.[] 
+ []
+
+
+Overfull \hbox (214.90787pt too wide) in paragraph at lines 2262--2262
+[]     \T1/cmtt/m/n/10.95 main = "Sitios de BCI según composición de especies d
+e Myrtaceae\nUPGMA a partir de matriz de distancia de cuerdas",[] 
+ []
+
+
+Overfull \hbox (1239.07301pt too wide) in paragraph at lines 2262--2262
+[]\T1/cmtt/m/n/10.95 #' Se basa en los mismos supuestos y criterios de la regre
+sión lineal por mínimos cuadrados, similar a lo establecido para el ANOVA, que 
+a fin de cuentas es un caso particular de regresión lineal. El objetivo es defi
+nir grupos de manera que la suma de cuadrados se minimice dentro de cada uno de
+ ellos.[] 
+ []
+
+
+Overfull \hbox (265.8332pt too wide) in paragraph at lines 2262--2262
+[]     \T1/cmtt/m/n/10.95 main = "Sitios de BCI según composición de especies d
+e Myrtaceae\nMétodo de Ward a partir de matriz de distancia de cuerdas",[] 
+ []
+
+[46]
+Overfull \hbox (169.6409pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' title: "Análisis de agrupamiento (cluster analysis). <b
+r> Parte 2: Interpretación y comparación de resultados"[] 
+ []
+
+
+Overfull \hbox (2099.1454pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' [En el script anterior](aa_analisis_de_agrupamiento_1_j
+erarquico.md) realicé los dendrogramas a partir de una matriz de cuerdas aplica
+ndo distintos métodos. El objetivo de este script es mostrarte cómo explorar, d
+e manera visual y analítica, cuál o cuáles métodos de agrupamiento son idóneos 
+para sintetizar tus resultados, cuántos grupos hacen sentido en un análisis de 
+agrupamiento y, con suerte, determinar a qué grupo parece pertenecer cada sitio
+.[] 
+ []
+
+
+Overfull \hbox (1838.86034pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' La primera evaluación de los dendrogramas NO debe venir
+ de la mano de sofisticados análisis ni de procedimientos mecánicos. Te recomie
+ndo que los explores visualmente, con la intención de identificar grupos (clúst
+ers) consistentes, es decir, aquellos que se repiten entre dendrogramas. Asimis
+mo, identifica aquellos elementos que, de manera consistente entre dendrogramas
+, no parezcan agruparse con otros.[] 
+ []
+
+
+Overfull \hbox (2766.83318pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' Evita concentrar tu vista en grupos extremadamente pequ
+eños; comienza analizando el árbol desde arriba hacia abajo, prefiere encontrar
+ grupos grandes y consistentes entre dendrogramas (si los hay). No atomices el 
+dendrograma a menos que sea estrictamente necesario. Observar muchos grupos peq
+ueños te impedirá ver los posibles patrones globales. Ahora bien, si hubiere gr
+upos pequeños reiteradamente, entonces considéralos. No obstante, los cuadros d
+e 1 Ha de la parcela de BCI están autocorrelacionados espacialmente, por lo que
+ normalmente encontrarás grupos grandes.[] 
+ []
+
+
+Overfull \hbox (2687.61598pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' Anota tus impresiones, para que las compares con los re
+sultados que posteriormente obtendrás; si confirmas patrones detectados visualm
+ente, la evidencia se irá acumulando en una dirección. Si por el contrario, det
+ectas inconsistencia, es el momento de revisar los scripts de generación de den
+drogramas; si luego de revisar ves que todo está correcto, entonces debes segui
+r explorando patrones con otras técnicas o utilizando distintos criterios de ag
+rupamiento. Cuando termines la exploración visual, entonces continúa aplicando 
+otras técnicas analíticas.[] 
+ []
+
+[47]
+Overfull \hbox (237.54135pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' Un plot en panel 2x2 ayuda a visualizarlos todos de man
+era conjunta. En tu caso, observa y compara todos los dendrogramas:[] 
+ []
+
+
+Overfull \hbox (11.20651pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 invisible(map(names(lista_cl), function(x) plot(lista_cl[[
+x]], main = x, hang = -1)))[] 
+ []
+
+
+Overfull \hbox (803.37845pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' En mi caso, exceptuando el dendrograma generado por med
+io del enlace simple, detecto al menos 2 grupos consistentes (integrados por mú
+ltiples posibles subgrupos), los cuales mencionaré usando los identificadores d
+e sitios:[] 
+ []
+
+
+Overfull \hbox (577.04361pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' Además de los grupos anteriores, detecto elementos que 
+no forman grupos, es decir, sitios que aparecen aislados del resto, como por ej
+emplo el 46 y, en algunos métodos, también el 9.[] 
+ []
+
+
+Overfull \hbox (2070.85355pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' Existen varios criterios para elegir un dendrograma idó
+neo, como por ejemplo, los gráficos tipo-Shepard y la correlación cofenética. C
+entraré mi atención en esta última. Igualmente, una vez elijas el método de agr
+upamiento idóneo, existen varios métodos para decidir cuántos clústers son ópti
+mos, como la anchura de silueta (*silhouette width*, que explicaré) y los nivel
+es de fusión (*fusion levels*, este último te lo dejo para autoapredizaje).[] 
+ []
+
+
+Overfull \hbox (4673.7042pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' La correlación cofenética impica conocer la distancia c
+ofenética, y esta última se entiende mejor con un ejemplo: elige un objeto (e.g
+. sitio, cuadro de 1 ha) cualquiera, "escala" por el árbol hasta llegar a un no
+do, luego desciende hasta el objeto más cercano. El recorrido que acabas de rea
+lizar se denomina distancia cofenética. Ahora, hipotéticamente, construye una m
+atriz de distancias cofenéticas entre todos los objetos (a pares), y calcula la
+ correlación de ésta con la matriz de distancias original. Esto último se denom
+ina "correlación cofenética". El método con el valor más alto de correlación co
+fenética es el que mejor sintetiza la distancia original y, por lo tanto, será 
+el preferido. Normalmente, la mayor correlación cofenética la brindan UPGMA y e
+nlace completo, pero no elijas un método de agrupamiento mecánicamente basándot
+e sólo en este criterio (ver notas más adelante al respecto).[] 
+ []
+
+
+Overfull \hbox (1007.0798pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' Usando la lista de objetos de clústers, calcularé la co
+rrelación cofenética dentro de un `map` (una función del paquete `purrr`, perte
+neciente a la colección `tidyverse`), para así repetir el mismo proceso con los
+ cuatro objetos de clusters en una sentencia:[] 
+ []
+
+
+Overfull \hbox (1069.32188pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' Habrás notado que, tanto UPGMA como enlace completo, ti
+enen valores altos de correlación cofenética. Un método complementario para exp
+lorar la correlación cofenética es el diagrama tipo-Shepard, el cual te recomie
+ndo aprender a usar por tu cuenta si deseas profundizar.[] 
+ []
+
+
+Overfull \hbox (2597.08205pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' Elegiré UPGMA como método de agrupamiento y determinaré
+ cuántos grupos son idóneos de acuerdo a su anchura de silueta (*silhouette wid
+th*). Sin embargo, no lo haré sólo para UPGMA, también contrastaré con Ward. ¾P
+or qué? De entrada, se sabe que UPGMA tendrá una buena correlación cofenética, 
+dado que dicho método está diseñado para maximizarla. Sin embargo, me interesa 
+explorar patrones con sentido ecológico, no sólo seguir procedimientos mecánico
+s y, al menos en mi caso, el método de Ward podría hacer más sentido ecológico 
+que UPGMA.[] 
+ []
+
+
+Overfull \hbox (1029.71329pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' El objetivo de la función `calcular_anchuras_siluetas` 
+está implícito en su nombre, y requiere de tres argumentos: matriz de comunidad
+ original, matriz de distancias, y objeto de clúster. Devuelve como resultado u
+na lista con dos objetos (los explico más abajo):[] 
+ []
+
+
+Overfull \hbox (282.80832pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' 1. Las anchuras promedio para cada partición, excepto p
+ara las particiones `i=1` y `i=50`, por ser irrelevantes (se les asigna 0);[] 
+ []
+
+
+Overfull \hbox (186.61601pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' 2. Número óptimo de grupos. Haré los cálculos para UPGM
+A y Ward, y luego explico en qué consisten los resultados.[] 
+ []
+
+[48]
+Overfull \hbox (1929.39427pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' El objeto `anchuras_siluetas` de la lista `anch_sil_upg
+ma` te muestra un vector con los promedios de anchuras de siluetas para todas l
+as posibles particiones con sentido. Al ser promedios, lo que reflejan es el va
+lor de las siluetas de manera general. Si para una partición dada, se registran
+ promedios de siluetas grandes, se interpreta entonces que habrá muchos casos d
+e grupos claramente aislados para dicha partición.[] 
+ []
+
+
+Overfull \hbox (3338.32864pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' Igualmente, el objeto `n_grupos_optimo` te indica cuál 
+es el número óptimo de clústers a crear, es decir, en cuántos grupos cortar el 
+árbol. Esto se determina programáticamente por medio de la posición que ocupa e
+l promedio más alto, que en este caso es la posición dos. Sin embargo, te recom
+iendo NO usar este número a ciegas. Verifica si el valor máximo, que en este ca
+so ocupa la posición dos, se diferencia o se parece mucho a los de su entorno, 
+por ejemplo, al valor de la posición 3. En mi caso, el valor de anchura promedi
+o de la posición 2 se diferencia, por mucho, del de la posición 3. Por lo tanto
+, puedo elegir con seguridad 2 como número de clústers óptimo.[] 
+ []
+
+
+Overfull \hbox (893.91238pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' Haré el gráfico de dendrograma, aunque nota que en este
+ caso primero reordenaré los sitios con la función `reorder.hclust`, de tal sue
+rte que los sitios más próximos en términos de distancias aparecerán próximos t
+ambién en el dendrograma.[] 
+ []
+
+
+Overfull \hbox (837.32867pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' Ahora compararé el dendrograma con el mapa de calor en 
+un mismo gráfico, colocando los dendrogramas en los márgenes del gráfico. Verif
+icaré si el número de grupos hace sentido, recordando los grupos que inicialmen
+te identifiqué.[] 
+ []
+
+
+Overfull \hbox (2110.46214pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' En general, hay dos grupos, uno grande y otro pequeño, 
+y parece haber un tercero en el mapa de calor. El grupo grande ocupa la mancha 
+rosa central que se extiende hasta el borde inferior derecho, y el grupo pequeñ
+o ocupa la posición superior derecha. Aunque los promedios de anchura de siluet
+as sugerían usar 2 grupos, el mapa de calor parece sugerir que existe un tercer
+ grupo entre los dos anteriores, representado por los sitios 18, 8,..., 7,..., 
+19.[] 
+ []
+
+
+Overfull \hbox (1289.99835pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' En este caso, el valor máximo, que ocupa la posición nú
+mero 3, no se diferencia mucho del de la posición 4. Al parecer, sería igualmen
+te válido elegir 3 o 4 particiones, por tener promedios de anchuras de siluetas
+ bastante parecidos. Por tal razón, cortaré el dendrograma en 3 y en 4 grupos, 
+respectivamente:[] 
+ []
+
+[49]
+Overfull \hbox (79.10696pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' Comparando el dendrograma con el mapa de calor. Verific
+ar si el número de grupos hace sentido.[] 
+ []
+
+
+Overfull \hbox (616.6522pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' Nótese que este dendrograma hace más sentido que el sug
+erido por UPGMA. En cualquier casos, conservaré ambos resultados para seguir ev
+aluando a posteriori y contrastando con nuevos métodos.[] 
+ []
+
+
+Overfull \hbox (1239.07301pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' Con suerte, un agrupamiento aplicado a datos muestrales
+ reflejará los patrones naturales de organización. Sin embargo, lo que con toda
+ seguridad mostrará es el sesgo de muestreo. Afortunadamente, los datos de BCI 
+son censales, por lo que el sesgo de muestreo es una preocupación menor o inexi
+stente.[] 
+ []
+
+
+Overfull \hbox (1550.28342pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' Sin embargo, los datos de BCI también tienen sesgo, pue
+s se usa un DAP de corte para decidir si un individuo es censado o no. Si consi
+deramos que el universo es "todos los individuos de 1 cm o más de tallo", pues 
+el sesgo es bajísimo, pero si quisiéramos extraer conclusiones aplicadas a toda
+ comunidad, cometeríamos errores debidos a sesgo por muestreo.[] 
+ []
+
+
+Overfull \hbox (1505.01645pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' No obstante, aun con todas sus bondades, los datos cens
+ales carecen de una fortaleza: no reflejan asociación con grandes unidades de h
+ábitats y, a lo sumo, revelan asociación con microhábitats muy específicos, por
+ lo que extraer conclusiones sobre patrones de asociación con variables ambient
+ales de manera más general, presenta sus limitaciones.[] 
+ []
+
+
+Overfull \hbox (5946.83766pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' Por estas razones, los análisis de agrupamientos realiz
+ados hasta este punto, reflejan tanto el mencionado sesgo y las limitaciones im
+puestas por el pequeño espacio territorial estudiado. Una forma de validar la r
+obustez de los resultados anteriores, consiste en realizar un remuestreo por me
+dio de *bootstrap*, un método que consiste en tomar muestras aleatorias de los 
+datos y realizar, con cada una, análisis de agrupamiento. Este proceso se repit
+e varias veces (e.g. 1000 veces), es decir, se realizan varias iteraciones. Al 
+finalizar, se cuenta la proporción de veces que un grupo dado aparece consisten
+temente como clúster (tasa de éxito), la cual se denomina probabilidad de *boot
+strap* del clúster en cuestión (*bootstrap probability*, BP). A este procedimie
+nto se le ha añadido más recientemente el criterio de remuestreo por *bootstrap
+* multiescalar, es decir, considerar muestras de tamaños diferentes, a lo que s
+e denomina valores de probabilidad aproximadamente insesgados (*approximately u
+nbiased*, AU). Los valores de AU son, en principio, más fiables que los de BP, 
+por lo que serán los preferidos en este análisis.[] 
+ []
+
+
+Overfull \hbox (2614.05716pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' El método de remuestreo por *boostrap* multiescalar est
+á implementado en el paquete `pvclust`, y la función del mismo nombre se encarg
+a de realizarlo. IMPORTANTE: la matriz de comunidad, que en este caso es la mat
+riz normalizada, debe transponerse previamente; de ahí que verás el uso de la f
+unción `t()` en el primer argumento de `pvclust`. La función primero genera un 
+agrupamiento, por lo que debemos especificar con qué método, en este caso lo ha
+ré tanto con UPGMA como con Ward, para así validar los dos métodos ejecutados a
+nteriormente.[] 
+ []
+
+
+Overfull \hbox (899.57076pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' La función `pvclust` devolverá un dendrograma enriqueci
+do, que incluirá los valors de AU y BP de cada nodo del dendrograma en cuestión
+. Los valores de AU serán especialmente relevantes, porque con ellos trazaré do
+s "decoraciones" de ayuda:[] 
+ []
+
+
+Overfull \hbox (2234.9463pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' - Rectángulos de borde azul, para todos aquellos grupos
+ que resulten con valores de AU>0.91 en sus nodos. Estos rectángulos permitirán
+ ver los grandes grupos sin perder robustez, dado que prefiero el enfoque de ag
+rupador (*lumper*) por encima del desglosador (*splitter*); con esto además evi
+to la tendencia de dividir en demasiados grupos pequeños, la cual vengo evitand
+o desde análisis anteriores por el alto grado de autocorrelación espacial que a
+fecta a los datos de BCI.[] 
+ []
+
+
+Overfull \hbox (1154.19745pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' - Líneas inferiores rojas, que resaltan aquellos grupos
+ (o subgrupos) que obtuvieron AU>0.95. Estos grupos son considerados como sólid
+amente coherentes, es decir, aquellos cuya singularidad es prácticamente indisc
+utible. No obstante, suelen ser pequeños con relación a los anteriores.[] 
+ []
+
+
+Overfull \hbox (1454.09111pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' Ten presente que, al realizar remuestreo por *bootstrap
+* multiescalar, cada corrida puede arrojar resultados diferentes, dado que el p
+rocedimiento implica remuestreo. No obstante, los patrones indiscutibles estará
+n siempre presentes en cada corrida. Para garantizar reproducibilidad, utilicé 
+el argumento `iseed` en la función `pvclust`.[] 
+ []
+
+[50]
+Overfull \hbox (248.8581pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' Detecto algunos patrones consistentes en cuanto a grupo
+s de sitios según composición de las especies de mi familia asignada:[] 
+ []
+
+
+Overfull \hbox (786.40334pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' - Tanto en UPGMA como en Ward, detecté al menos dos o t
+res grandes grupos. Con el primer método, UPGMA, noté buena coincidencia entre 
+el número de grupos detectados por el criterio de *silhouette width* y por `pvc
+lust`.[] 
+ []
+
+
+Overfull \hbox (1273.02324pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' - En el caso específico del dendrograma Ward, `pvclust`
+ atomizó los sitios en demasiados grupos. Este resultado podría ser de interés 
+para determinados análisis, como por ejemplo, si se consideraran microhábitats 
+muy específicos o si entre mis familia asignada se registrasen especialistas mu
+y selectivos.[] 
+ []
+
+
+Overfull \hbox (1148.53908pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' Para conservar las clasificaciones de grupos de sitios 
+anteriores, crearé un vector con el identificador del grupo al que pertenece ca
+da grupo. Es importante imprimir el resultado, para confirmar que los sitios es
+tén ordenados según aparecen en las matrices de comunidad y ambiental.[] 
+ []
+
+
+Overfull \hbox (1086.297pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' En este caso, los sitios del 1 al 13 pertenecen al grup
+o 1, los sitios 14 y 19 pertenecen al grupo 2, nuevamente, del 15 al 18 pertene
+cen al grupo 1, los sitios del 20 al 50 10 pertenecen al grupo 1. Preguntaré cu
+ántos sitios hay en cada grupo mediante la función `table`:[] 
+ []
+
+
+Overfull \hbox (1912.41916pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' Nota lo desiguales que son estos grupos, un efecto espe
+rado dado el alto grado de autocorrelación espacial que tienen entre sí los cua
+dros de 1 Ha de BCI. Este desequilibrio afecta las inferencias que realizaré en
+ *scripts* posteriores, pero para fines didácticos los realizaré de todas maner
+as. No obstante, en tu caso, esperaría y desearía que tu familia asignada ofrez
+ca resultados de agrupamiento más equilibrados.[] 
+ []
+
+[51]
+Overfull \hbox (1601.20876pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' Evita usar este, y cualquier otro procedimiento, de man
+era mecánica. En tu caso, quizá tengas que cortar tus dendrogramas en más o men
+os grupos de sitios. También podría resultar que alguno de dichos métodos, o am
+bos, sean irrelevante para tu caso, por lo que probablemente tendrás que elegir
+ otro que haga sentido ecológico a tus datos (por ejemplo, *complete*).[] 
+ []
+
+
+Overfull \hbox (758.11148pt too wide) in paragraph at lines 2509--2509
+[]\T1/cmtt/m/n/10.95 #' En el próximo *script*, aprenderás a comparar este resu
+ltado con las variables ambientales. También podrás evaluar cómo se distribuyen
+ los grupos de sitios en un mapa, usando las herramientas del paquete `mapview`
+.[] 
+ []
+
+
+Overfull \hbox (203.59113pt too wide) in paragraph at lines 2700--2700
+[]\T1/cmtt/m/n/10.95 #' title: "Análisis de agrupamiento (cluster analysis). <b
+r> Parte 3: Grupos (clústers), variables ambientales y mapas"[] 
+ []
+
+
+Overfull \hbox (28.18163pt too wide) in paragraph at lines 2700--2700
+[]\T1/cmtt/m/n/10.95 table(grupos_upgma_k2) #Importante, tener en cuenta los de
+siguales tamaños de los grupos[] 
+ []
+
+
+Overfull \hbox (2178.3626pt too wide) in paragraph at lines 2700--2700
+[]\T1/cmtt/m/n/10.95 #' Para evaluar homogeneidad de promedios usaré las prueba
+s *t* (medias), basada en la distribución *t* de *Student*, y la prueba no para
+métrica de la suma de rangos de Wilcoxon (medianas), usando como variable de ag
+rupamiento los grupos establecidos en el agrupamiento UPGMA. Nota que en mi cas
+o UPGMA clasifica los sitios en dos grupos, pero en tu caso podría ser distinto
+ (para evaluar homogeneidad de promedios de un número mayor de grupos, ver secc
+ión siguiente).[] 
+ []
+
+
+Overfull \hbox (67.79022pt too wide) in paragraph at lines 2700--2700
+[]\T1/cmtt/m/n/10.95 #' Primero crearé un objeto que permita realizar tanto las
+ pruebas como los diagramas de cajas.[] 
+ []
+
+[52]
+Overfull \hbox (1646.47572pt too wide) in paragraph at lines 2700--2700
+[]\T1/cmtt/m/n/10.95 #' Interesa observar las variables que obtuvieron valores 
+de p<0.01. Reitero que, en mi caso, mis grupos resultaron muy desiguales, recor
+dando: el grupo 1 tiene 48 sitios (48) y el grupo 2 tiene 2. Este desigual núme
+ro de sitios por grupo, hace que la prueba estadística pierda potencia, porque 
+se viola la recomendación de evitar tamaños de los tratamientos muy desiguales.
+[] 
+ []
+
+
+Overfull \hbox (1737.00966pt too wide) in paragraph at lines 2700--2700
+[]\T1/cmtt/m/n/10.95 #' Por otra parte, este es un buen momento para "revisitar
+" tus análisis exploratorios de datos (AED), específicamente el análisis de cor
+relación (*script* 5). Es probable que algunas de las variables ambientales que
+ presentaron efecto entre grupos (las que obtuvieron p<0.01), te aparezca tambi
+én como significativamente correlacionada con la abundancia o la riqueza en el 
+script 5 de AED.[] 
+ []
+
+[53]
+Overfull \hbox (135.69067pt too wide) in paragraph at lines 2700--2700
+[]\T1/cmtt/m/n/10.95 #' Mapa de una de las variables donde se presentó efecto d
+e su promedio (p<0.01), en este caso, Zinc (`Zn`)[] 
+ []
+
+
+Overfull \hbox (554.41013pt too wide) in paragraph at lines 2700--2700
+[]\T1/cmtt/m/n/10.95 #' Pruebas, en este caso ANOVA (evalúa homogeneidad de med
+ias; no se cumplen muchos de los supuestos requeridos para esta prueba) y Krusk
+al-Wallis (evalúa homogeneidad de medianas):[] 
+ []
+
+[54]
+Overfull \hbox (124.37393pt too wide) in paragraph at lines 2700--2700
+[]\T1/cmtt/m/n/10.95 #' Mapa de una de las variables donde se presentó efecto d
+e su promedio (p<0.01), en este caso, pH (`pH`)[] 
+ []
+
+[55]
+Overfull \hbox (265.8332pt too wide) in paragraph at lines 2797--2797
+[]\T1/cmtt/m/n/10.95 #' title: "Análisis de agrupamiento (cluster analysis). <b
+r> Parte 4: Especies indicadoras, especies con preferencia por hábitats"[] 
+ []
+
+[56]
+Overfull \hbox (152.66579pt too wide) in paragraph at lines 2797--2797
+[]\T1/cmtt/m/n/10.95 #' ## Análisis de especies con preferencia por hábitat med
+iante el coeficiente de correlación biserial puntual[] 
+ []
+
+[57]
+Overfull \hbox (73.4486pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' title: "Técnicas de ordenación. <br> Parte 1: Ordenació
+n no restringida. <br> PCA, CA y PCoA"[] 
+ []
+
+
+Overfull \hbox (2483.91463pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' La ordenación se basa en los mismos principios que la m
+edición de asociación (similaridad) y el agrupamiento: un objeto se caracteriza
+ por sus propiedades en un espacio n-dimensional, donde cada dimensión es una v
+ariable, un descriptor. Un simple diagrama de dispersion nos serviría para repr
+esentar el caso especial de objetos descritos por sólo dos variables, pero no e
+s lo común. Sin embargo, no podremos encontrar patrones consistentes analizando
+ nuestros datos por pares de variables (e.g. paneles de correlación).[] 
+ []
+
+
+Overfull \hbox (3015.8015pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' A diferencia del análisis de agrupamiento, o como compl
+emento de éste, el análisis de ordenación abarca un conjunto de técnicas que pr
+ocuran reducir la dimensionalidad de los datos. Se intenta representar, en ejes
+ ortogonales (comúnmente dos), la complejidad de todo un conjunto. Todas las té
+cnicas de ordenación representan las principales tendencias de variación de los
+ datos en un espacio de dimensiones reducidas, ordenando de manera convencional
+ los ejes con grado descendente de varianza explicada en cada eje sucesivo (e.g
+. en n dimensiones, el eje 1 explica la mayor varianza, el eje n explica la mín
+ima).[] 
+ []
+
+
+Overfull \hbox (2783.80829pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' El análisis de ordenación puede ser no restringido (o s
+imple) y restringido (o 'canónico'). En el primer caso, las tendencias detectad
+as en el conjunto de datos de interés, no están restringidas por otro conjunto,
+ por ejemplo, si buscamos tendencias en una matriz de comunidad, y sólo en ella
+. En el segundo caso, las tendencias detectadas en un conjunto de datos se asoc
+ian a otro conjunto, por ejemplo, si buscamos tendencias en una matriz de comun
+idad pero restringiéndolas a una matriz ambiental. En este script me concentrar
+é en la ordenación no restringida o simple.[] 
+ []
+
+
+Overfull \hbox (3106.33543pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' Las principales técnicas de ordenación no restringida s
+on análisis de componentes principales o PCA (siglas de *principal components a
+nalysis*), análisis de correspondencia o CA (*correspondence analysis*), anális
+is de correspondencia múltiple o MCA (*multiple correspondence analysis*), anál
+isis de coordenadas principales o PCoA (*principal coordinates analysis*) y esc
+alamiento multidimensional no métrico o NMDS (*non-metric multidimensional scal
+ing*). Salvo el NMDS, todas estas técnicas se basan en la extracción de los vec
+tores propios (*eigenvectors*) de una matriz de asociación. Explicaré PCA, CA y
+ PCoA a continuación.[] 
+ []
+
+
+Overfull \hbox (4085.23361pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' Es el método tradicional basado en vectores propios que
+ comúnmente se aplica a datos cuantitativos no procesados, que preserva la dist
+ancia euclídea; también se aplica a datos de especies, previa transformación de
+ los datos. Por esta razón, es más común aplicarlo a variables ambientales (mat
+riz ambiental), pero también se aplica a datos transformados de composición (ma
+triz de comunidad). Un requisito fundamental para garantizar la eficiencia de e
+ste método, es que las variables deben tener algún grado de correlación entre s
+í, un supuesto a veces imposible de lograr con datos no procesados de matrices 
+de comunidad, pero que sí es bastante común en matrices ambientales. Primero ex
+plicaré su uso con un subconjunto de variables ambientales (suelo), para luego 
+aplicarlo a una matriz de comunidad.[] 
+ []
+
+[58]
+Overfull \hbox (1131.56396pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' Para aplicar PCA a datos ambientales, es necesario que 
+todas las variables sean numéricas y "comparables" en cuanto a escalas de medic
+ión. Esto se consigue "escalándolas" (convirtiéndolas en puntuaciones z). A par
+tir de la matriz escalada, se generará una matriz de correlaciones.[] 
+ []
+
+
+Overfull \hbox (684.55266pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' Dado que se requiere que las variables de entrada sean 
+exclusivamente numéricas, el primer paso que realizaré será obtener un conjunto
+ de columnas numéricas y, de éstas, seleccionaré sólo las de suelo.[] 
+ []
+
+
+Overfull \hbox (1374.87392pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' ½IMPORTANTE! Haré esta demostración sólo con las variab
+les de suelo, **pero puedes (y debes) ordenar los sitios en función de otras va
+riables, por ejemplo, las geomorfológicas combinadas con la de hábitat y la de 
+heterogeneidad ambiental**. Por tal razón, haz también el PCA para las demás va
+riables de la matriz ambiental.[] 
+ []
+
+
+Overfull \hbox (673.23592pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' A partir de los datos de suelo, la función `rda`, de `v
+egan` realizará los siguientes pasos: escalar las variables originales, calcula
+r matriz de correlaciones y obtener vectores propios para el PCA.[] 
+ []
+
+
+Overfull \hbox (910.8875pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' Para agilizar la producción de scripts analíticos de re
+ferencia, trasladaré las explicaciones de cada resultado a los vídeos regulares
+ que alojo en el repositorio de la asignatura. En ellos explicaré cómo interpre
+tar éste y otros resultados.[] 
+ []
+
+[59]
+Overfull \hbox (610.99384pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' Comparar con resultados de un análisis de agrupamiento 
+del mismo conjunto de datos. Primero agrupo mis sitios basado en la misma matri
+z ambiental fuente del PCA (`env_suelo`), escalándola.[] 
+ []
+
+
+Overfull \hbox (978.78795pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' Observa que estoy generando un agrupamiento basado en l
+os datos de suelo. No estoy comparando un agrupamiento externo o anterior (e.g.
+ como los creados en los scripts "aa_analisis_de_agrupamiento*"). Sin embargo, 
+dicha comparación es deseable y posible.[] 
+ []
+
+
+Overfull \hbox (220.56624pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' Luego calculo las puntuaciones de los sitios para usarl
+as luego como coordenadas de los puntos que añadires al gráfico:[] 
+ []
+
+
+Overfull \hbox (322.41692pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' Luego creo el gráfico base, coloco los puntos sobre el 
+gráfico usando las puntuaciones, les coloco rótulos y, finalmente, coloco leyen
+da:[] 
+ []
+
+
+Overfull \hbox (282.80832pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' Es razonable que el análisis cluster y el biplot muestr
+en patrones consistentes, puesto que se basan en la misma matriz ambiental.[] 
+ []
+
+[60]
+Overfull \hbox (497.82642pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' Si hago lo mismo, pero usando mi análisis de agrupamien
+to anterior (*scripts* "aa_analisis_de_agrupamiento_*"), no obtengo resultados 
+consistentes, al menos en mi caso.[] 
+ []
+
+
+Overfull \hbox (4962.28111pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' Esto podría significar que las tendencias/patrones de m
+i matriz de comunidad (cuadros de 1 Ha de BCI según composición), no se asocian
+/no son consistentes con variables de suelo según el PCA. Es probable que, usan
+do una combinación diferente de variables ambientales, se puedan extraer patron
+es. No recomiendo identificar variables ambientales de forma meramente heurísti
+ca, porque sería equivalente a pescar; recomiendo construir una matriz ambienta
+l de variables seleccionadas a partir de patrones de dependencia identificados 
+en scripts anteriores. Concretamente, en el script [aa_analisis_de_agrupamiento
+_3_variables_ambientales_segun_grupos.R](aa_analisis_de_agrupamiento_3_variable
+s_ambientales_segun_grupos.R) identifiqué posibles variables asociadas según lo
+s distintos agrupamientos realizados. Si fuese tu caso, te recomiendo construir
+ una matriz ambiental con dichas variables y probar la consistencia de los méto
+dos de ordenación y agrupamiento.[] 
+ []
+
+[61]
+Overfull \hbox (594.01872pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' Si intentáramos realizar el PCA a datos de comunidad no
+ transformados, no recogeríamos apropiadamente las tendencias y patrones, debid
+o a la presencia de doble-ceros y valores extremos.[] 
+ []
+
+
+Overfull \hbox (1074.98026pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' Las especies que contribuyen mucho a los ejes 1 y 2 del
+ PCA (aquellas cuyos vectores sobresalen el círculo de contribución uniforme), 
+podrían coincidir con aquellas que podríamos considerar como especies indicador
+as o que muestran preferencias por determinados hábitats.[] 
+ []
+
+
+Overfull \hbox (101.74045pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' Evaluaré el ajuste del PCA de datos de comunidad a dato
+s ambientales, mediante la función `envfit`[] 
+ []
+
+
+Overfull \hbox (429.92596pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' Comento los resultados en el vídeo asociado. También pr
+obaré ajuste con todas las numéricas de la matriz ambiental, excluyendo por sup
+uesto la columna `id`:[] 
+ []
+
+
+Overfull \hbox (469.53456pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' NOTA: te recomiendo probar otros métodos de selección d
+e variables, como por ejemplo, usando la función `step` para seleccionar fórmul
+as de modelos basadas en AIC.[] 
+ []
+
+
+Overfull \hbox (79.10696pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' - Las variables deben ser dimensionalmente homogéneas (
+unidades comparables o adimensionales).[] 
+ []
+
+
+Overfull \hbox (356.36714pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' - Es posible usar PCA con dato de presencia/ausencia, e
+n cuyo caso, la matriz de comunidad debe transformarse a Hellinger, cuerdas o l
+og-chord.[] 
+ []
+
+
+Overfull \hbox (130.0323pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' - Las relaciones entre variables se miden por ángulos, 
+no por proximidad de las puntas de los vectores.[] 
+ []
+
+[62] [63]
+Overfull \hbox (1318.2902pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' Las técnicas de ordenación anteriores preservan la dist
+ancia euclídea entre los objetos. Si necesitaras ordenar objetos usando una mét
+rica diferente, por ejemplo, la de Gower para datos mixtos, entonces PCA y CA s
+erían inútiles y, en su lugar, podrías usar PCoA. Paso el resto de la explicaci
+ón al vídeo asociado.[] 
+ []
+
+
+Overfull \hbox (418.60922pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 #' La función que realiza el PCoA en `{vegan}` es `cmdscal
+e` (de *Classical (Metric) Multidimensional Scaling*), y se le suministra una m
+atriz de distancias.[] 
+ []
+
+
+Overfull \hbox (73.4486pt too wide) in paragraph at lines 3121--3121
+[]\T1/cmtt/m/n/10.95 mi_fam_d_bray <- vegdist(mi_fam, method = 'bray') # En rea
+lidad, 'bray' es la opción por defecto[] 
+ []
+
+
+Overfull \hbox (96.08208pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' title: "Técnicas de ordenación. <br> Parte 2: Ordenació
+n restringida o 'canónica'. <br> RDA, CCA"[] 
+ []
+
+[64]
+Overfull \hbox (820.35356pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' Con este conjunto de técnicas de ordenación, las tenden
+cias detectadas en un conjunto de datos se asocian a otro conjunto, por ejemplo
+, al buscar tendencias en una matriz de comunidad  restringiéndolas a una matri
+z ambiental.[] 
+ []
+
+
+Overfull \hbox (3824.94855pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' Las principales técnicas de ordenación restringida son 
+análisis de redundancia o RDA (siglas de *Redundancy Analysis*), análisis de re
+dundancia basado en distancia o db-RDA (*distance-based redundancy analysis*), 
+análisis de correspondencia canónica o CCA (*canonical correspondence analysis*
+), análisis discriminante lineal o LDA (*lineal discriminant analysis*), curvas
+ de respuesta principales o PRC (*principal response curves*), análisis de corr
+espondencia conjunto o CoCA (*co-correspondence analysis*), análisis de correla
+ción canónica o CCorA (*canonical correlation analysis*), análisis de inercia c
+onjunto o CoIA (*co-inertia analysis*) y análisis factorial múltiple o MFA (*mu
+ltiple factor analysis*). En este script me concentraré en RDA y CCA.[] 
+ []
+
+
+Overfull \hbox (1748.3264pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' En el análisis de ordenación simple o no restringida, l
+a matriz de datos (de comunidad o ambiental) expresa libremente las relaciones 
+entre objetos, sin restricciones de ningún tipo. Se trata, por lo tanto, de un 
+enfoque exploratorio. **La ordenación canónica, por su parte, explora de manera
+ explícita las relaciones entre dos matrices: una matriz de respuesta y una mat
+riz explicativa**.[] 
+ []
+
+
+Overfull \hbox (1035.37166pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' RDA combina la regresión y el análisis de componentes p
+rincipales. El RDA es una regresión lineal múltiple aplicada a múltiples variab
+les de respuesta (multivariado), seguido de un PCA de la matriz de valores ajus
+tados. En detalle, el procedimiento se resume así:[] 
+ []
+
+
+Overfull \hbox (842.98705pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' - Cada variable de respuesta (e.g. matriz de comunidad)
+ es ajustada (por regresión) a la matriz explicativa, de donde se obtienen valo
+res ajustados con sus residuos. Con estos valores se construye una matriz de va
+lores ajustados.[] 
+ []
+
+
+Overfull \hbox (2014.26984pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' - Se prueba significancia estadística de la relación en
+tre las variables de respuesta y explicativas (e.g. matriz de ambiental); ya sa
+bes, de nuevo, el valor de *p*, o dicho correctamente, la probabilidad de que e
+l efecto observado sea por azar, por lo que, si el valor de *p* es muy pequeño,
+ entonces consideramos que hay efecto (o lo que es lo mismo, las variables inde
+pendientes explican más de lo que hacen datos generados al azar).[] 
+ []
+
+
+Overfull \hbox (922.20424pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' - Si la prueba resulta significativa, se realiza un PCA
+ de la matriz de valores ajustados. Esto produce un vector de valores propios "
+canónicos" (*canonical eigenvalues*) y una matriz de vectores propios "canónico
+s" (*canonical eigenvectors*).[] 
+ []
+
+
+Overfull \hbox (248.8581pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' - Luego se usa la matriz de vectores propios canónicos 
+para calcular dos tipos de puntuaciones de sitios para la ordenación:[] 
+ []
+
+
+Overfull \hbox (1024.05492pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #'     - Usando la matriz de valores ajustados para obtene
+r una ordenación en el espacio de las variables explicativas, lo cual produce p
+untuaciones de sitios ajustadas (*Site constraints (linear combinations of cons
+training variables)* en terminología `{vegan}`).[] 
+ []
+
+
+Overfull \hbox (973.12958pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #'     - Usando la matriz de valores centrados de las vari
+ables de respuesta para obtener una ordenación en el espacio de los valores ori
+ginales de las variables de respuesta (*Site scores (weighted averages of speci
+es scores)* en terminología `{vegan}`).[] 
+ []
+
+
+Overfull \hbox (1176.83093pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' Mostraré a continuación ejemplos aplicados a mi familia
+ asignada. Para agilizar, trasladaré las explicaciones más detalladas de cada r
+esultado a los vídeos regulares que alojo en el repositorio de la asignatura, d
+onde encontrarás las claves sobre cómo interpretar éste y otros resultados.[] 
+ []
+
+
+Overfull \hbox (984.44632pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' Nota (de nuevo): recuerda que los datos de BCI están au
+tocorrelacionados espacialmente, por lo que los patrones que encuentres estarán
+ siempre afectados por el incumplimiento del supuesto de independencia; no obst
+ante, el ejercicio es bastante didáctico.[] 
+ []
+
+[65]
+Overfull \hbox (3072.38521pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' - La varianza, particionada, de la cual se muestra tant
+o la inercia (absoluta) como la proporción, y está repartida entre restringida 
+(*constrained*=0.61) y no restringida (*unconstrained*=0.39). La parte restring
+ida es equivalente al R<sup>2</sup> no ajustado del análisis de regresión. Sin 
+embargo, al igual que ocurre en la regresión, este valor está fuertemente sesga
+do (inflado de varianza por correlación aleatoria o multicolinealidad); además,
+ en el ejemplo, también está afectado por la no independencia de las observacio
+nes. Por esta razón, es prudente calcular el R<sup>2</sup> ajustado o "insesgad
+o" (ver abajo).[] 
+ []
+
+
+Overfull \hbox (3474.12955pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' - Los valores propios (*eigenvalues*) y su contribución
+ a la varianza. Existen *eigenvalues* de los ejes "canónicos", que se refieren 
+a la varianza restringida, rotulados como "RDAx" (en mi caso, 13=número de vari
+ables explicativas o predictoras), y *eigenvalues* de la varianza no restringid
+a, o residuos (varianza no explicada por el modelo), rotulados como "PCAx" (en 
+mi caso, 16=número especies). La proporción de varianza restringida explicada d
+el encabezado coincide con la proporción acumulada en RDA13 (=0.61), y la propo
+rción de varianza total (=1) coincide con proporción acumulada en PCA16. La no 
+restringida (=0.39), resulta de la acumulación de los residuos, es decir, de lo
+s PCAx.[] 
+ []
+
+
+Overfull \hbox (226.22461pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' - Las puntuaciones de sitios (*site scores*) y de espec
+ies (*species scores*) tienen el mismo significado que en el PCA.[] 
+ []
+
+
+Overfull \hbox (809.03682pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' - Las puntuaciones restringidas de sitio (en `{vegan}` 
+se usa la etiqueta *Site constraints (linear combinations of constraining varia
+bles)*), y son las coordenadas de los sitios en el espacio de las variables exp
+licativas.[] 
+ []
+
+
+Overfull \hbox (248.8581pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' - Finalmente, el resumen presenta las puntuaciones para
+ el *biplot*, que más adelante usaré en un diagrama algo enriquecido.[] 
+ []
+
+
+Overfull \hbox (1448.43274pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' Tal como comenté arriba, es importante calcular un R<su
+p>2</sup> insesgado, siendo este más útil cuando el número de variables (en el 
+RDA, "variables" se refiere a las ambientales) es menor que la mitad del número
+ de sitios. Sea *m* el número de variables, y *n* el número de sitios; en mi ca
+so, *m=13*, *n=50->n/2=25*, así que *m<n/2*.[] 
+ []
+
+
+Overfull \hbox (1108.93048pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' Normalmente, el R<sup>2</sup> insesgado es mucho más ba
+jo que el sesgado, porque se relativiza en función de la razón de grados de lib
+ertad. Mientras más alejado de cero se encuentre el valor de R<sup>2</sup>, may
+or cantidad de varianza explicada insesgada contiene el modelo.[] 
+ []
+
+
+Overfull \hbox (588.36035pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' Otro diagnóstico importante es la determinación de los 
+factores de inflación de la varianza (*variance inflation factors*, VIF), el cu
+al explora posible multicolinealidad en el modelo.[] 
+ []
+
+
+Overfull \hbox (2936.5843pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' Variables con valores por encima de 10 deben ser examin
+adas y, desde una posición conservadora, deben excluirse, comenzando por las de
+ mayor VIF y excluyendo una, a lo sumo dos, a la vez. Por ejemplo, en este caso
+, las variables `Ca`, `K`, `Mg` y `Zn` deberían excluirse. No se deben excluir 
+todas a la vez, puesto que al quitar una variable, los VIF se reajustan; es dec
+ir, una variable con efecto de colinealidad podría no tenerlo ante la exclusión
+ de una o varias alternas. Exploraré el potencial de los VIF en el siguiente ej
+emplo, donde realizó un RDA con más variables, además de las de suelo.[] 
+ []
+
+
+Overfull \hbox (1193.80605pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' Finalmente, la representación del modelo se realiza en 
+un *triplot*, que es un gráfico enriquecido, puesto que contiene tres elementos
+: sitios, variables de respuesta (especies) y variables explicativas (variables
+ ambientales). Para los sitios se usan las puntuaciones restringidas de sitio.[
+] 
+ []
+
+[66]
+Overfull \hbox (16.86488pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' Paso la interpretación de este gráfico y la del siguien
+te al vídeo correspondiente.[] 
+ []
+
+
+Overfull \hbox (328.07529pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' El RDA anterior mostró que las variables de suelo son ú
+tiles para predecir la matriz de comunidad. No obstante, se evidenciaron dos co
+sas:[] 
+ []
+
+
+Overfull \hbox (11.20651pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' - No se probó mejorar el modelo añadiendo otras variabl
+es, además de las de suelo.[] 
+ []
+
+
+Overfull \hbox (1233.41464pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' Crearé una matriz ambiental con las variables que resul
+taron significativas en el ajuste *post-hoc* (pasivo) durante la ordenación no 
+restringida, para obtener un RDA comprensivo. A continuación, evaluaré colineal
+idad tanto mediante VIF como gráficamente, e iré excluyendo variables paulatina
+mente:[] 
+ []
+
+
+Overfull \hbox (305.4418pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' Haré el plot del escalamiento 2 para comprobar gráficam
+ente asociación entre variables sin las flechas de especies (para simplificar):
+[] 
+ []
+
+[67]
+Overfull \hbox (3847.58203pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' Tal como comenté arriba, variables con valores VIF por 
+encima de 10, deben ser examinadas. En el arreglo actual, parecen estar asociad
+as `Ca`, y `Mg` y, por otra parte, `Zn` y `K`. Es preferible sacar una de cada 
+par, para que la retenida explique la varianza correspondiente en cada caso. En
+tre `Mg` y `Ca`, no tengo preferencia por razones biogeoquímicas, así que exclu
+yo a `Ca` por tener mayor VIF. No obstante, entre `K` y `Zn`, sin duda prefiero
+ excluir a `K`, puesto que el zinc participa en la síntesis de proteínas de las
+ plantas. Finalmente, nótese que `pH` y `N` lucen asociadas en este arreglo, pe
+ro esto podría deberse a la introducción de nuevas variables o a la colinealida
+d preexistente, así que las conservo para decidir con ellas más adelante.[] 
+ []
+
+
+Overfull \hbox (1578.57527pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' Nota que las posiciones rotaron, no así la asociación e
+ntre la mayoría de las variables. `B` ahora luce asociado con `N.min.`, pero es
+te último es muy importante para las plantas, por lo que excluiré al primero, q
+ue además presenta VIF más alto. Por otra parte, `Fe` y `Mg` interactúan fuerte
+mente en este arreglo, por lo que excluiré `Mg` (con VIF más alto).[] 
+ []
+
+
+Overfull \hbox (565.72687pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' Finalmente, la coordenada `UTM.EW` tiene un alto valor 
+VIF, por lo que es preferible excluirla; su retiro mejorará los VIF de las demá
+s variables, como por ejemplo `Zn` y `N.min.`.[] 
+ []
+
+[68]
+Overfull \hbox (3360.96213pt too wide) in paragraph at lines 3439--3439
+[]\T1/cmtt/m/n/10.95 #' Las variables `N.min.` y `Zn` ahora presentan valores V
+IF aceptables. Habrás notado que es todo un arte la selección interactiva de va
+riables; si este enfoque te parece complejo o arbitrario, hay alternativas semi
+automáticas. Tal como comenté anteriormente, es posible localizar modelos de ma
+nera algorítmica usando la función `step` (y otros métodos de la misma función,
+ aunque en `{vegan}` se usa `ordistep`), ahorrando algunos pasos, pero su desar
+rollo supera el alcance de esta guía. Considero válido (y oportuno) buscar vari
+ables de manera interactiva, puesto que la selección debe estar controlada por 
+el criterio ecológico y humano, más que por el meramente numérico.[] 
+ []
+
+[69] [70]
+Overfull \hbox (345.0504pt too wide) in paragraph at lines 3642--3642
+[]\T1/cmtt/m/n/10.95 source('https://raw.githubusercontent.com/maestria-geotel-
+master/unidad-3-asignacion-1-vecindad-autocorrelacion-espacial/master/lisaclust
+ers.R')[] 
+ []
+
+[71]
+Overfull \hbox (5.54814pt too wide) in paragraph at lines 3642--3642
+[]\T1/cmtt/m/n/10.95 suppressWarnings(invisible(lapply(auto_spp_hel, function(x
+) plot(x, main = x$var))))[] 
+ []
+
+[72]
+Overfull \hbox (4045.62502pt too wide) in paragraph at lines 3642--3642
+[]\T1/cmtt/m/n/10.95 #' Para aplicar la prueba Mantel a datos de comunidad, es 
+necesario quitar la tendencia espacial. Para ello, primero hay que ajustar la m
+atriz de comunidad transformada por Hellinger (abundancias transformadas de esp
+ecies como variables de respuesta) a la matriz de posiciones XY (coordenadas XY
+ como variables explicativas). El modelo resultante explicará las abundancias d
+e especies transformadas  según la posición. Los residuos de dicho modelo, cont
+endrán la proporción de las abundancias transformadas no explicada por la posic
+ión. Si dicha proporción presenta autocorrelación espacial (cuadros de 1 Ha cer
+canos entre sí que presentan correlación positiva o negativa), entonces es prob
+able que se esté frente a un caso de dependencia espacial inducida por una vari
+able interveniente (e.g. pH).[] 
+ []
+
+
+Overfull \hbox (11.20651pt too wide) in paragraph at lines 3642--3642
+[]\T1/cmtt/m/n/10.95 #' ## Autocorrelación espacial por medio de pruebas de per
+mutación para el I de Moran[] 
+ []
+
+
+Overfull \hbox (16.86488pt too wide) in paragraph at lines 3642--3642
+[]\T1/cmtt/m/n/10.95 #' ### I de Moran global aplicado a abundancia de especies
+ transformadas sin tendencia[] 
+ []
+
+[73]
+Overfull \hbox (45.15674pt too wide) in paragraph at lines 3642--3642
+[]\T1/cmtt/m/n/10.95 lisamaps_amb <- sapply(grep('geometry', names(bci_env_grid
+_num_sf), invert = T, value = T),[] 
+ []
+
+
+Overfull \hbox (147.00742pt too wide) in paragraph at lines 3642--3642
+[]                                      \T1/cmtt/m/n/10.95 tituloleyenda = 'Sig
+nificancia ("x-y", léase como "x" rodeado de "y")',[] 
+ []
+
+
+Overfull \hbox (84.76534pt too wide) in paragraph at lines 3642--3642
+[]                                      \T1/cmtt/m/n/10.95 fuentedatos = '\nhtt
+p://ctfs.si.edu/webatlas/datasets/bci/',[] 
+ []
+
+
+Overfull \hbox (28.18163pt too wide) in paragraph at lines 3642--3642
+[]                                      \T1/cmtt/m/n/10.95 titulomapa = paste0(
+'Clusters LISA de "', x, '"'))[] 
+ []
+
+
+Overfull \hbox (277.14995pt too wide) in paragraph at lines 3642--3642
+[]\T1/cmtt/m/n/10.95 lisamaps_amb$leyenda <- gtable_filter(ggplot_gtable(ggplot
+_build(lisamaps_amb[[1]] + theme(legend.position="bottom"))), "guide-box")[] 
+ []
+
+
+Overfull \hbox (220.56624pt too wide) in paragraph at lines 3642--3642
+[]\T1/cmtt/m/n/10.95 grid.arrange(do.call('arrangeGrob', c(lisamaps_amb[1:12], 
+nrow = 3)), lisamaps_amb$leyenda, heights=c(1.1, 0.1), nrow = 2)[] 
+ []
+
+
+Overfull \hbox (226.22461pt too wide) in paragraph at lines 3642--3642
+[]\T1/cmtt/m/n/10.95 grid.arrange(do.call('arrangeGrob', c(lisamaps_amb[13:22],
+ nrow = 3)), lisamaps_amb$leyenda, heights=c(1.1, 0.1), nrow = 2)[] 
+ []
+
+
+Overfull \hbox (226.22461pt too wide) in paragraph at lines 3642--3642
+[]\T1/cmtt/m/n/10.95 grid.arrange(do.call('arrangeGrob', c(lisamaps_amb[23:31],
+ nrow = 3)), lisamaps_amb$leyenda, heights=c(1.1, 0.1), nrow = 2)[] 
+ []
+
+
+Overfull \hbox (28.18163pt too wide) in paragraph at lines 3642--3642
+[]                 \T1/cmtt/m/n/10.95 tituloleyenda = 'Significancia ("x-y", lé
+ase como "x" rodeado de "y")',[] 
+ []
+
+
+Overfull \hbox (299.78343pt too wide) in paragraph at lines 3642--3642
+[]\T1/cmtt/m/n/10.95 lisamaps_mifam$leyenda <- gtable_filter(ggplot_gtable(ggpl
+ot_build(lisamaps_mifam[[1]] + theme(legend.position="bottom"))), "guide-box")[
+] 
+ []
+
+
+Overfull \hbox (237.54135pt too wide) in paragraph at lines 3642--3642
+[]\T1/cmtt/m/n/10.95 grid.arrange(do.call('arrangeGrob', c(lisamaps_mifam[1:8],
+ nrow = 3)), lisamaps_mifam$leyenda, heights=c(1.1, 0.1), nrow = 2)[] 
+ []
+
+
+Overfull \hbox (718.50288pt too wide) in paragraph at lines 3642--3642
+[]\T1/cmtt/m/n/10.95 # grid.arrange(do.call('arrangeGrob', c(lisamaps_mifam[9:1
+6], nrow = 3)), lisamaps_mifam$leyenda, heights=c(1.1, 0.1), nrow = 2)    ## Co
+mo solo tengo 7 especies en mi familia esta línea no aplica para mi caso.[] 
+ []
+
+[74]
+Overfull \hbox (113.05719pt too wide) in paragraph at lines 3642--3642
+[]\T1/cmtt/m/n/10.95 mi_fam_sintendencia_sf <- bci_env_grid %>% select %>% bind
+_cols(mi_fam_sin_tendencia %>% as.data.frame)[] 
+ []
+
+
+Overfull \hbox (28.18163pt too wide) in paragraph at lines 3642--3642
+[]                 \T1/cmtt/m/n/10.95 tituloleyenda = 'Significancia ("x-y", lé
+ase como "x" rodeado de "y")',[] 
+ []
+
+
+Overfull \hbox (446.90108pt too wide) in paragraph at lines 3642--3642
+[]\T1/cmtt/m/n/10.95 lisamaps_mifam_sintendencia$leyenda <- gtable_filter(ggplo
+t_gtable(ggplot_build(lisamaps_mifam_sintendencia[[1]] + theme(legend.position=
+"bottom"))), "guide-box")[] 
+ []
+
+
+Overfull \hbox (384.659pt too wide) in paragraph at lines 3642--3642
+[]\T1/cmtt/m/n/10.95 grid.arrange(do.call('arrangeGrob', c(lisamaps_mifam_sinte
+ndencia[1:8], nrow = 3)), lisamaps_mifam_sintendencia$leyenda, heights=c(1.1, 0
+.1), nrow = 2)[] 
+ []
+
+
+Overfull \hbox (842.98705pt too wide) in paragraph at lines 3642--3642
+[]\T1/cmtt/m/n/10.95 # grid.arrange(do.call('arrangeGrob', c(lisamaps_mifam_sin
+tendencia[9:16], nrow = 3)), lisamaps_mifam_sintendencia$leyenda, heights=c(1.1
+, 0.1), nrow = 2) ## Como solo tengo 7 especies en mi familia esta línea no apl
+ica para mi caso[] 
+ []
+
+
+Overfull \hbox (6.34013pt too wide) in paragraph at lines 3667--3669
+[]\T1/ppl/m/n/10.95 Britannica, E. (2016). \T1/ppl/m/it/10.95 Myr-taceae\T1/ppl
+/m/n/10.95 . Re-trieved from [][]$https : / / www . britannica . com / plant / 
+Myrtaceae$[][] 
+ []
+
+[75]
+Overfull \hbox (45.81474pt too wide) in paragraph at lines 3717--3719
+[]\T1/ppl/m/n/10.95 Lorenzo-Cáceres, J. M. S. de. (s.f.). \T1/ppl/m/it/10.95 Fa
+-milia myr-taceae\T1/ppl/m/n/10.95 . Re-trieved from [][]$https : / / www . arb
+olesornamentales .
+ []
+
+
+Overfull \hbox (2.94415pt too wide) in paragraph at lines 3741--3745
+[]\T1/ppl/m/n/10.95 Pineda, P. (2014). \T1/ppl/m/it/10.95 Análi-sis del sis-tem
+a de parce-las per-ma-nentes de medi-ción en los bosques de guatemala.
+ []
+
+[76]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3798.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3798.
+(./manuscrito.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3798.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3798.
+
+Package rerunfilecheck Info: File `manuscrito.out' has not changed.
+(rerunfilecheck)             Checksum: DEB15F3FFB58F617E2640EEFBF1B30E9;2706.
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3798.
+ ) 
+Here is how much of TeX's memory you used:
+ 10538 strings out of 492982
+ 148855 string characters out of 6134896
+ 241726 words of memory out of 5000000
+ 13824 multiletter control sequences out of 15000+600000
+ 25696 words of font info for 51 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 36i,6n,34p,1166b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
+fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-supe
+r/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/palatino/uplri8a.pfb>
+Output written on manuscrito.pdf (76 pages, 3502149 bytes).
+PDF statistics:
+ 558 PDF objects out of 1000 (max. 8388607)
+ 448 compressed objects within 5 object streams
+ 143 named destinations out of 1000 (max. 500000)
+ 214 words of extra memory for PDF output out of 10000 (max. 10000000)
+

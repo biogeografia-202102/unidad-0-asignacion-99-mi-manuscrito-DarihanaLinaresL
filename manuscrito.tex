@@ -730,6 +730,58 @@ riqueza alta y una abundancia media, por lo que no se considera que
 tengan relación con la riqueza y la abundancia de la especie, pero si
 tienen una similaridad.
 
+En el caso de los grados de asociación entre las especies, en función de
+abundancia, según señala el mapa de calor ordenado (ver figura
+\ref{fig:asoespec}) obtenido con el método de transfromación \emph{Chi},
+existe un patrón de dependencia alto entre las especies que se
+relacionan en la diagonal desde \emph{Eugenia oerstediana} hasta
+\emph{Eugenia coloradoensis} (cuadros de color rosa intenso centrales),
+y una dependencia moderada entre la especie \emph{Psidium
+friedrichsthalianum} y el resto, a excepción de las especies
+\emph{Myrcia gatunensis} y \emph{Chamguava schippii} que no presentan
+ningún patrón de dependencia con ninguna de las especies de la familia
+\emph{Myrtaceae} presente en la parcela de BCI (cuadros de color azul).
+Conforme al mapa de calor obtenido por la distancia de \emph{Jaccard},
+se confirma la existencia del patrón de dependencia alto entre las
+especies relacionadas en la diagonal desde \emph{Eugenia oerstediana}
+hasta \emph{Eugenia neosiotica}, dejando a las especies \emph{Psidium
+friedrichsthalianum}, \emph{Myrcia gatunensis} y * Chamguava schippi*
+como especies sin dependencia alguna según su abundancia (ver figura
+\ref{fig:dependenciajacc}).
+
+Para las variables edáficas, los índices de correlación obtenidos por el
+método Pearson, indican que existe una relación significativa positiva
+de 0.32 entre la abundancia de \emph{Myrtaceae} y el aluminio; del mismo
+modo, señala que existen relaciones dependientes positiva entre la
+riqueza de \emph{Myrtaceae} y el fósforo (0.36), y el aluminio (0.36),
+por lo que el resto de variables edáficas no tienen una asociación
+significativa positiva con la distribución de las especies y su
+abundancia (ver figura \ref{fig:chivardep}). Lo mismo sucede, usar el
+método de \emph{Spearman}, confirmando que existe una relación positiva
+significativa entre aluminio y la abundancia de \emph{Myrtaceae},
+también, que existe una relación positiva la riqueza de \emph{Myrtaceae}
+con el aluminio y con el fósforo; hay que destacar que se obtuvo un
+índice correlación negativo significativo entre la riqueza de la familia
+y el calcio, por lo que esta variable edáfica y la riqueza de la familia
+no tienen ninguna asociación (ver figura \ref{fig:mspearman}).
+
+La correlación de \emph{Pearson} presenta 6 asociaciones significativas
+entre las variables geomorfológicas y la abundancia de la familia, una
+relación positiva con la geomorfología de \texttt{llanura} (0.51) y con
+\texttt{elevación\ media} (0.29), indicando que tienen existe una
+dependencia significativa. También se obtuvieron asociaciones negativas
+significativas entre la abundancia de la familia y las variables
+\texttt{pendiente\ media}, \texttt{vaguada}, \texttt{vertiente} y
+\texttt{heterogeneidad\ ambiental} (ver figura \ref{fig:pearson_geom}).
+En cambio, la correlación de \emph{Spearman} solo tiene 3 asociaciones
+significativas, de las cuales coinciden las negativas con las variables
+de \texttt{vaguada} y \texttt{heterogeneidad\ ambiental} y una positiva
+con \texttt{elevación\ media} (ver figura \ref{fig:spearm_geom}). En el
+caso de la riqueza, no existe ninguna correlación significativa con las
+variables geomorfológicas en ambos métodos usados, por lo que la riqueza
+de la familia no tiene una dependencia considerable con la
+geomorfología.
+
 \section{Discusión}\label{discusiuxf3n}
 
 \section{Agradecimientos}\label{agradecimientos}
@@ -987,6 +1039,52 @@ sitios son poco similares.\label{fig:suelodis}}
 \texttt{quebrada}). El color fucsia o rosa indica una corta distancia o
 que son muy similares los sitios, y el celeste indica una gran distancia
 o que los sitios son poco similares.\label{fig:mixtadis}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1.00000\textwidth]{dependencia_especies.png}
+\caption{Mapa de asociación entre especies según la abundancia. El color
+rosa indica que existe dependencia y el azul que no existe de
+dependencia.\label{fig:asoespec}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1.00000\textwidth]{depn_espc_jacc.png}
+\caption{Mapa de dependencia entre especies según datos de
+presencia/ausencia. El color rosa indica que existe dependencia y el
+azul que no existe de dependencia.\label{fig:dependenciajacc}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1.00000\textwidth]{Chi_var_edaf_asoc_R.png}
+\caption{Matriz de correlación de Pearson, asociación entre riqueza y
+abundacia de \emph{Myrtaceae} y las variables
+edáficas.\label{fig:chivardep}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1.00000\textwidth]{matriz_correlacion_suelo_abun_riq_spearman.png}
+\caption{Matriz de Spearman, asociación entre riqueza y abundancia de
+\emph{Myrtaceae} con las variables edáficas.\label{fig:mspearman}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1.00000\textwidth]{Matriz_correlacion_pearson.png}
+\caption{Matriz de Pearson, asociación entre riqueza y abundancia de
+\emph{Myrtaceae} y las variables
+geomorfológicas.\label{fig:pearson_geom}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1.00000\textwidth]{matriz_correlacion_geomorf_abun_riq_spearman.png}
+\caption{Matriz de Spearman, asociación entre riqueza y abundancia de
+\emph{Myrtaceae} y las variables geomorfológicas.\label{fig:spear_geom}}
 \end{figure}
 
 \section{\texorpdfstring{\emph{Script}
