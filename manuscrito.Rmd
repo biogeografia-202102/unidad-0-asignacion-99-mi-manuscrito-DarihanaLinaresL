@@ -45,7 +45,7 @@ Desde mediados del siglo XVII es posible visualizar el interés del hombre a est
 
 La ecología numérica se concentra en el estudio y análisis de conjuntos de datos ecológicos, a fin de poder detallar y comprender la configuración de los conjuntos de datos, combinando diversas perspectivas numéricas y disciplinas, procedentes de la Geografía, las matemáticas físicas, taxonomía numérica, parámetros estadísticos y otros más [@legendre2012numerical]. El análisis de conjuntos de datos ecológicos, especialmente de la flora, resulta importante tanto para la ciencia, como para la economía o el sector de salud, por eso se han establecido distintas parcelas permanentes de medición y monitoreo forestal donde se colectan datos sobre la diversidad forestal, su estructura, el crecimiento y su productividad [@pineda2014analisis]. En el estudio de las plantas a través de la Ecología Numérica se usan diversas técnicas que permiten obtener información sobre el rango de asociación, agrupamiento, ordenamiento, diversidad, autocorrelación, etcétera, diferentes herramientas para usar las técnicas.
 
-La medición de la asociación es un coeficiente que sirve para medir y asociar los datos de variables cualitativos y cuantitativos. La medición de estas variables se puede hacer por dos modos el *Q* y el *R*, el primero consiste en hacer una comparación de un dúo de objetos y el segundo consiste en realizar una descripción de un par de objetos y luego compararlos. Para el modo *Q* se miden la asociación según la similaridad o disimilaridad de un par de objetos. Mientras que para el modo R se mide el grado de dependencia existente entre las variables, entre los cuales se puede mencionar la covarianza o el coeficiente de correlación [@borcard2011numerical].
+La medición de la asociación es un coeficiente que sirve para medir y asociar los datos de variables cualitativos y cuantitativos. La medición de estas variables se puede hacer por dos modos el *Q* y el *R*, el primero consiste en hacer una comparación de un dúo de objetos y el segundo consiste en realizar una descripción de un par de objetos y luego compararlos. Para el modo *Q* se miden la asociación según la similitud o disimilitud de un par de objetos. Mientras que para el modo R se mide el grado de dependencia existente entre las variables, entre los cuales se puede mencionar la covarianza o el coeficiente de correlación [@borcard2011numerical].
 
 En cambio, el análisis de agrupamiento o clúster análisis es una técnica que consiste en separar un conjunto de datos y luego estructurarlos, sin dejar uno fuera de lugar, como subconjuntos con distintas categorías o jerarquías de acuerdo a sus características. La finalidad de hacer un agrupamiento es identificar los pequeños grupos dispersos en un espacio discreto pero constante, este agrupamiento divide en conjunto de objetos a estudiar, por lo que es necesario e importante que cada objeto agrupado en otros subgrupos no se encuentre en otros [@borcard2011numerical].
 
@@ -68,7 +68,7 @@ El área usada para este estudio se encuentra en *BCI* (Isla de Barrio Colorado)
 El área de estudio, específicamente, es una parcela permanente forestal para su medición y monitoreo de 50 hectáreas, establecida en 1980 por Stephen Hubbell y Robin Foster, en el bosque húmedo tropical de *BCI*. Esta parcela se caracteriza por su forma rectangular con 1000 m de largo y 400 m de ancho, además, esta se ubica en la parte central de una meseta en la isla [@Hubbell2005barro; @perez2005metodologia]. 
 Los datos extraídos de las especies forestales de la parcela se obtuvieron a través de múltiples censos desde 1982 hasta 2015 (un total de 8 censos), en los cuales se hicieron identificación, marcado y monitoreo de los tallos leñosos individuales de más de 10 mm de diámetro a altura del pecho. Durante los 35 años se censaron más de 350,000 árboles individuales [@Hubbell2005barro]. Ver figura \ref{fig:bci_map}
 
-![Mapa de la Isla Barro Colorado y la parcela permante\label{fig:bci_map}](mapa_cuadros2.png){width=100%}
+![Mapa de la Isla Barro Colorado y la parcela permante.\label{fig:bci_map}](mapa_cuadros2.png){width=100%}
 
 
 # Metodología y materiales
@@ -77,7 +77,7 @@ Para el estudio de la biodiversidad de la familia *Myrtaceae* se usaron los dato
 
 Para iniciar los análisis estadísticos de datos con dimensiones diversas, @buzai2009analisis y @borcard2011numerical, recomiendan realizar un análisis exploratorio de datos (EDA), debido a que es una herramienta imprescindible para conseguir una primera inmediación, información genérica de los datos, realizar transformaciones a variables de ser necesarias, y poder conducir más análisis. Se usaron los paquetes `vegan`, `tidyverse`, `sf`, `mapview` y `RColorBrewer` para cargar los datos censales, matriz de comunidad y matriz ambiental, y así poder extraer los datos de la familia *Myrtaceae*, de las variables ambientales y transformarlos en tablas, matrices, e incluso generar gráficos de mapas. También, se usaron las librerías `psych` y `ez`, en conjunto con las anteriores para ver correlaciones de la *Myrtaceae* con distintas variables ambientales con la función `cor`, y generar mapas de variables ambientales por cada cuadro con `ggplot2`.
 
-La medida de los coeficientes de asociación de la familia *Myrtaceae* con los modos *Q* y *R* [@borcard2011numerical; @salazar2000coeficientes] se realizó mediante funciones pertenecientes a las librerias `vegan`, `adespatial`, `broom`, `tidyverse`, `sf`, `cluster` y `gclus`. En el modo *Q* se mide la abundancia de las especies de *Myrtaceae* con la función `dist.ldc` que calcula la distancia euclídea entre dos sitios y se usa también el método de transformación Hellinger  y así obtener el grado de disimilaridad entre sitios. También, se calculó la distancia de *Jaccard* *Dj* [@jaccard1908nouvelles; @salazar2000coeficientes] utilizando la función `vegdist` que convierte la matriz de comunidad en una de presencia/ausencia para calcular la matriz de distancia. En cuanto a la asociación de las variables ambientales, se hizo un nuevo ambiente con la función `env` para las variables transformadas con la función `scale`. De igual manera, se usó la función `env_mix` para asociar las variables ambientales heterogeneidad ambiental, hábitat y quebrada, generando una matriz de disimilaridad.
+La medida de los coeficientes de asociación de la familia *Myrtaceae* con los modos *Q* y *R* [@borcard2011numerical; @salazar2000coeficientes] se realizó mediante funciones pertenecientes a las librerias `vegan`, `adespatial`, `broom`, `tidyverse`, `sf`, `cluster` y `gclus`. En el modo *Q* se mide la abundancia de las especies de *Myrtaceae* con la función `dist.ldc` que calcula la distancia euclídea entre dos sitios y se usa también el método de transformación Hellinger  y así obtener el grado de disimilitud entre sitios. También, se calculó la distancia de *Jaccard* *Dj* [@jaccard1908nouvelles; @salazar2000coeficientes] utilizando la función `vegdist` que convierte la matriz de comunidad en una de presencia/ausencia para calcular la matriz de distancia. En cuanto a la asociación de las variables ambientales, se hizo un nuevo ambiente con la función `env` para las variables transformadas con la función `scale`. De igual manera, se usó la función `env_mix` para asociar las variables ambientales heterogeneidad ambiental, hábitat y quebrada, generando una matriz de disimilitud.
 
 Con el modo *R* de medición de asociación, se mensuró el grado de asociación entre especies haciendo una transformación de la matriz de comunidad usando la estandarización *Chi* con la función `decostand`, luego se calcula la distancia con la función `dist` y se representa la matriz en un mapa de calor con la función `coldiss`. Se calculó la distancia de *Jaccard* [@jaccard1908nouvelles; @salazar2000coeficientes] entre especies usando la matriz de comunidad transpuesta convertida a una de presencia/ausencia con la función `vegdist`. En cuanto a la asociación de variables ambientales numéricas, usando el índice de *rho* de Spearman con los verbos `select`, `mutate` y `matches` de la herramienta `dplyr` y también la función `cor` para correlación.
 
@@ -108,7 +108,6 @@ Además, se hizo una versión reversa de la matriz Hellinger con `rev` y luego s
 La aplicación de los EDA en el estudio produjo informaciones generales sobre la familia *Myrtaceae*, sus especies, su abundancia, las variables ambientales, y datos generales de correlación con las variables ambientales.
 La parcela de muestreo permanente (de ahora en adelante *pmp*) de 50 hectáreas en BCI tiene 5579 individuos (abundancia) pertenecientes a la familia *Myrtaceae* y una riqueza de 7 especies. Las especies que más destacan por su abundancia son las *Eugenia galalonensis* (1975 individuos) y *Eugenia oerstediana* (1838 individuos), en cambio, las especies con menor número de individuos en la parcela son *Myrcia gatunensis* (56 individuos) y *Psidium friedrichsthalianum* (50 individuos), ver tabla \ref{tab:specabu} y figuras \ref{fig:abumifam} y \ref{fig:riqmifam}.
 
-
 |           Especies          	| Número      	|
 |:---------------------------:	|:-----------:	|
 |     Eugenia galalonensis    	|     1975    	|
@@ -123,12 +122,18 @@ Table: \label{tab:specabu} Abundancia por especies de la familia *Myrtaceae*
 De acuerdo con los resúmenes estadístico el 50% de la abundancia de especies, según la mediana, es mayor de 541 individuos (*Chamguava schippii*) y la abundancia de especie promedio en *pmp* es de 797 individuos. En cuanto a la riqueza de la familia *Myrtaceae*, indica que el 50% de la riqueza, según la mediana, es de 6 especies y una riqueza promedio de 5.5, también hay que agregar que la riqueza mínima es de 4 especies en *pmp*. De igual manera, hay que mencionar que la riqueza y la abundancia varía por cuadro de 1h en *pmp*, arroja que los sitios con mayor riqueza son los cuadros 13, 14, 17, 22 y 40 (7), en cambio los de menor riqueza son los cuadros 2, 5, 11, 36, 46 y 47 (4); y los sitios con mayor abundancia fueron los cuadros 19, 20, 15, 40 y 38, y los de menor abundancia fueron los cuadros 1, 36, 30, 2 y 9; donde coinciden el sitio 40 con mayor riqueza y abundancia por cuadro, y los sitios 2 y 36 con menor riqueza y abundancia, lo que indica que existe una distribución aleatoria y desigual de las riquezas y abundancias en los sitios de *pmp* (ver figura \ref{fig:abuxcua}).
 De las especies de *Myrtaceae* que presentan una correlación simple (de Pearson) positiva significativa, en comparación a las demás, están *Chamguava schippii* y *Eugenia galalonensis* con un índice de correlación de 0.30, también *Chamguava schippii* con *Eugenia Nesiotica* con un índice de correlación de 0.29 (ver figura \ref{fig:corresp}).
 
-En cuanto a las variables ambientales que se destacan en *pmp* están: la geológica, que de acuerdo con el Mapa geológico del canal de Panamá y sus alrededores [@stewart1980geologic] y los resultados de EDA la *pmp* se caracteriza, por sus rocas basalto, tipo intrusiva y extrusiva, del Mioceno medio y superior (Tb). También se caracteriza por tener hábitats de bosque viejo y bajito en su mayoría al oeste de la parcela, en algunas partes del centro y al este de *pmp*; por sus hábitat de bosque viejo y alto al centro y este de *pmp*; se agregan los bosques jóvenes de los sitios 30 y 35;  y los bosques de pendiente baja concentradas al este y con algunos sitios aleatorios en *pmp*; al final, está el bosque de pantano en el centro de *pmp* (ver figura \ref{fig:ambvar}).
+En cuanto a las variables ambientales que se destacan en *pmp* están: la geológica, que de acuerdo con el Mapa geológico del canal de Panamá y sus alrededores [@stewart1980geologic] y los resultados de EDA la *pmp* se caracteriza, por sus rocas basalto, tipo intrusiva y extrusiva, del Mioceno medio y superior (Tb). También se caracteriza por tener hábitats de bosque viejo en relieve bajo en su mayoría al oeste de la parcela, en algunas partes del centro y al este de *pmp*; por sus hábitat de bosque viejo en relieve alto al centro y este de *pmp*; se agregan los bosques jóvenes de los sitios 30 y 35;  y los bosques de pendiente baja concentradas al este y con algunos sitios aleatorios en *pmp*; al final, está el bosque de pantano en el centro de *pmp* (ver figura \ref{fig:ambvar}).
 
 Por último, se destacan las variables de terreno como elevación media que predomina la mitad hacía el norte de la parcela en un 50% en adelante. También se destaca la forma vertiente del terreno donde en una escala de o a 1, esta predomina en casi toda la parcela sobre el 50%. En cuanto a minerales, el aluminio se manifiesta al oeste de las parcelas, superior al 50% y en uno que otro lugar entre la parte este de la parcela. El hierro se manifiesta en un porcentaje superior al 75% al este de la parcela. Finalmente, el pH se manifiesta desde la mitad de los sitios de la parcela hacia el este como alcalino y el resto como ácido (ver figura \ref{fig:varnum}).
 
 ## Asociación de especies y variables ambientales
 
+La asociación presente entre sitios de la parcela, obtenida al calcular la distancia euclídea usando la matriz de comunidad transformada con el método de  *Hellinger*, señala varios grupos de sitios extremadamente semejantes, según la matriz de disimilitud ordenada hay un grupo limitado por los cuadros 20-25; un segundo grupo, cuadros 12-32; un tercer grupo, los cuadros 32-42; un cuarto grupo, los cuadros 34-46; un quinto grupo, los cuadros 43-49; y un último grupo, el sexto, limitado por los cuadros 16-29; estos lugares comparte una similitud superior de 70% (ver figura \ref{fig:matrizdisimord}).
+
+La distancia de *Jaccard* y la distancia de *Bray-Curtis* presentan un comportamiento distinto en cuanto a los grupos que se forman por la similaridad, al de distancia euclídea con el método *Hellinger*. Con el método de *Jaccard* se produjeron 7 grupos que comparten similitudes mayores al 70%: el primero limitado por los cuadros 47-46, el segundo por los cuadros 43-39, el tercero por los cuadros 24-30, el cuarto grupo por los cuadros 32-22, el quinto por los cuadros 22-26, el sexto por 48-49, el séptimo y último 45-50. También, la distancia de *Jaccard* señala la existencia de sitios con exclusividad considerable, como los sitios 1 y 2 con una exclusividad de especies del 20% por lo que tienen similaridad visible de especies del 80% (ver figura \ref{fig:matrizjacc}).
+Según la fórmula de similaridad de *Jaccard* ambos sitios comparten 4 especies, pero el sitio 2 no tiene especies exclusivas, en cambio, el sitio 1 tiene una especie exclusiva; según el porcentaje de especies compartida o similaridad, se confirma que comparten el 80% de sus especies (ver figura \ref{fig:riqmifam}).
+
+En cuanto a las variables ambientales, los resultados del análisis de correlación para las variables de suelo o edáficas indican que similaridades importantes para los sitios limitados por los cuadros 12-16 de la matriz de disimilaridad ordenada (ver figura \ref{fig:suelodis}), creando lo que es un gran cluster de variables edáficas muy similares. Mientras que, las variables mixtas (`heterogeneidad ambiental`, `habitat` y `quebrada`) se aprecia en la matriz de disimilaridad ordenada (ver figura \ref{fig:mixtadis}) un gigantesco grupo de sitios que comparten similitudes, estos sitios están limitados por los cuadros 25-27; en este conjunto se puede apreciar la similitud, en específico, de el cuadro 2 y el 7 con un hábitat de bosque viejo y relieve bajo, en ambos cuadros hay quebrada y además, poseen unos valores moderados de heterogeneidad ambiental; si se observan los mapas de riqueza y abundancia de la familia *Myrtaceae* (ver figuras \ref{fig:riqmifam} y \ref{fig:abuxcua}), el sitio 2 presenta la riqueza más baja y una abundancia baja a diferencia del sitio 7 que tiene una riqueza alta y una abundancia media, por lo que no se considera que tengan relación con la riqueza y la abundancia de la especie, pero si tienen una similaridad.
 
 # Discusión
 
@@ -139,7 +144,7 @@ Por último, se destacan las variables de terreno como elevación media que pred
 |      Materiales      	|                                                              Uso                                                              	|
 |:--------------------:	|:-----------------------------------------------------------------------------------------------------------------------------:	|
 |        RStudio       	|           Redacción del manuscrito, procesamientos de datos censales de la familia *Myrtaceae* por medio de Scripts.          	|
-|     library vegan    	|        Conjunto de herramientas para hacer análisis de diversidad, ordenación de comunidad y análisis de disimilaridad.       	|
+|     library vegan    	|        Conjunto de herramientas para hacer análisis de diversidad, ordenación de comunidad y análisis de disimilitud.       	|
 |  library tidiyverse  	|             Colección de paquetes que permiten transformar, importar, visualizar, modelar y presentar distintos datos.            	|
 |      library sf      	|      Creación de simple features, ampliando objetos tipo data.frame con una columna de lista de características simples.      	|
 |    library mapview   	|                              Para ver objetos espaciales de forma interactiva sobre un mapa base.                             	|
@@ -167,20 +172,104 @@ Por último, se destacan las variables de terreno como elevación media que pred
 | library gtable       	| Herramientas que permiten trabajar más fácil con tablas.                                                                      	|
 Table: \label{tab:materiales} Materiales usados en el estudio
 
-![Abundancia por cuadros de *Myrtaceae*\label{fig:abumifam}](mapa_cuadros_abun_mi_familia.png){width=80%}
+![Abundancia por cuadros de *Myrtaceae*.\label{fig:abumifam}](mapa_cuadros_abun_mi_familia.png){width=80%}
 
-![Riqueza por cuadros de *Myrtaceae*\label{fig:riqmifam}](mapa_cuadros_riq_mi_familia.png){width=80%}
+![Riqueza por cuadros de *Myrtaceae*.\label{fig:riqmifam}](mapa_cuadros_riq_mi_familia.png){width=80%}
 
-![Abundancia por especies por cuadros\label{fig:abuxcua}](abuespecua.png){width=100%}
+![Abundancia por especies por cuadros.\label{fig:abuxcua}](abuespecua.png){width=100%}
 
-![Matriz de correlación simple (Pearson) entre las especies de *Myrtaceae*\label{fig:corresp}](correlacion de pearson entre especies.png){width=70%}
+![Matriz de correlación simple (Pearson) entre las especies de *Myrtaceae*.\label{fig:corresp}](correlacion de pearson entre especies.png){width=70%}
 
-![Variables ambientales nominales\label{fig:ambvar}](mapas_variables_ambientales_nominales_tmap.png){width=90%}
+![Variables ambientales nominales.\label{fig:ambvar}](mapas_variables_ambientales_nominales_tmap.png){width=90%}
 
-![Variables ambientales númericas\label{fig:varnum}](mapas_variables_ambientales_numericas.png){width=100%}
+![Variables ambientales númericas.\label{fig:varnum}](mapas_variables_ambientales_numericas.png){width=100%}
+
+![Matriz de asociación de sitios en la parcela de BCI. El color fucsia o rosa indica una corta distancia o que son muy similares los sitios, y el celeste indica una gran distancia o que los sitios son poco similares.\label{fig:matrizdisimord}](matriz de disimilaridad ordenada.png){width=100%}
+
+![Matriz de disimilaridad de Jaccard. El color fucsia o rosa indica una corta distancia o que son muy similares los sitios, y el celeste indica una gran distancia o que los sitios son poco similares.\label{fig:matrizjacc}](matriz de disimilaridad de jaccard.png){width=100%}
+
+![Matriz de disimilaridad de las variables edáficas en la parcela de BCI. El color fucsia o rosa indica una corta distancia o que son muy similares los sitios, y el celeste indica una gran distancia o que los sitios son poco similares.\label{fig:suelodis}](variables de suelo_disimilaridad.png){width=100%}
+
+![Matriz de disimilaridad de variables mixtas (`heterogeneidadambiental`, `hábitat` y `quebrada`). El color fucsia o rosa indica una corta distancia o que son muy similares los sitios, y el celeste indica una gran distancia o que los sitios son poco similares.\label{fig:mixtadis}](Variables mixtas.png){width=100%}
 
 # *Script* reproducible
 
-\ldots
+## Análisis exploratorio de datos.
+
+````
+`r paste(readLines('Analisis exploratorio_riq y abu.R'), collapse = '\n')`
+````
+
+````
+`r paste(readLines('Analisis tidyverse.R'), collapse = '\n')`
+````
+
+````
+`r paste(readLines('Mapas de riqueza y abundancia global y de mi familia.R'), collapse = '\n')`
+````
+
+````
+`r paste(readLines('Mapas de variables ambientales.R'), collapse = '\n')`
+````
+
+````
+`r paste(readLines('Análisis de correlación de variables ambientales.R'), collapse = '\n')`
+````
+
+````
+`r paste(readLines('Mapas de variables ambientales por lote.R'), collapse = '\n')`
+````
+
+
+## Medición de asociación
+
+````
+`r paste(readLines('Medicion de asociacion_modo Q.R'), collapse = '\n')`
+````
+
+````
+`r paste(readLines('Medicion de asociacion_modo R.R'), collapse = '\n')`
+````
+
+
+## Análisis de agrupamiento (cluster analysis)
+
+````
+`r paste(readLines('agrupamiento jerarquico_analisis de agrupamiento.R'), collapse = '\n')`
+````
+
+````
+`r paste(readLines('interpretación_analisis de agrupamiento.R'), collapse = '\n')`
+````
+
+````
+`r paste(readLines('variables ambientales y mapas_anal de agrupamiento.R'), collapse = '\n')`
+````
+
+````
+`r paste(readLines('asociacion de especies por habitat_anal de agrup.R'), collapse = '\n')`
+````
+
+
+## Análisis de ordenación
+
+````
+`r paste(readLines('ordenacion no restringida_tecn de ordenacion.R'), collapse = '\n')`
+````
+
+````
+`r paste(readLines('ordenacion restringida_tecn de ordn.R'), collapse = '\n')`
+````
+
+
+
+## Ecología espacial
+
+````
+`r paste(readLines('autocorrelacion_analisis espacial de datos ecologicos.R'), collapse = '\n')`
+````
+
+
+
 
 # Referencias
