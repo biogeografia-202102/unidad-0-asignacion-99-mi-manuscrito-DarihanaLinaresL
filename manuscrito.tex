@@ -782,6 +782,103 @@ variables geomorfológicas en ambos métodos usados, por lo que la riqueza
 de la familia no tiene una dependencia considerable con la
 geomorfología.
 
+\subsection{Cluster análisis
+(Agrupamiento)}\label{cluster-anuxe1lisis-agrupamiento}
+
+El agrupamiento jerárquico de los 50 sitios o cuadros de 1 Ha en BCI,
+usando criterios de enlaces aglomerativos simple, completo y por
+promedio (UPGMA) y calculados a partir de matriz de distancia de cuerdas
+, presentan las mismas tendencias aglomerativas que indican la
+existencia de dos grupos de sitios, uno compuesto por dos sitios que se
+distinguen del resto (14 y 19 ) como únicos y uno mas grande y con el
+resto de sitios; en cuanto al método por Ward, existen dos grupos con
+más sitios a diferencia del resto de métodos, aunque los sitios 14 y 19
+siguen apareciendo como grupos únicos, pero están dentro de otro grupo
+más grande. El enlace completo presenta, exceptuando el grupo de los
+sitios 14 y 19, dos grupos definidos entre los sitios 8-20 y 41-44; con
+el enlace UPGMA se aprecia que el sitio 50 es único, lo cual se cumple
+en los otros enlaces aglomerativos (ver figura \ref{fig:enlaces}).
+
+En cuanto al número optimo o idóneo de grupos, calculado con el
+\texttt{ancho\ de\ silueta}, para el método UPGMA es 2
+(\ref{fig:gruposU}); uno pequeño representado por 19 y 14, y uno grande
+con el resto, pero que si al observarse se puede ver que este se divide
+e dos grupos, entre los sitios 1 y 20 y el otro entre 15 y 49, además se
+identifica, como se mencionó anteriormente, la existencia de un lugar
+único, el sitio 50 (ver figura \ref{fig:upgmaden}), por lo que el primer
+grupo tiene 48 sitios y el segundo solo 2. Y según el criterio de Ward,
+el número optimo de grupos es de 3 (\ref{fig:gruposW}), dos grupos
+grandes y uno pequeño; el primer grupo esta entre los sitios 20 y 50, el
+segundo entre 1 y 18, y el tercer grupo conformado por los sitios 14 y
+19 (como en UPGMA), por lo que el primer grupo tiene 20 sitios, el
+segundo tiene 28 y el tercer grupo solo 2 sitios (ver figura
+\ref{fig:wardden}).
+
+Al evaluar la homogeneidad de promedios de las variables para los grupos
+de UPGMA con la prueba \emph{t} de \emph{Student} (medias) indican que
+la media de las variables geomorfológicas
+\texttt{espolón/gajo,\ vaguada,\ valle,\ interfluvio,\ orientación\ media}
+y \texttt{elevación\ media}, y las de suelo
+\texttt{zinc,\ boro,\ nitrógeno} y \texttt{calcio}, de ambos grupos
+presentan un valor p significativamente diferentes. En el caso de la
+suma de rangos de \emph{Wilcoxon} (medianas), no existe ningún valor p
+significativo para las variables ambientales (ver figura
+\ref{fig:upgma_caja}). Tomando de ejemplo la variable Zinc podemos
+observar como sus valores son muy bajos para el grupo dos de UPGMA y
+para los sitios del grupo uno se observa que al este del centro los
+valores de zinc aumentan de manera significativa, muy distinto a los
+sitios del oeste de la parcela (ver figuras \ref{fig:gruposU} y
+\ref{fig:zinc}).
+
+Acorde a la evaluación de homogeneidad de variables para los 3 grupos de
+Ward, usando la prueba ANOVA (medias), la media de las variables
+ambientales
+(\texttt{pH,\ zinc,\ boro,\ nitrógeno,\ pendiente\ media,\ espolón/gajo,\ elevación\ media,\ calcio,\ orientación\ media})
+de los tres grupos es significativa por lo que son muy diferentes.
+Mientras que, para la prueba de Kruskal-Wallis (medianas), solo hay una
+variable ambiental con \emph{valor p} significativo y que vuelve a los
+tres grupos distintos, la variable \texttt{pH} (ver figura
+\ref{fig:ward_caja}). Al observar los mapas de pH (con valor p
+significativo) se puede identificar que para los sitios del grupo uno
+son altos, para los sitios del grupo dos los valores de pH son de bajos
+a moderados y para los sitios del grupo 3 son altos (ver figuras
+\ref{fig:gruposW} y \ref{fig:ph}).
+
+En cuanto a las especies indicadoras de cada grupo de los métodos UPGMA
+y Ward se calcularon con el indice IndVal. Para los grupos de UPGMA
+denota, acorde a su valor de significancia, que solo el grupo dos tiene
+una especie indicadora, \emph{Chamguava schippii}, la cual representa a
+este grupo al 97.2\%; y se puede confirmar al observar el
+\texttt{mapa\ de\ abundancia\ por\ especies\ por\ cuadros}
+\ref{fig:abuxcua}, mostrando que efectivamente la abundancia de esta
+especie en los sitios del grupo 2 supera por muchísimo a la de otras
+especies; hay que agregar que este grupo presenta asociaciones con
+algunas variables ambientales que corresponden con su característica
+única. Al observar los intervalos de confianza de todas las especies por
+grupos, se denota que la especie indicadora para el grupo dos obtenida
+con IndVal carece de un extremo inferior (igual a 0) y su extremo
+superior es 0.994; para el grupo uno no se obtuvieron especies
+indicadoras con IndVal, pero con los intervalos de confianza, obtenidos
+con \texttt{strassoc}, se puede concluir que la especie indicadora para
+este grupo pueden ser \emph{Eugenia galalonensis} y \emph{Eugenia
+oesterdiana} con un valor de confianza de 64\% y 71\%, respectivamente.
+
+Así mismo, el índice IndVal muestra para los grupos de Ward, que solo el
+grupo tres tiene una especie indicadora, siendo la misma del grupo dos
+de UPGMA, \emph{Chamguava schippii} con un valor de confianza del
+97.2\%. Pero, de acuerdo con los intervalos de confianza, obtenidos con
+\texttt{strassoc}, podemos concluir que para el grupo uno las especies
+indicadoras serían \emph{Eugenia galalonensis} y \emph{Eugenia
+coloradoensis}, con valores de confianza de 59\% y 58\%,
+respectivamente.
+
+\subsection{Ordenación simple (no restringida) o canónica
+(restringida)}\label{ordenaciuxf3n-simple-no-restringida-o-canuxf3nica-restringida}
+
+\subsection{Diversidad Alpha y Beta}\label{diversidad-alpha-y-beta}
+
+\subsection{Correlación espacial}\label{correlaciuxf3n-espacial}
+
 \section{Discusión}\label{discusiuxf3n}
 
 \section{Agradecimientos}\label{agradecimientos}
@@ -1084,7 +1181,70 @@ geomorfológicas.\label{fig:pearson_geom}}
 \centering
 \includegraphics[width=1.00000\textwidth]{matriz_correlacion_geomorf_abun_riq_spearman.png}
 \caption{Matriz de Spearman, asociación entre riqueza y abundancia de
-\emph{Myrtaceae} y las variables geomorfológicas.\label{fig:spear_geom}}
+\emph{Myrtaceae} y las variables
+geomorfológicas.\label{fig:spearm_geom}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1.00000\textwidth]{meth_enl.png}
+\caption{Dendrogramas a partir criterios de enlaces simple, completo y
+por promedio (UPGMA) y Ward o varianza mínima,\label{fig:enlaces}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.50000\textwidth]{2UPGMA den.png}
+\caption{Dendrograma de grupo optimo según el criterio de enlace
+UPGMA.\label{fig:upgmaden}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.50000\textwidth]{ward_den.png}
+\caption{Dendrograma según criterio de enlace Ward.\label{fig:wardden}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.70000\textwidth]{caja_upgma.png}
+\caption{Diagramas de caja de las variables ambientales en los grupos de
+UPGMA.\label{fig:upgma_caja}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.60000\textwidth]{mapa_upgma_k2.png}
+\caption{Mapa de los grupos formados por el criterio de enlace UPGMA.
+\label{fig:gruposU}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.60000\textwidth]{mapa_zinc.png}
+\caption{Mapa de concentración de zinc en los sitios de la parcela de
+BCI.\label{fig:zinc}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.60000\textwidth]{mapa_ward_k3.png}
+\caption{Mapa de los grupos formados por el criterio de enlace Ward.
+\label{fig:gruposW}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.60000\textwidth]{mapa_ph.png}
+\caption{Mapa de concentración de pH en los sitios de la parcela de
+BCI.\label{fig:ph}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.70000\textwidth]{ward_caja.png}
+\caption{Diagramas de caja de las variables ambientales en los grupos de
+Ward.\label{fig:ward_caja}}
 \end{figure}
 
 \section{\texorpdfstring{\emph{Script}
@@ -2388,7 +2548,7 @@ heatmap(
   col = rev(cm.colors(4))
 )
 #' 
-#' En general, hay dos grupos, uno grande y otro pequeño, y parece haber un tercero en el mapa de calor. El grupo grande ocupa la mancha rosa central que se extiende hasta el borde inferior derecho, y el grupo pequeño ocupa la posición superior derecha. Aunque los promedios de anchura de siluetas sugerían usar 2 grupos, el mapa de calor parece sugerir que existe un tercer grupo entre los dos anteriores, representado por los sitios 18, 8,..., 7,..., 19.
+#' En general, hay dos grupos, uno grande y otro pequeño, y parece haber un tercero en el mapa de calor. El grupo grande ocupa la mancha rosa central que se extiende hasta el borde inferior derecho, y el grupo pequeño ocupa la posición superior derecha. Aunque los promedios de anchura de siluetas sugerían usar 2 grupos, el mapa de calor parece sugerir que existe un tercer grupo entre los dos anteriores, representado por los sitios 1, 10,..., 11,..., 20.
 #' 
 #' Mostraré el resultado para Ward:
 #' 
@@ -2567,7 +2727,7 @@ m_amb_upgma_k2 %>%
   arrange(p_valor_t) %>%
   print(n=Inf)
 #' 
-#' Interesa observar las variables que obtuvieron valores de p<0.01. Reitero que, en mi caso, mis grupos resultaron muy desiguales, recordando: el grupo 1 tiene 48 sitios (48) y el grupo 2 tiene 2. Este desigual número de sitios por grupo, hace que la prueba estadística pierda potencia, porque se viola la recomendación de evitar tamaños de los tratamientos muy desiguales.
+#' Interesa observar las variables que obtuvieron valores de p<0.01. Reitero que, en mi caso, mis grupos resultaron muy desiguales, recordando: el grupo 1 tiene 48 sitios y el grupo 2 tiene 2. Este desigual número de sitios por grupo, hace que la prueba estadística pierda potencia, porque se viola la recomendación de evitar tamaños de los tratamientos muy desiguales.
 #' 
 #' Por otra parte, este es un buen momento para "revisitar" tus análisis exploratorios de datos (AED), específicamente el análisis de correlación (*script* 5). Es probable que algunas de las variables ambientales que presentaron efecto entre grupos (las que obtuvieron p<0.01), te aparezca también como significativamente correlacionada con la abundancia o la riqueza en el script 5 de AED.
 #' 
@@ -2733,7 +2893,7 @@ iva_upgma_k2 <- multipatt(
   x = mi_fam,
   cluster = grupos_upgma_k2,
   func = 'IndVal.g',
-  max.order = 1,
+  max.order = 2,
   control = how(nperm = 999))
 summary(iva_upgma_k2, indvalcomp = TRUE)
 colSums(mi_fam)
@@ -2750,7 +2910,7 @@ iva_ward_k3 <- multipatt(
   x = mi_fam,
   cluster = grupos_ward_k3,
   func = 'IndVal.g',
-  max.order = 2,
+  max.order = 3,
   control = how(nperm = 999))
 summary(iva_ward_k3, indvalcomp = TRUE)
 colSums(mi_fam)

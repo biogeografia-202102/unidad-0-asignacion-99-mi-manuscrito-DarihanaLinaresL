@@ -31,7 +31,7 @@ iva_upgma_k2 <- multipatt(
   x = mi_fam,
   cluster = grupos_upgma_k2,
   func = 'IndVal.g',
-  max.order = 1,
+  max.order = 2,
   control = how(nperm = 999))
 summary(iva_upgma_k2, indvalcomp = TRUE)
 colSums(mi_fam)
@@ -48,7 +48,7 @@ iva_ward_k3 <- multipatt(
   x = mi_fam,
   cluster = grupos_ward_k3,
   func = 'IndVal.g',
-  max.order = 2,
+  max.order = 3,
   control = how(nperm = 999))
 summary(iva_ward_k3, indvalcomp = TRUE)
 colSums(mi_fam)
