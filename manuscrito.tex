@@ -675,7 +675,7 @@ En cuanto a minerales, el aluminio se manifiesta al oeste de las
 parcelas, superior al 50\% y en uno que otro lugar entre la parte este
 de la parcela. El hierro se manifiesta en un porcentaje superior al 75\%
 al este de la parcela. Finalmente, el pH se manifiesta desde la mitad de
-los sitios de la parcela hacia el este como alcalino y el resto como
+los sitios de la parcela hacia el este como menos acidos y el resto como
 ácido (ver figura \ref{fig:varnum}).
 
 \subsection{Asociación de especies y variables
@@ -745,9 +745,9 @@ Conforme al mapa de calor obtenido por la distancia de \emph{Jaccard},
 se confirma la existencia del patrón de dependencia alto entre las
 especies relacionadas en la diagonal desde \emph{Eugenia oerstediana}
 hasta \emph{Eugenia neosiotica}, dejando a las especies \emph{Psidium
-friedrichsthalianum}, \emph{Myrcia gatunensis} y * Chamguava schippi*
-como especies sin dependencia alguna según su abundancia (ver figura
-\ref{fig:dependenciajacc}).
+friedrichsthalianum}, \emph{Myrcia gatunensis} y \emph{Chamguava
+schippi} como especies sin dependencia alguna según su abundancia (ver
+figura \ref{fig:dependenciajacc}).
 
 Para las variables edáficas, los índices de correlación obtenidos por el
 método Pearson, indican que existe una relación significativa positiva
@@ -855,13 +855,13 @@ especie en los sitios del grupo 2 supera por muchísimo a la de otras
 especies; hay que agregar que este grupo presenta asociaciones con
 algunas variables ambientales que corresponden con su característica
 única. Al observar los intervalos de confianza de todas las especies por
-grupos, se denota que la especie indicadora para el grupo dos obtenida
-con IndVal carece de un extremo inferior (igual a 0) y su extremo
-superior es 0.994; para el grupo uno no se obtuvieron especies
-indicadoras con IndVal, pero con los intervalos de confianza, obtenidos
-con \texttt{strassoc}, se puede concluir que la especie indicadora para
-este grupo pueden ser \emph{Eugenia galalonensis} y \emph{Eugenia
-oesterdiana} con un valor de confianza de 64\% y 71\%, respectivamente.
+grupos, se denota que para el grupo uno no se obtuvieron especies
+indicadoras con IndVal,indicando que las especies presentes en este
+sitio no tienen una proferencia por el grupo, pero con los intervalos de
+confianza, obtenidos con \texttt{strassoc}, se puede concluir que la
+especie indicadora para este grupo pueden ser \emph{Eugenia
+galalonensis} y \emph{Eugenia oesterdiana} con un valor de confianza de
+64\% y 71\%, respectivamente.
 
 Así mismo, el índice IndVal muestra para los grupos de Ward, que solo el
 grupo tres tiene una especie indicadora, siendo la misma del grupo dos
@@ -872,8 +872,83 @@ indicadoras serían \emph{Eugenia galalonensis} y \emph{Eugenia
 coloradoensis}, con valores de confianza de 59\% y 58\%,
 respectivamente.
 
+De las especies con preferencias por hábitat, calculado mediante el
+coeficiente de correlación biserial puntual para los grupos de UPGMA, se
+denota que para el grupo 2 la especie \emph{Chamguava schippii} con
+valor p de 0.001 y una confianza de 74\%; esta especie prefiere, acorde
+a las matrices de variables ambientales, un hábitat donde el pH del
+suelo es ácido, donde abunda el alumino, con elevaciones medias, en
+relieves llanos, y concentraciones de nitrógeno, hierro, zinc y boro
+bajas; al observar los valores de los intervalos de confianza para el
+grupo 2, se confirma lo mencionado anteriormente; en el caso del grupo
+uno, se puede concluir, a pesar de que no hubo una especie obtenida por
+\texttt{multipatt}, que la especie \emph{Eugenia coloradoensis} es una
+especie con preferencia moderaba por el hábitat de este grupo. En el
+caso de los grupos del método Ward solo hay una especie entre todos los
+grupos y es la \emph{Chamguava schippii} con preferencia al grupo tres
+en un 78\%. Hay que destacar que esta especie presenta valores negativos
+en los otros grupos, indicando que no tienen preferencia por los
+hábitats de esos grupos.
+
 \subsection{Ordenación simple (no restringida) o canónica
 (restringida)}\label{ordenaciuxf3n-simple-no-restringida-o-canuxf3nica-restringida}
+
+La ordenación simple por escalamiento muestra una distribución de
+sitios, del grupo Ward, por asociamiento entre sitios (escalamiento 2) y
+entre los sitios con las variables ambientales (escalamiento 1); en el
+escalamiento uno se observan la relación positiva entre los sitios 15,
+20, 18 y otros más, con el aluminio, y una relación negativa con el pH,
+boro e incluso zinc (ver figuras \ref{fig:escalamientobi} y
+\ref{fig:puntuaciones}). Comparando estos datos de variables de suelos
+con los resultados obtenidos del agrupamiento por UPGMA, nos muestra la
+distribución de los tres grupos de sitios según las puntuaciones (ver
+figura \ref{fig:upgmabip}) que muestran un consistencia con la
+distribución por cuadro de los grupos UPGMA.
+
+Al aplicar PCA (análisis del componente principal) a los datos de mi
+comunidad transformado por \emph{Hellinger}, interesantes productos de
+como se distribuyen las especies (los nombres de las especies han sido
+acortados, ver equivalencias en tabla \ref{tab:equivalencias}), de
+\emph{Myrtaceae} por los sitios, se observa en el escalamiento
+\ref{fig:paccont} como la especies \emph{Eugenia oerstediana (Eugeoers)}
+a sitios como el 29, 28, 40 y otros más; en el caso de \emph{Chamguava
+schippii (Chamschi)} contribuye bastante a sitios como el 19, 14, 20 y
+15; y para \emph{Eugenia galalonensis (Eugegala)} que contribuye a los
+sitios 6, 17, 26 y 4 (ver figura \ref {fig:paccont}). Al hacer un
+escalamiento ajustado a variables ambientales con las especies, se puede
+apreciar la asociación de \emph{Chamschi} con el aluminio, la llanura,
+elevación media y coordenadas UTM.NS (ver figura \ref{fig:amb_esp_esc}),
+que se corrobora con la matriz de variables ambientales
+\ref {fig:varnum}.
+
+Por otra parte, los productos generados por al aplicar CA (análisis de
+correspondencia), al hacer el escalamiento sobre las especies de
+\emph{Myrtacea} fue posible denotar los patrones de asociación entre
+sitios (escalamiento 1) y las especies (escalamiento) en los ejes del
+CA, la distribución de sitios se ve afectada por dos especies
+(\emph{Chamschi} y \emph{Myrcgatu}, especialmente la última) que,
+aparentemente (ver figura \ref{fig:escal_sin_myrcia}), la mayoría de los
+sitios presentan una distribución continua, quedando disperso del resto,
+al menos 6 sitios ;pero para el escalamiento 2, sobre la asociación de
+especies, se observan patrones de distribución continua para las
+especies \emph{Eugegala, Eugecolo} y \emph{Eugenesi}, y entre las
+especies \emph{Psidfrie} y \emph{Eugeoers}, las cuales tienen una
+distancia corta, al contrario de \emph{Chamschi} que se encuentra
+dispersa del resto.
+
+Mientras que, la aplicación de PCoA (análisis de coordenadas
+principales) usando promedios ponderados de especies, señala en el
+diagrama de ordenación, de acuerdo a la posición de las especies, que
+\emph{Eugenesi} y \emph{Eugecolo} contribuyen a tos los sitios (están en
+el centro); mientras que, las especies \emph{Chamschi} y \emph{Myrcgatu}
+contribuyen a sitios más específicos, por eso se alejan del centro del
+eje; y las otras especies (\emph{Eugeoers, Psidfrie} y \emph{Eugegala}),
+contribuyen a la riqueza de los sitios moderadamente, y en gran medida a
+los cercanos a ellas como 32 y 24 (ver figura \ref{fig:pcoa esc}). Y,
+para las variables ambientales, \texttt{pendiente\ media} y
+\texttt{vaguada} se puede apreciar que solo están asociadas a ellas las
+especies que están mas al centro, de manera moderada (ver figura
+\ref{fig:ambiental PCoA spec}).
 
 \subsection{Diversidad Alpha y Beta}\label{diversidad-alpha-y-beta}
 
@@ -1245,6 +1320,82 @@ BCI.\label{fig:ph}}
 \includegraphics[width=0.70000\textwidth]{ward_caja.png}
 \caption{Diagramas de caja de las variables ambientales en los grupos de
 Ward.\label{fig:ward_caja}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.80000\textwidth]{escalamiento_ward.png}
+\caption{Distribución de sitios y variables de suelo en
+Biplot.\label{fig:escalamientobi}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.60000\textwidth]{biplot upgma.png}
+\caption{Distribución de sitios por grupos de
+puntuaciones.\label{fig:upgmabip}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.50000\textwidth]{grafico de cluste PCA.png}
+\caption{Distribución de sitios de los grupos UPGMA según puntuaciones
+(PCA).\label{fig:puntuaciones}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.50000\textwidth]{pca com amb.png}
+\caption{Distribución de especies según su contribución a los sitio
+(PCA).\label{fig:paccont}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.50000\textwidth]{amb_spec_esc.png}
+\caption{Distribución de especies asociadas a los sitios y a variables
+ambientales (PCA).\label{fig:amb_esp_esc}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.50000\textwidth]{escalamiento sin myrcga.png}
+\caption{Distribución de las espcies, excepto Mycia gatunensis, y de los
+sitios (CA).\label{fig:escal_sin_myrcia}}
+\end{figure}
+
+\begin{longtable}[]{@{}cc@{}}
+\caption{\label{tab:equivalencias} Equivalencias de los nombres de
+especies de \emph{Myrtaceae}}\tabularnewline
+\toprule
+Nomb re original & Equivalencias\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Nomb re original & Equivalencias\tabularnewline
+\midrule
+\endhead
+Eugenia galalonensis & Eugegala\tabularnewline
+Eugenia oerstediana & Eugeoers\tabularnewline
+Eugenia coloradoensis & Eugecolo\tabularnewline
+Chamguava schippii & Chamschi\tabularnewline
+Eugenia nesiotica & Eugenesi\tabularnewline
+Psidium friedrichsthalianum & Psidfrie\tabularnewline
+Myrcia gatunensis & Myrcgatu\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.90000\textwidth]{PCoA escalamiento_dat_mix.png}
+\caption{Promedios ponderados de especies PCoA\label{fig:pcoa esc}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.90000\textwidth]{Pcoa_amb_spec_ escal.png}
+\caption{Promedios ponderados de especies y variables ambientales
+PCoA\label{fig:ambiental PCoA spec}}
 \end{figure}
 
 \section{\texorpdfstring{\emph{Script}

@@ -124,7 +124,7 @@ De las especies de *Myrtaceae* que presentan una correlación simple (de Pearson
 
 En cuanto a las variables ambientales que se destacan en *pmp* están: la geológica, que de acuerdo con el Mapa geológico del canal de Panamá y sus alrededores [@stewart1980geologic] y los resultados de EDA la *pmp* se caracteriza, por sus rocas basalto, tipo intrusiva y extrusiva, del Mioceno medio y superior (Tb). También se caracteriza por tener hábitats de bosque viejo en relieve bajo en su mayoría al oeste de la parcela, en algunas partes del centro y al este de *pmp*; por sus hábitat de bosque viejo en relieve alto al centro y este de *pmp*; se agregan los bosques jóvenes de los sitios 30 y 35;  y los bosques de pendiente baja concentradas al este y con algunos sitios aleatorios en *pmp*; al final, está el bosque de pantano en el centro de *pmp* (ver figura \ref{fig:ambvar}).
 
-Por último, se destacan las variables de terreno como elevación media que predomina la mitad hacía el norte de la parcela en un 50% en adelante. También se destaca la forma vertiente del terreno donde en una escala de o a 1, esta predomina en casi toda la parcela sobre el 50%. En cuanto a minerales, el aluminio se manifiesta al oeste de las parcelas, superior al 50% y en uno que otro lugar entre la parte este de la parcela. El hierro se manifiesta en un porcentaje superior al 75% al este de la parcela. Finalmente, el pH se manifiesta desde la mitad de los sitios de la parcela hacia el este como alcalino y el resto como ácido (ver figura \ref{fig:varnum}).
+Por último, se destacan las variables de terreno como elevación media que predomina la mitad hacía el norte de la parcela en un 50% en adelante. También se destaca la forma vertiente del terreno donde en una escala de o a 1, esta predomina en casi toda la parcela sobre el 50%. En cuanto a minerales, el aluminio se manifiesta al oeste de las parcelas, superior al 50% y en uno que otro lugar entre la parte este de la parcela. El hierro se manifiesta en un porcentaje superior al 75% al este de la parcela. Finalmente, el pH se manifiesta desde la mitad de los sitios de la parcela hacia el este como menos acidos y el resto como ácido (ver figura \ref{fig:varnum}).
 
 ## Asociación de especies y variables ambientales
 
@@ -160,7 +160,15 @@ De las especies con preferencias por hábitat, calculado mediante el coeficiente
 
 ## Ordenación simple (no restringida) o canónica (restringida)
 
+La ordenación simple por escalamiento muestra una distribución de sitios, del grupo Ward, por asociamiento entre sitios (escalamiento 2) y entre los sitios con las variables ambientales (escalamiento 1); en el escalamiento uno se observan la relación positiva entre los sitios 15, 20, 18 y otros más, con el aluminio, y una relación negativa con el pH, boro e incluso zinc (ver figuras \ref{fig:escalamientobi} y \ref{fig:puntuaciones}). Comparando estos datos de variables de suelos con los resultados obtenidos del agrupamiento por UPGMA, nos muestra la distribución de los tres grupos de sitios según las puntuaciones (ver figura \ref{fig:upgmabip}) que muestran un consistencia con la distribución por cuadro de los grupos UPGMA.
 
+Al aplicar PCA (análisis del componente principal) a los datos de mi comunidad transformado por *Hellinger*, interesantes productos de como se distribuyen las especies (los nombres de las especies han sido acortados, ver equivalencias en tabla \ref{tab:equivalencias}), de *Myrtaceae* por los sitios, se observa en el escalamiento \ref{fig:paccont} como la especies *Eugenia oerstediana (Eugeoers)* a sitios como el 29, 28, 40 y otros más; en el caso de *Chamguava schippii (Chamschi)* contribuye bastante a sitios como el 19, 14, 20 y 15;  y para *Eugenia galalonensis (Eugegala)* que contribuye a los sitios 6, 17, 26 y 4 (ver figura \ref {fig:paccont}). Al hacer un escalamiento ajustado a variables ambientales con las especies, se puede apreciar la asociación de *Chamschi* con el aluminio, la llanura, elevación media y coordenadas UTM.NS (ver figura \ref{fig:amb_esp_esc}), que se corrobora con la matriz de variables ambientales \ref {fig:varnum}.
+
+Por otra parte, los productos generados por al aplicar CA (análisis de correspondencia), al hacer el escalamiento sobre las especies de *Myrtacea* fue posible denotar los patrones de asociación entre sitios (escalamiento 1) y las especies (escalamiento) en los ejes del CA, la distribución de sitios se ve afectada por dos especies (*Chamschi* y *Myrcgatu*, especialmente la última) que, aparentemente (ver figura \ref{fig:escal_sin_myrcia}),  la mayoría de los sitios presentan una distribución continua, quedando disperso del resto, al menos 6 sitios ;pero para el escalamiento 2, sobre la asociación de especies, se observan patrones de distribución  continua para las especies *Eugegala, Eugecolo* y  *Eugenesi*, y entre las especies *Psidfrie* y *Eugeoers*, las cuales tienen una distancia corta, al contrario de *Chamschi* que se encuentra dispersa del resto.
+
+Mientras que, la aplicación de PCoA (análisis de coordenadas principales) usando promedios ponderados de especies, señala en el diagrama de ordenación, de acuerdo a la posición de las especies, que *Eugenesi* y *Eugecolo* contribuyen a tos los sitios (están en el centro); mientras que, las especies *Chamschi* y *Myrcgatu* contribuyen a sitios más específicos, por eso se alejan del centro del eje; y las otras especies (*Eugeoers, Psidfrie* y *Eugegala*), contribuyen a la riqueza de los sitios moderadamente, y en gran medida a los cercanos a ellas como 32 y 24 (ver figura \ref{fig:pcoa esc}). Y, para las variables ambientales, `pendiente media` y `vaguada` se puede apreciar que solo están asociadas a ellas las especies que están mas al centro, de manera moderada (ver figura \ref{fig:ambiental PCoA spec}).
+
+La técnica de ordenamiento restringida o canónica 
 
 
 ## Diversidad Alpha y Beta
@@ -251,6 +259,34 @@ Table: \label{tab:materiales} Materiales usados en el estudio
 ![Mapa de concentración de pH en los sitios de la parcela de BCI.\label{fig:ph}](mapa_ph.png){width=60%}
 
 ![Diagramas de caja de las variables ambientales en los grupos de Ward.\label{fig:ward_caja}](ward_caja.png){width=70%}
+
+![Distribución de sitios y variables de suelo en Biplot.\label{fig:escalamientobi}](escalamiento_ward.png){width=80%}
+
+![Distribución de sitios por grupos de puntuaciones.\label{fig:upgmabip}](biplot upgma.png){width=60%}
+
+![Distribución de sitios de los grupos UPGMA según puntuaciones (PCA).\label{fig:puntuaciones}](grafico de cluste PCA.png){width=50%}
+
+![Distribución de especies según su contribución a los sitio (PCA).\label{fig:paccont}](pca com amb.png){width=50%}
+
+![Distribución de especies asociadas a los sitios y a variables ambientales (PCA).\label{fig:amb_esp_esc}](amb_spec_esc.png){width=50%}
+
+![Distribución de las espcies, excepto Mycia gatunensis, y de los sitios (CA).\label{fig:escal_sin_myrcia}](escalamiento sin myrcga.png){width=50%}
+
+|       Nomb re original      	| Equivalencias 	|
+|:---------------------------:	|:-------------:	|
+|     Eugenia galalonensis    	|    Eugegala   	|
+|     Eugenia oerstediana     	|    Eugeoers   	|
+|    Eugenia coloradoensis    	|    Eugecolo   	|
+|      Chamguava schippii     	|    Chamschi   	|
+|      Eugenia nesiotica      	|    Eugenesi   	|
+| Psidium friedrichsthalianum 	|    Psidfrie   	|
+|      Myrcia gatunensis      	|    Myrcgatu   	|
+Table: \label{tab:equivalencias} Equivalencias de los nombres de especies de *Myrtaceae*
+
+![Promedios ponderados de especies PCoA\label{fig:pcoa esc}](PCoA escalamiento_dat_mix.png){width=90%}
+
+![Promedios ponderados de especies y variables ambientales PCoA\label{fig:ambiental PCoA spec}](Pcoa_amb_spec_ escal.png){width=90%}
+
 
 # *Script* reproducible
 
