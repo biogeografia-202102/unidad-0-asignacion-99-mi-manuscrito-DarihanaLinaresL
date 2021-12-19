@@ -1022,6 +1022,27 @@ grupos está bien representada, no se espera un crecimiento en la riqueza
 de las especies pero si su abundancia para los grupos 1 y 2, en cambio,
 en el grupo 3 se espera aumente (ver figura \ref{fig:riq_est}).
 
+Por otra parte, según la diversidad beta multiplicativa se le da
+importancia a la abundancia, y no a la riqueza de la familia
+\emph{Myrtaceae} por lo que su dominancia va en aumento, haciendo que
+esta sea más importante para marca la diversidad beta y no la riqueza;
+entonces se puede afirmar que a mayor abundancia, más diverso es en
+términos de diversidad beta por lo que hay una mayor cantidad de
+reemplazos, logrando que una especie empiece a dominar en algunos sitios
+más que en otros (ver figura \ref{fig:beta}).
+
+Finalmente, la contribución local y la contribución de especias a la
+diversidad beta calculada con la función
+\texttt{determinar\_contrib\_local\_y\_especie} transformando la matriz
+de comunidad por el método de \emph{Hellinger}, indica que las
+especies\emph{Chamguava schippii} y \emph{Eugenia oersteniada}
+contribuyen a la diversidad beta, más que las otras especies; y que los
+sitios que contribuyen, más que otros sitios, a esta diversidad son el
+14 y 19; hay que destacar, también, que después de hacer un ajuste a los
+valores de sitios y especies contribuyentes el resultado es cero, pero
+las especies y lugares mencionados anteriormente contribuyen, aunque no
+de forma significativa, más a la diversidad beta que el resto.
+
 \subsection{Correlación espacial}\label{correlaciuxf3n-espacial}
 
 \section{Discusión}\label{discusiuxf3n}
@@ -1525,6 +1546,13 @@ n & 50\tabularnewline
 \includegraphics[width=0.80000\textwidth]{riq_espc_est.png}
 \caption{Riqueza de especie estimada para los grupos obtenidos por el
 método Ward\label{fig:riq_est}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.80000\textwidth]{div_beta_multi.png}
+\caption{Diversidad beta multiplicativa de la familia
+\emph{Myrtaceae}\label{fig:beta}}
 \end{figure}
 
 \section{\texorpdfstring{\emph{Script}

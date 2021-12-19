@@ -185,6 +185,10 @@ Según la curva de rareza de especies de *Myrtaceae comparada con la abundancia 
 
 La riqueza de especie estimada (ver estimadores en tabla \ref{tab:estimadores}) se corresponde con la real, indicando que la muestra poseída representa completamente la riqueza. Todos los modelos estimadores de riqueza concluyen que el número de especies de *Myrtaceae* es 7. Al usar el estimadores de *chao* sobre mi matriz la matriz de comunidad de la familia *Myrtaceae* transformada y combinando todos los sitios en uno, indica que hay muy baja probabilidad de encontrar especies nuevas.  Al aplicar los estimadores cobre una matriz de comunidad agrupada según el método de Ward, se concluye que la riqueza de especie para los sitios de los tres grupos está bien representada, no se espera un crecimiento en la riqueza de las especies pero si su abundancia para los grupos 1 y 2, en cambio, en el grupo 3 se espera aumente (ver figura \ref{fig:riq_est}).
 
+Por otra parte, según la diversidad beta multiplicativa se le da importancia a la abundancia, y no a la riqueza de la familia *Myrtaceae* por lo que su dominancia va en aumento, haciendo que esta sea más importante para marca la diversidad beta y no la riqueza; entonces se puede afirmar que a mayor abundancia, más diverso es en términos de diversidad beta por lo que hay una mayor cantidad de reemplazos, logrando que una especie empiece a dominar en algunos sitios más que en otros (ver figura \ref{fig:beta}).
+
+Finalmente, la contribución local y la contribución de especias a la diversidad beta calculada con la función `determinar_contrib_local_y_especie` transformando la matriz de comunidad por el método de *Hellinger*, indica que las especies *Chamguava schippii* y *Eugenia oersteniada* contribuyen a la diversidad beta, más que las otras especies;  y que los sitios que contribuyen, más que otros sitios, a esta diversidad son el 14 y 19; hay que destacar, también, que después de hacer un ajuste a los valores de sitios y especies contribuyentes el resultado es cero, pero las especies y lugares mencionados anteriormente contribuyen, aunque no de forma significativa, más a la diversidad beta que el resto.
+
 
 ## Correlación espacial
 
@@ -327,6 +331,8 @@ Table: \label{tab:equivalencias} Equivalencias de los nombres de especies de *My
 Table: \label{tab:estimadores} Estimadores de riqueza de especies
 
 ![Riqueza de especie estimada para los grupos obtenidos por el método Ward\label{fig:riq_est}](riq_espc_est.png){width=80%}
+
+![Diversidad beta multiplicativa de la familia *Myrtaceae*\label{fig:beta}](div_beta_multi.png){width=80%}
 
 # *Script* reproducible
 
