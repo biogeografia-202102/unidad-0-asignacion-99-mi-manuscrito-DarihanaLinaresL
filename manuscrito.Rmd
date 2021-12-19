@@ -168,11 +168,23 @@ Por otra parte, los productos generados por al aplicar CA (análisis de correspo
 
 Mientras que, la aplicación de PCoA (análisis de coordenadas principales) usando promedios ponderados de especies, señala en el diagrama de ordenación, de acuerdo a la posición de las especies, que *Eugenesi* y *Eugecolo* contribuyen a tos los sitios (están en el centro); mientras que, las especies *Chamschi* y *Myrcgatu* contribuyen a sitios más específicos, por eso se alejan del centro del eje; y las otras especies (*Eugeoers, Psidfrie* y *Eugegala*), contribuyen a la riqueza de los sitios moderadamente, y en gran medida a los cercanos a ellas como 32 y 24 (ver figura \ref{fig:pcoa esc}). Y, para las variables ambientales, `pendiente media` y `vaguada` se puede apreciar que solo están asociadas a ellas las especies que están mas al centro, de manera moderada (ver figura \ref{fig:ambiental PCoA spec}).
 
-La técnica de ordenamiento restringida o canónica 
+La técnica de ordenamiento restringida o canónica permitió detectar tendencias en conjunto de datos que se asocian a otro conjunto, usando RDA (análisis de redundancia) y CCA (análisis de correspondencia canónica). Tras aplicar RDA a la matriz de comunidad de *Myrtaceae* y a la matriz ambiental de variables de suelo, fue posible determinar con `RsquareAdj`, con un valor R2 insesgado, que el suelo explica la composición de las especies en la *pmp* en un 27.8%, implicando que su relación es baja. 
+
+Tras hacer varios escalamientos y extracción de variables que provocaban la multicolinealidad, se confirma que la composición de *Chamschi* es influenciada por el Aluminio, en pequeña proporción por el fósforo; *Myrcgatu*, *Eugegala* en pequeña proporción por hierro y heterogeneidad ambiental; el hierro y la heterogeneidad ambiental poseen una asociación con las especies *Eugecolo* y *Eugenesi* y contribuyen mucho a su composición en los sitios 48 en insluco 43; el nitrógeno tiene una alta contribución en la composición de las especies *Psidfrie* y *Eugeoers* en sitios como el 26, 37, 41 y 21, en tanto el pH y el nitrógeno mineralizado contribuyen a su composición de manera moderada (ver figura \ref{fig:varesc2 tripo RDA}). 
+
+Al aplicar CCA explica el comportamiento de las variables ambientales sobre las especies un 54% de forma canónica, en la matriz ambiental, de acuerdo con el índice R ajustado las variables de suelo explican la composición de las especies en los sitios con datos insesgados en un 41%. En el escalamiento uno se apiñan las especies en el centro, debido a la presencia de especies raras como *Myrcgatu* y *Psidfrie*, que al ser tan raras se alejan por mucho del resto (ver figura \ref{fig:esc1cca}).
 
 
 ## Diversidad Alpha y Beta
+
+
+
+
 ## Correlación espacial
+
+
+
+
 # Discusión
 
 # Agradecimientos
@@ -286,6 +298,10 @@ Table: \label{tab:equivalencias} Equivalencias de los nombres de especies de *My
 ![Promedios ponderados de especies PCoA\label{fig:pcoa esc}](PCoA escalamiento_dat_mix.png){width=90%}
 
 ![Promedios ponderados de especies y variables ambientales PCoA\label{fig:ambiental PCoA spec}](Pcoa_amb_spec_ escal.png){width=90%}
+
+![Diagrama de especies, sitios y variables ambientales sin colinealidad RDA.\label{fig:varesc2 tripo RDA}](rda_triplot_var.png){width=90%}
+
+![Diagrama de especies, sitios y variables seleccionadas CCA.\label{fig:esc1cca}](trip_cca_esca1.png){width=90%}
 
 
 # *Script* reproducible
