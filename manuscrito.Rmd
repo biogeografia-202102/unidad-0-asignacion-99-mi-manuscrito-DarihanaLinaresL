@@ -175,9 +175,15 @@ Tras hacer varios escalamientos y extracción de variables que provocaban la mul
 Al aplicar CCA explica el comportamiento de las variables ambientales sobre las especies un 54% de forma canónica, en la matriz ambiental, de acuerdo con el índice R ajustado las variables de suelo explican la composición de las especies en los sitios con datos insesgados en un 41%. En el escalamiento uno se apiñan las especies en el centro, debido a la presencia de especies raras como *Myrcgatu* y *Psidfrie*, que al ser tan raras se alejan por mucho del resto (ver figura \ref{fig:esc1cca}).
 
 
-## Diversidad Alpha y Beta
+## Diversidad de *Myrtaceae*
+ 
+De acuerdo con la matriz de correlación entre índices de diversidad y algunas variables ambientales, se puede deducir que las variables aluminio, calcio, hierro, fósforo y llanura, pueden ayudar a explicar la diversidad, debido a que reaccionan de forma significativa y positiva a algunos índices (ver figura \ref{fig:matriz de correlación de índices _con var amb}).
 
+La rarefacción de los sitios con menor riqueza de especies son 2, 5, 11, 36, 46, 47 (riq 4) con una abundancia de individuos de 56, 75, 111, 49, 119, respectivamente, lo cual se puede considerar como abundancias medianas; mientras que, los sitios con mayor riqueza de especies son 13, 14, 17, 22 y 40, con una riqueza de 7 y abundancias considerables como medianas (no tan altas o bajas); el rango de riqueza de *Myrtaceae* está entre 4 y 7 especies. 
 
+Según la curva de rareza de especies de *Myrtaceae comparada con la abundancia por sitio de *pmp* en *BCI* demuestra que las especies más raras (7) tienden a tener números de abundancias reducidos en algunos sitios como 13 y 17, y abundancias moderadas como los sitios 22 y 40; las especies con una riqueza moderada (6) suelen tener más individuos por sitios, a diferencia del sitio 19 que tiene una abundancia de especies muy grande y una riqueza moderada (6); mientras que los sitios de menor riqueza se puede apreciar bajos valores de abundancia, sitios 36, 2 y 5 (ver figura \ref{fig:curva de rareza}).
+
+La riqueza de especie estimada (ver estimadores en tabla \ref{tab:estimadores}) se corresponde con la real, indicando que la muestra poseída representa completamente la riqueza. Todos los modelos estimadores de riqueza concluyen que el número de especies de *Myrtaceae* es 7. Al usar el estimadores de *chao* sobre mi matriz la matriz de comunidad de la familia *Myrtaceae* transformada y combinando todos los sitios en uno, indica que hay muy baja probabilidad de encontrar especies nuevas.  Al aplicar los estimadores cobre una matriz de comunidad agrupada según el método de Ward, se concluye que la riqueza de especie para los sitios de los tres grupos está bien representada, no se espera un crecimiento en la riqueza de las especies pero si su abundancia para los grupos 1 y 2, en cambio, en el grupo 3 se espera aumente (ver figura \ref{fig:riq_est}).
 
 
 ## Correlación espacial
@@ -284,7 +290,7 @@ Table: \label{tab:materiales} Materiales usados en el estudio
 
 ![Distribución de las espcies, excepto Mycia gatunensis, y de los sitios (CA).\label{fig:escal_sin_myrcia}](escalamiento sin myrcga.png){width=50%}
 
-|       Nomb re original      	| Equivalencias 	|
+|        Nombre original      	| Equivalencias 	|
 |:---------------------------:	|:-------------:	|
 |     Eugenia galalonensis    	|    Eugegala   	|
 |     Eugenia oerstediana     	|    Eugeoers   	|
@@ -299,10 +305,28 @@ Table: \label{tab:equivalencias} Equivalencias de los nombres de especies de *My
 
 ![Promedios ponderados de especies y variables ambientales PCoA\label{fig:ambiental PCoA spec}](Pcoa_amb_spec_ escal.png){width=90%}
 
-![Diagrama de especies, sitios y variables ambientales sin colinealidad RDA.\label{fig:varesc2 tripo RDA}](rda_triplot_var.png){width=90%}
+![Diagrama de especies, sitios y variables ambientales sin colinealidad RDA.\label{fig:varesc2 tripo RDA}](Rplorda_triplot_var.png){width=90%}
 
 ![Diagrama de especies, sitios y variables seleccionadas CCA.\label{fig:esc1cca}](trip_cca_esca1.png){width=90%}
 
+![Matriz de correlación entre índices de riqueza y algunas variables ambientales\label{fig:matriz de correlación de índices _con var amb}](matriz_ind_var_amb.png){width=100%}
+
+![Curva de rareza de especies según sitios por abundancia\label{fig:curva de rareza}](curva de rareza.png){width=100%}
+
+| Estimadores de riqueza  	| Equivalencias 	|
+|:-----------------------:	|:-------------:	|
+|    Total de especies    	|       7       	|
+|           chao          	|       7       	|
+|         chao.se         	|       0       	|
+|          jack1          	|       7       	|
+|         jack1.se        	|       0       	|
+|          jack2          	|       7       	|
+|           boot          	|       7       	|
+|         boot.se         	|  5.161914e-08 	|
+|            n            	|       50      	|
+Table: \label{tab:estimadores} Estimadores de riqueza de especies
+
+![Riqueza de especie estimada para los grupos obtenidos por el método Ward\label{fig:riq_est}](riq_espc_est.png){width=80%}
 
 # *Script* reproducible
 

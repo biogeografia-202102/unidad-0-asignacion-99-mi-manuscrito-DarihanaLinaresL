@@ -950,7 +950,77 @@ para las variables ambientales, \texttt{pendiente\ media} y
 especies que están mas al centro, de manera moderada (ver figura
 \ref{fig:ambiental PCoA spec}).
 
-\subsection{Diversidad Alpha y Beta}\label{diversidad-alpha-y-beta}
+La técnica de ordenamiento restringida o canónica permitió detectar
+tendencias en conjunto de datos que se asocian a otro conjunto, usando
+RDA (análisis de redundancia) y CCA (análisis de correspondencia
+canónica). Tras aplicar RDA a la matriz de comunidad de \emph{Myrtaceae}
+y a la matriz ambiental de variables de suelo, fue posible determinar
+con \texttt{RsquareAdj}, con un valor R2 insesgado, que el suelo explica
+la composición de las especies en la \emph{pmp} en un 27.8\%, implicando
+que su relación es baja.
+
+Tras hacer varios escalamientos y extracción de variables que provocaban
+la multicolinealidad, se confirma que la composición de \emph{Chamschi}
+es influenciada por el Aluminio, en pequeña proporción por el fósforo;
+\emph{Myrcgatu}, \emph{Eugegala} en pequeña proporción por hierro y
+heterogeneidad ambiental; el hierro y la heterogeneidad ambiental poseen
+una asociación con las especies \emph{Eugecolo} y \emph{Eugenesi} y
+contribuyen mucho a su composición en los sitios 48 en insluco 43; el
+nitrógeno tiene una alta contribución en la composición de las especies
+\emph{Psidfrie} y \emph{Eugeoers} en sitios como el 26, 37, 41 y 21, en
+tanto el pH y el nitrógeno mineralizado contribuyen a su composición de
+manera moderada (ver figura \ref{fig:varesc2 tripo RDA}).
+
+Al aplicar CCA explica el comportamiento de las variables ambientales
+sobre las especies un 54\% de forma canónica, en la matriz ambiental, de
+acuerdo con el índice R ajustado las variables de suelo explican la
+composición de las especies en los sitios con datos insesgados en un
+41\%. En el escalamiento uno se apiñan las especies en el centro, debido
+a la presencia de especies raras como \emph{Myrcgatu} y \emph{Psidfrie},
+que al ser tan raras se alejan por mucho del resto (ver figura
+\ref{fig:esc1cca}).
+
+\subsection{\texorpdfstring{Diversidad de
+\emph{Myrtaceae}}{Diversidad de Myrtaceae}}\label{diversidad-de-myrtaceae}
+
+De acuerdo con la matriz de correlación entre índices de diversidad y
+algunas variables ambientales, se puede deducir que las variables
+aluminio, calcio, hierro, fósforo y llanura, pueden ayudar a explicar la
+diversidad, debido a que reaccionan de forma significativa y positiva a
+algunos índices (ver figura
+\ref{fig:matriz de correlación de índices _con var amb}).
+
+La rarefacción de los sitios con menor riqueza de especies son 2, 5, 11,
+36, 46, 47 (riq 4) con una abundancia de individuos de 56, 75, 111, 49,
+119, respectivamente, lo cual se puede considerar como abundancias
+medianas; mientras que, los sitios con mayor riqueza de especies son 13,
+14, 17, 22 y 40, con una riqueza de 7 y abundancias considerables como
+medianas (no tan altas o bajas); el rango de riqueza de \emph{Myrtaceae}
+está entre 4 y 7 especies.
+
+Según la curva de rareza de especies de \emph{Myrtaceae comparada con la
+abundancia por sitio de }pmp* en \emph{BCI} demuestra que las especies
+más raras (7) tienden a tener números de abundancias reducidos en
+algunos sitios como 13 y 17, y abundancias moderadas como los sitios 22
+y 40; las especies con una riqueza moderada (6) suelen tener más
+individuos por sitios, a diferencia del sitio 19 que tiene una
+abundancia de especies muy grande y una riqueza moderada (6); mientras
+que los sitios de menor riqueza se puede apreciar bajos valores de
+abundancia, sitios 36, 2 y 5 (ver figura \ref{fig:curva de rareza}).
+
+La riqueza de especie estimada (ver estimadores en tabla
+\ref{tab:estimadores}) se corresponde con la real, indicando que la
+muestra poseída representa completamente la riqueza. Todos los modelos
+estimadores de riqueza concluyen que el número de especies de
+\emph{Myrtaceae} es 7. Al usar el estimadores de \emph{chao} sobre mi
+matriz la matriz de comunidad de la familia \emph{Myrtaceae}
+transformada y combinando todos los sitios en uno, indica que hay muy
+baja probabilidad de encontrar especies nuevas. Al aplicar los
+estimadores cobre una matriz de comunidad agrupada según el método de
+Ward, se concluye que la riqueza de especie para los sitios de los tres
+grupos está bien representada, no se espera un crecimiento en la riqueza
+de las especies pero si su abundancia para los grupos 1 y 2, en cambio,
+en el grupo 3 se espera aumente (ver figura \ref{fig:riq_est}).
 
 \subsection{Correlación espacial}\label{correlaciuxf3n-espacial}
 
@@ -1368,11 +1438,11 @@ sitios (CA).\label{fig:escal_sin_myrcia}}
 \caption{\label{tab:equivalencias} Equivalencias de los nombres de
 especies de \emph{Myrtaceae}}\tabularnewline
 \toprule
-Nomb re original & Equivalencias\tabularnewline
+Nombre original & Equivalencias\tabularnewline
 \midrule
 \endfirsthead
 \toprule
-Nomb re original & Equivalencias\tabularnewline
+Nombre original & Equivalencias\tabularnewline
 \midrule
 \endhead
 Eugenia galalonensis & Eugegala\tabularnewline
@@ -1396,6 +1466,65 @@ Myrcia gatunensis & Myrcgatu\tabularnewline
 \includegraphics[width=0.90000\textwidth]{Pcoa_amb_spec_ escal.png}
 \caption{Promedios ponderados de especies y variables ambientales
 PCoA\label{fig:ambiental PCoA spec}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.90000\textwidth]{Rplorda_triplot_var.png}
+\caption{Diagrama de especies, sitios y variables ambientales sin
+colinealidad RDA.\label{fig:varesc2 tripo RDA}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.90000\textwidth]{trip_cca_esca1.png}
+\caption{Diagrama de especies, sitios y variables seleccionadas
+CCA.\label{fig:esc1cca}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1.00000\textwidth]{matriz_ind_var_amb.png}
+\caption{Matriz de correlación entre índices de riqueza y algunas
+variables
+ambientales\label{fig:matriz de correlación de índices _con var amb}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1.00000\textwidth]{curva de rareza.png}
+\caption{Curva de rareza de especies según sitios por
+abundancia\label{fig:curva de rareza}}
+\end{figure}
+
+\begin{longtable}[]{@{}cc@{}}
+\caption{\label{tab:estimadores} Estimadores de riqueza de
+especies}\tabularnewline
+\toprule
+Estimadores de riqueza & Equivalencias\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Estimadores de riqueza & Equivalencias\tabularnewline
+\midrule
+\endhead
+Total de especies & 7\tabularnewline
+chao & 7\tabularnewline
+chao.se & 0\tabularnewline
+jack1 & 7\tabularnewline
+jack1.se & 0\tabularnewline
+jack2 & 7\tabularnewline
+boot & 7\tabularnewline
+boot.se & 5.161914e-08\tabularnewline
+n & 50\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.80000\textwidth]{riq_espc_est.png}
+\caption{Riqueza de especie estimada para los grupos obtenidos por el
+método Ward\label{fig:riq_est}}
 \end{figure}
 
 \section{\texorpdfstring{\emph{Script}
@@ -3502,9 +3631,9 @@ summary(mi_fam_hel_rda_suelo)
 #' 
 #' ¿Qué partes del resumen debes mirar?
 #' 
-#' - La varianza, particionada, de la cual se muestra tanto la inercia (absoluta) como la proporción, y está repartida entre restringida (*constrained*=0.61) y no restringida (*unconstrained*=0.39). La parte restringida es equivalente al R<sup>2</sup> no ajustado del análisis de regresión. Sin embargo, al igual que ocurre en la regresión, este valor está fuertemente sesgado (inflado de varianza por correlación aleatoria o multicolinealidad); además, en el ejemplo, también está afectado por la no independencia de las observaciones. Por esta razón, es prudente calcular el R<sup>2</sup> ajustado o "insesgado" (ver abajo).
+#' - La varianza, particionada, de la cual se muestra tanto la inercia (absoluta) como la proporción, y está repartida entre restringida (*constrained*=0.46) y no restringida (*unconstrained*=0.53). La parte restringida es equivalente al R<sup>2</sup> no ajustado del análisis de regresión. Sin embargo, al igual que ocurre en la regresión, este valor está fuertemente sesgado (inflado de varianza por correlación aleatoria o multicolinealidad); además, en el ejemplo, también está afectado por la no independencia de las observaciones. Por esta razón, es prudente calcular el R<sup>2</sup> ajustado o "insesgado" (ver abajo).
 #' 
-#' - Los valores propios (*eigenvalues*) y su contribución a la varianza. Existen *eigenvalues* de los ejes "canónicos", que se refieren a la varianza restringida, rotulados como "RDAx" (en mi caso, 13=número de variables explicativas o predictoras), y *eigenvalues* de la varianza no restringida, o residuos (varianza no explicada por el modelo), rotulados como "PCAx" (en mi caso, 16=número especies). La proporción de varianza restringida explicada del encabezado coincide con la proporción acumulada en RDA13 (=0.61), y la proporción de varianza total (=1) coincide con proporción acumulada en PCA16. La no restringida (=0.39), resulta de la acumulación de los residuos, es decir, de los PCAx.
+#' - Los valores propios (*eigenvalues*) y su contribución a la varianza. Existen *eigenvalues* de los ejes "canónicos", que se refieren a la varianza restringida, rotulados como "RDAx" (en mi caso, 7=número de variables explicativas o predictoras), y *eigenvalues* de la varianza no restringida, o residuos (varianza no explicada por el modelo), rotulados como "PCAx" (en mi caso, 7=número especies). La proporción de varianza restringida explicada del encabezado coincide con la proporción acumulada en RDA7 (=0.46), y la proporción de varianza total (=1) coincide con proporción acumulada en PCA7. La no restringida (=0.53), resulta de la acumulación de los residuos, es decir, de los PCAx.
 #' 
 #' - Las puntuaciones de sitios (*site scores*) y de especies (*species scores*) tienen el mismo significado que en el PCA.
 #' 
