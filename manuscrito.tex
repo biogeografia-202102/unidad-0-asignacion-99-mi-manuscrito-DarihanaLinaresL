@@ -50,9 +50,10 @@
 % using explicit options in \includegraphics[width, height, ...]{}
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
 
-\title{Título\\
-Subtítulo\\
-Subtítulo  }
+\title{Estudio de la biodiversidad de Myrtaceae en la Isla de Barrio Colorado,
+Panamá. Desde la Ecología Numérica.\\
+\emph{Biodiversity study of Myrtaceae on the Island of Barrio Colorado,
+Panama. From Numerical Ecology}.  }
 
 
 
@@ -105,10 +106,12 @@ ecoturismo, Universidad Autónoma de Santo Domingo (UASD)}  }
             bookmarks=true,
             pdfauthor={Darihana Linares Laureano (Estudiante de Licenciatura en Geografía mención recursos naturales y
 ecoturismo, Universidad Autónoma de Santo Domingo (UASD))},
-             pdfkeywords = {palabra clave 1, palabra clave 2},  
-            pdftitle={Título\\
-Subtítulo\\
-Subtítulo},
+             pdfkeywords = {RStudio, Diversidad, Ecología numérica, BCI, Myrtaceae, coeficientes de
+asociación, cluster análisis, ordenamiento, autocorrelación.},  
+            pdftitle={Estudio de la biodiversidad de Myrtaceae en la Isla de Barrio Colorado,
+Panamá. Desde la Ecología Numérica.\\
+\emph{Biodiversity study of Myrtaceae on the Island of Barrio Colorado,
+Panama. From Numerical Ecology}.},
             colorlinks=true,
             citecolor=blue,
             urlcolor=blue,
@@ -170,7 +173,8 @@ ecoturismo, Universidad Autónoma de Santo Domingo (UASD)}
 \noindent Resumen del manuscrito
 
 
-\vskip 8.5pt \noindent \emph{Keywords}: palabra clave 1, palabra clave 2 \par
+\vskip 8.5pt \noindent \emph{Keywords}: RStudio, Diversidad, Ecología numérica, BCI, Myrtaceae, coeficientes de
+asociación, cluster análisis, ordenamiento, autocorrelación. \par
 
     \hbox{\vrule height .2pt width 39.14pc}
 
@@ -1034,20 +1038,116 @@ más que en otros (ver figura \ref{fig:beta}).
 Finalmente, la contribución local y la contribución de especias a la
 diversidad beta calculada con la función
 \texttt{determinar\_contrib\_local\_y\_especie} transformando la matriz
-de comunidad por el método de \emph{Hellinger}, indica que las
-especies\emph{Chamguava schippii} y \emph{Eugenia oersteniada}
-contribuyen a la diversidad beta, más que las otras especies; y que los
-sitios que contribuyen, más que otros sitios, a esta diversidad son el
-14 y 19; hay que destacar, también, que después de hacer un ajuste a los
-valores de sitios y especies contribuyentes el resultado es cero, pero
-las especies y lugares mencionados anteriormente contribuyen, aunque no
-de forma significativa, más a la diversidad beta que el resto.
+de comunidad por el método de \emph{Hellinger}, indica que las especies
+\emph{Chamguava schippii} y \emph{Eugenia oersteniada} contribuyen a la
+diversidad beta, más que las otras especies; y que los sitios que
+contribuyen, más que otros sitios, a esta diversidad son el 14 y 19; hay
+que destacar, también, que después de hacer un ajuste a los valores de
+sitios y especies contribuyentes el resultado es cero, pero las especies
+y lugares mencionados anteriormente contribuyen, aunque no de forma
+significativa, más a la diversidad beta que el resto.
 
 \subsection{Correlación espacial}\label{correlaciuxf3n-espacial}
+
+La autocorrelación espacial, mediante correlograma del I de Moran
+aplicado a la matriz de comunidad transformada por \emph{Hellinger},
+denota que algunas de las especies de la familia \emph{Myrtaceae}
+presente en la \emph{pmp} de BCI presentan grados de autocorrelación
+espacial significativos para algunos sitios: en los órdenes 1 y 2
+\emph{Chamguava schippii} esta autocorrelacionada espacialmente de forma
+positiva con respecto a la abundancia de esta; esto implica que la
+abundancia de \emph{Chamschi} en el sitio uno esta autocorrelacionada
+con otros sitios de valores similares (en este caso 0); para los órdenes
+4, 5 y 6 se observan valores de autocorrelación espacial negativos
+significativos, indicando que en estos sitios la abundancia de la
+especie son diferentes pero están cerca.
+
+En ese mismo orden, se presentan valores significativos de
+autocorrelación espacial para las especies \emph{Eugenia coloradoensis,
+Psidium friedrichsthalianum} y \emph{Eugenia galalonensis} existe una
+autocorrelación significativa (alta para la primera especie, mediana
+para segunda y baja para la tercera) positiva en los sitios de orden 1
+para cada una, por lo que la abundancia presente en esos sitios es
+similares en otros sitios de \emph{pmp}.
+
+En el caso de las especies \emph{Eugenia nesiotica} y \emph{Eugenia
+oerstediana}, presentan índices de autocorrelación espacial
+significativa positiva para sus sitios de orden 1, por lo que existe un
+patrón de agrupamiento en cuanto a la abundancia (similar) con otros
+sitios; y presentaron valores de autocorrelación significativos
+negativos en los sitios de orden 4, indicando que su abundancia con
+respecto a los demás sitios es diferente. Para la primera especie hay
+valores negativos significativos de autocorrelación en el sitio 3 y para
+la segunda especie en el sitio 5, por lo que la abundancia de estos
+lugares es distinta al resto. Por el contrario, en la especie
+\emph{Myrcia gatunensis} no existe un patrón de autocorrelación espacial
+negativo o positiva lo que indica que esta especie tiene una
+distribución espacial aleatoria (ver figura \ref{fig:correlog_espc}).
+
+En el caso de las variables ambientales, en algunas
+(\texttt{heterogeneidad\ ambiental,\ pico,\ interfluvio,\ hombrera,\ pie\ de\ monte,\ valle,\ sima,\ curvatura\ tangencial\ media,\ y\ abundancia\ global}),
+no se produjo ninguna autocorrelación ambiental significativa en los
+sitios, indicando que presentan un patrón de distribución dispersa.
+Contrario, las variables
+\texttt{llanura,\ espolón/gajo,\ vertiente,\ vaguada,\ pendiente\ media\ y\ orientación\ media},
+si se presenta un patrón de correlación espacial en los sitios de orden
+1, presentan valores significativos por lo que son muy similares a otros
+sitios. El aluminio que presenta autocorrelación positiva en el sitio
+uno, siendo similar en otros sitios, excepto el sitio 7, con un valor
+significativo negativo contrario al 1. Finalmente, variables como
+\texttt{calcio,\ boro,\ cobre,\ hierro,\ potasio,\ magnesio,\ fósforo,\ zinc,\ nitrógeno,\ nitrógeno\ mineralizado,\ pH\ y\ elevación\ media}
+presentan autocorrelaciones muy significativas tanto positivas (sitios 1
+y 2), por lo que están distribuidos de manera similar en otros sitios,
+excepto los que presentaron los valores negativos que se diferencian del
+resto (sitios 5, 6 y 7). Ver figura \ref{fig:amb_correl}.
+
+La autocorrelación especial de Mantel (matrices de distancia sin
+tendencias espaciales), de dos matrices (transformada con
+\emph{Hellinger} y de posiciones XY), indica que existen
+autocorrelaciones muy significativas en la primera distancia, baja en la
+tercera y moderada en la 6distancias calculada, por lo que probablemente
+sea por variables ambientales, la cual explique la estructura espacial
+de las especies, como aluminio o pH (ver figura
+\ref{fig:mantel_distancia}).
+
+Finalmente, los modelos de \texttt{lisamaps} generados al aplicar la
+autocorrelación espacial por medio de pruebas de permutación para el I
+de Moran, muestran la existencia de estructuras espaciales que podrían
+explicar la dependencia espacial inducida por algunas variables
+ambientales. Las variables geomorfológicas presentan, presentan patrones
+de autocorrelación espacial, en los cluster LISA, con valores pequeños
+(azul) y altos (rojo); se en variables con autocorrelación que no
+presentaban valores significativos anteriormente como heterogeneidad
+ambiental, pero con valores bajos. En cuanto, a las variables de suelo
+los cluster LISA se corresponden con los valores de autocorrelación
+espacial obtenidas con el método de correlograma. Y para las especies se
+cumple también en todos los casos la autoccorelación, excepto
+\emph{Myrcia gatunensis} que no presentaba patrón de autocorrelación por
+correlograma, pero en el cluster LISA se aprecia un pequeño agrupamiento
+con valores pequeños, que se presentan aun en clusters LISA con valores
+sin tendencias (ver figuras \ref{fig:amb_perm} , \ref{fig:perm_suelo},
+\ref{fig:suelo2}, \ref{fig:espc_perm}, \ref{fig:sinten}).
 
 \section{Discusión}\label{discusiuxf3n}
 
 \section{Agradecimientos}\label{agradecimientos}
+
+A Dios, por no dejarme caer en los días difíciles y darme salud y
+fuerza.
+
+A mi maestro, \textbf{Jose Martínez Batlle}, por su entusiasmo,
+dedicación y disponibilidad para enseñar y asesorar durante todo el
+trayecto.
+
+A mi madre \textbf{Denny Laureano}, mis hermanos \textbf{Darleny
+Linares}, \textbf{Diana Carolina Linares} y \textbf{Jose Daniel
+Linares}, por apoyarme emocional y moralmente.
+
+A mi compañero de carrera y amigo \textbf{Welifer Lebron} por su
+asesoramiento y apoyo.
+
+A mi hermoso perrito, \textbf{Snow}, que acompañó como un fiel
+compañero, durante mis días y noches de trabajo
 
 \section{Información de soporte}\label{informaciuxf3n-de-soporte}
 
@@ -1543,16 +1643,74 @@ n & 50\tabularnewline
 
 \begin{figure}
 \centering
-\includegraphics[width=0.80000\textwidth]{riq_espc_est.png}
+\includegraphics[width=0.90000\textwidth]{riq_espc_est.png}
 \caption{Riqueza de especie estimada para los grupos obtenidos por el
 método Ward\label{fig:riq_est}}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics[width=0.80000\textwidth]{div_beta_multi.png}
+\includegraphics[width=0.90000\textwidth]{div_beta_multi.png}
 \caption{Diversidad beta multiplicativa de la familia
 \emph{Myrtaceae}\label{fig:beta}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.90000\textwidth]{correl_abu_esp_sitios.png}
+\caption{Correlograma de abundancia de especies por sitios
+autocorrelacionados\label{fig:correlog_espc}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1.00000\textwidth]{amb_corrl.png}
+\caption{Correlograma de variables ambientales autocorrelacionadas por
+sitios\label{fig:amb_correl}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.90000\textwidth]{mantel_dist_corr.png}
+\caption{Correlograma de dos matrices de comunidad autocorrelacionadas
+usando matriz de distancia\label{fig:mantel_distancia}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.90000\textwidth]{LISA_amb.png}
+\caption{Modelos LISA Cluster de autocorrelación espacial de variables
+ambientales, según las pruebas de permutación\label{fig:amb_perm}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.90000\textwidth]{LISA_suelo.png}
+\caption{Modelos LISA Cluster de autocorrelación espacial de variables
+de suelo, según las pruebas de permutación\label{fig:perm_suelo}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.90000\textwidth]{LISA_suelo2.png}
+\caption{Modelos LISA Cluster de autocorrelación espacial de variables
+ambientales, según las pruebas de permutación\label{fig:suelo2}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.90000\textwidth]{LISA_espc_trans.png}
+\caption{Modelos LISA Cluster de autocorrelación espacial de las
+especies transformadas, según las pruebas de
+permutación\label{fig:espc_perm}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.90000\textwidth]{LISA_espc_sin_tend.png}
+\caption{Modelos LISA Cluster de autocorrelación espacial de especies
+transformadas sin tendencias, según las pruebas de
+permutación\label{fig:sinten}}
 \end{figure}
 
 \section{\texorpdfstring{\emph{Script}

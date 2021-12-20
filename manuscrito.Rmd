@@ -8,14 +8,14 @@ output:
     template: svm-latex-ms.tex
     number_sections: true
 title: | 
-        | Título
-        | Subtítulo
-        | Subtítulo
+        | Estudio de la biodiversidad de Myrtaceae en la Isla de Barrio Colorado, Panamá. Desde la Ecología Numérica.
+        | *Biodiversity study of Myrtaceae on the Island of Barrio Colorado, Panama. From Numerical Ecology*.
+        
 author:
 - name: Darihana Linares Laureano
   affiliation: "Estudiante de Licenciatura en Geografía mención recursos naturales y ecoturismo, Universidad Autónoma de Santo Domingo (UASD)"
 abstract: "Resumen del manuscrito"
-keywords: "palabra clave 1, palabra clave 2"
+keywords: "RStudio, Diversidad, Ecología numérica, BCI, Myrtaceae, coeficientes de asociación, cluster análisis, ordenamiento, autocorrelación."
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 geometry: margin=1in
 fontfamily: mathpazo
@@ -192,12 +192,35 @@ Finalmente, la contribución local y la contribución de especias a la diversida
 
 ## Correlación espacial
 
+La autocorrelación espacial, mediante correlograma del I de Moran aplicado a la matriz de comunidad transformada por *Hellinger*, denota que algunas de las especies de la familia *Myrtaceae* presente en la *pmp* de BCI presentan grados de autocorrelación espacial significativos para algunos sitios: en los órdenes 1 y 2 *Chamguava schippii* esta autocorrelacionada   espacialmente de forma positiva con respecto a la abundancia de esta; esto implica que la abundancia de *Chamschi* en el sitio uno esta autocorrelacionada con otros sitios de valores similares (en este caso 0); para los órdenes 4, 5 y 6 se observan valores de autocorrelación espacial negativos significativos, indicando que en estos sitios la abundancia de la especie son diferentes pero están cerca.
+
+En ese mismo orden, se presentan valores significativos de autocorrelación espacial para las especies *Eugenia coloradoensis, Psidium friedrichsthalianum* y *Eugenia galalonensis* existe una autocorrelación significativa (alta para la primera especie, mediana para segunda y baja para la tercera) positiva en los sitios de orden 1 para cada una, por lo que la abundancia presente en esos sitios es similares en otros sitios de *pmp*.
+
+En el caso de las especies *Eugenia nesiotica* y *Eugenia oerstediana*, presentan índices de autocorrelación espacial significativa positiva para sus sitios de orden 1, por lo que existe un patrón de agrupamiento en cuanto a la abundancia (similar) con otros sitios; y presentaron valores de autocorrelación significativos negativos en los sitios de orden 4, indicando que su abundancia con respecto a los demás sitios es diferente. Para la primera especie hay valores negativos significativos de autocorrelación en el sitio 3 y para la segunda especie en el sitio 5, por lo que la abundancia de estos lugares es distinta al resto. Por el contrario, en la especie *Myrcia gatunensis* no existe un patrón de autocorrelación espacial negativo o positiva lo que indica que esta especie tiene una distribución espacial aleatoria (ver figura \ref{fig:correlog_espc}).
+
+En el caso de las variables ambientales, en algunas (`heterogeneidad ambiental, pico, interfluvio, hombrera, pie de monte, valle, sima, curvatura tangencial media, y abundancia global`), no se produjo ninguna autocorrelación ambiental significativa en los sitios, indicando que presentan un patrón de distribución dispersa. Contrario, las variables `llanura, espolón/gajo, vertiente, vaguada, pendiente media y orientación media`, si se presenta un patrón de correlación espacial en los sitios de orden 1, presentan valores significativos por lo que son muy similares a otros sitios. El aluminio que presenta autocorrelación positiva en el sitio uno, siendo similar en otros sitios, excepto el sitio 7, con un valor significativo negativo contrario al 1. Finalmente, variables como `calcio, boro, cobre, hierro, potasio, magnesio, fósforo, zinc, nitrógeno, nitrógeno mineralizado, pH y elevación media` presentan autocorrelaciones muy significativas tanto positivas (sitios 1 y 2), por lo que están distribuidos de manera similar en otros sitios, excepto los que presentaron los valores negativos que se diferencian del resto (sitios 5, 6 y 7). Ver figura \ref{fig:amb_correl}.
+
+La autocorrelación especial de Mantel (matrices de distancia sin tendencias espaciales), de dos matrices (transformada con *Hellinger* y de posiciones XY), indica que existen autocorrelaciones muy significativas en la primera distancia, baja en la tercera y moderada en la 6distancias calculada, por lo que probablemente sea por variables ambientales, la cual explique la estructura espacial de las especies, como aluminio o pH (ver figura \ref{fig:mantel_distancia}).
+
+Finalmente, los modelos de `lisamaps` generados al aplicar la autocorrelación espacial por medio de pruebas de permutación para el I de Moran, muestran la existencia de estructuras espaciales que podrían explicar la dependencia espacial inducida por algunas variables ambientales. Las variables geomorfológicas presentan, presentan patrones de autocorrelación espacial, en los cluster LISA, con valores pequeños (azul) y altos (rojo); se en variables con autocorrelación que no presentaban valores significativos anteriormente como heterogeneidad ambiental, pero con valores bajos. En cuanto, a las variables de suelo los cluster LISA se corresponden con los valores de autocorrelación espacial obtenidas con el método de correlograma. Y para las especies se cumple también en todos los casos la autoccorelación, excepto *Myrcia gatunensis* que no presentaba patrón de autocorrelación por correlograma, pero en el cluster LISA se aprecia un pequeño agrupamiento con valores pequeños, que se presentan aun en clusters LISA con valores sin tendencias (ver figuras \ref{fig:amb_perm} , \ref{fig:perm_suelo}, \ref{fig:suelo2}, \ref{fig:espc_perm}, \ref{fig:sinten}).
 
 
 
 # Discusión
 
 # Agradecimientos
+
+ A **Dios**, por no dejarme caer en los días difíciles y darme salud y fuerza.
+
+A mi maestro, **Jose Martínez Batlle**, por su entusiasmo, dedicación y disponibilidad para enseñar y asesorar durante todo el trayecto.
+
+A mi madre **Denny Laureano**, mis hermanos **Darleny Linares**, **Diana Carolina Linares** y **Jose Daniel Linares**, por apoyarme emocional y moralmente. 
+
+A mi compañero de carrera y amigo **Welifer Lebron** por su asesoramiento y apoyo.
+
+A mi hermoso perrito, **Snow**, que acompañó como un fiel compañero y apoyo emocional, durante mis días y noches de trabajo.
+
+Último, pero no menos importante, a mí misma, por tener el valor y la fuerza de voluntad para embarcarme en este proyecto que supuso un gran reto, por no rendirme y llegar hasta el final.
 
 # Información de soporte
 
@@ -330,9 +353,25 @@ Table: \label{tab:equivalencias} Equivalencias de los nombres de especies de *My
 |            n            	|       50      	|
 Table: \label{tab:estimadores} Estimadores de riqueza de especies
 
-![Riqueza de especie estimada para los grupos obtenidos por el método Ward\label{fig:riq_est}](riq_espc_est.png){width=80%}
+![Riqueza de especie estimada para los grupos obtenidos por el método Ward\label{fig:riq_est}](riq_espc_est.png){width=90%}
 
-![Diversidad beta multiplicativa de la familia *Myrtaceae*\label{fig:beta}](div_beta_multi.png){width=80%}
+![Diversidad beta multiplicativa de la familia *Myrtaceae*\label{fig:beta}](div_beta_multi.png){width=90%}
+
+![Correlograma de abundancia de especies por sitios autocorrelacionados\label{fig:correlog_espc}](correl_abu_esp_sitios.png){width=90%}
+
+![Correlograma de variables ambientales autocorrelacionadas por sitios\label{fig:amb_correl}](amb_corrl.png){width=100%}
+
+![Correlograma de dos matrices de comunidad autocorrelacionadas usando matriz de distancia\label{fig:mantel_distancia}](mantel_dist_corr.png){width=90%}
+
+![Modelos LISA Cluster de autocorrelación espacial de variables ambientales, según las pruebas de permutación\label{fig:amb_perm}](LISA_amb.png){width=90%}
+
+![Modelos LISA Cluster de autocorrelación espacial de variables de suelo, según las pruebas de permutación\label{fig:perm_suelo}](LISA_suelo.png){width=90%}
+
+![Modelos LISA Cluster de autocorrelación espacial de variables ambientales, según las pruebas de permutación\label{fig:suelo2}](LISA_suelo2.png){width=90%}
+
+![Modelos LISA Cluster de autocorrelación espacial de las especies transformadas, según las pruebas de permutación\label{fig:espc_perm}](LISA_espc_trans.png){width=90%}
+
+![Modelos LISA Cluster de autocorrelación espacial de especies transformadas sin tendencias, según las pruebas de permutación\label{fig:sinten}](LISA_espc_sin_tend.png){width=90%}
 
 # *Script* reproducible
 
