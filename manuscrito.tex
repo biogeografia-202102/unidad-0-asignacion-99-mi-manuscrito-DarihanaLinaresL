@@ -170,7 +170,19 @@ ecoturismo, Universidad Autónoma de Santo Domingo (UASD)}
 
     \vskip 8.5pt % \small 
 
-\noindent Resumen del manuscrito
+\noindent La ecología númerica resulta sumamente importante en el estudio de la
+biodiversidad de las plantas, ya que se pueden emplear herramientas
+diversas para los estudios multivariacos. El estudio de los conjunto de
+datos ecológicos usando algoritmos, permite un aprovechamiento más
+detallado y especifico de la familia arbórea, sobre su distribución, el
+comportamiento con respecto a variables ambientales, la diversidad de
+especies en sitios especificos o su autocorrelación espacial. El estudio
+de la biodiversidad de las \emph{Myrtaceae} en las parcelas de medición
+permanente en BCI, indican que las especies especies más raras como
+\emph{Chamguava schippi} tienden a ser indicadoras de sitios (14 y 19),
+influenciadas por variables de suelos como Aluminio Y pH ácido. Se
+distinguen patrones de dispersión para variables ambientales com
+heterogeneidad ambiental, pico, interfluvio, hombrera, entre otros.
 
 
 \vskip 8.5pt \noindent \emph{Keywords}: RStudio, Diversidad, Ecología numérica, BCI, Myrtaceae, coeficientes de
@@ -296,13 +308,16 @@ ser una correlación positiva o negativa.
 La \emph{Myrtaceae} son una familia de plantas de árboles y arbustos
 bastante numerosas compuestas caracterizadas por ser leñosas. Esta
 familia de plantas pertenece al orden de los \emph{Myrtales}, teniendo a
-nivel mundial 129 géneros y aproximadamente 5330 especies (Perez \& R,
-s.f.). De sus características físicas se destacan sus hojas simples y
-opuestas, tienden a ser perennes por lo que resulta poco común ver
-individuos caducifolios, sus flores son hermafroditas y comúnmente son
-de color blanco con simetría radial, según la especie de esta familia
-los frutos tienen forma de bayas o cápsulas secas. De esta familia el
-género más conocido es el \emph{Eucalypto Eucalyptus} por sus
+nivel mundial 129 géneros y aproximadamente 5330 especies; en Panamá 17
+géneros y 72 especies; y en Barro Colorado 6 géneros y 15 especies, de
+las cuales hay 4 géneros y 7 (ver tabla \ref{tab:genero}) especies en la
+parcela de medición permanente (Perez \& R, s.f.; Smithsonian Tropical
+Research, 2021). De sus características físicas se destacan sus hojas
+simples y opuestas, tienden a ser perennes por lo que resulta poco común
+ver individuos caducifolios, sus flores son hermafroditas y comúnmente
+son de color blanco con simetría radial, según la especie de esta
+familia los frutos tienen forma de bayas o cápsulas secas. De esta
+familia el género más conocido es el \emph{Eucalypto Eucalyptus} por sus
 propiedades medicinales y su madera dura. Esta familia está distribuida
 en todos los continentes, pero predominan en América, África y Oceanía,
 en climas templados, tropicales y subtropicales. Muchos consideran que
@@ -316,26 +331,25 @@ El estudio de la biodiversidad de la flora en especial de una especie
 vegetal es importante, debido a que permite conocer sus características
 propias, ecosistémicas, su distribución, su capacidad productiva, su
 potencial de uso y aportes a los humanos como a su ecosistema. Por todo
-lo anterior, es importante determinar el objetivo de este estudio, el
-cual se fragmenta así: \emph{a)} identificar si los grupos de mi
-familia, \emph{Myrtaceae}, se organizan de forma discontinua y acorde a
-la composición de las especies; \emph{b)} indagar si existe algún tipo
-de patrón que sea o no sea consistente con alguna variable ambiental o
-atributo; \emph{c)} determinar cuántas especies indicadoras hay o si hay
-alguna con preferencia por ciertas condiciones ambientales o atributos;
-\emph{d)} investigar, en un espacio bidimensional, si hay una tendencia
-de ordenación visible de las especies de Myrtaceae; \emph{e)} conocer si
-las tendencias de ordenación se asocian con las variables ambientales o
-atributos; \emph{f)} determinar, de acuerdo a la estimación de riqueza,
-si mi familia está bien representada, tomando como buena representación
-un 85\%; \emph{g)} investigar si existe una alguna asociación entre la
-diversidad Alpha y las variables ambientales o atributos y cuales son
-estas; \emph{h)} conocer si hay algún tipo de contribución local o de
-alguna especie a la diversidad Beta; \emph{i)} identificar si hay alguna
-especie que presente algún patrón aglomerado, cuál es y si presenta
-alguna asociación con las variables ambientales; \emph{j)} y determinar
-si los modelos de distribución de especies (\emph{SDM}) predicen
-adecuadamente las ocurrencias de las especies.
+lo anterior, es importante saber: si los grupos de mi familia,
+\emph{Myrtaceae}, se organizan de forma discontinua y acorde a la
+composición de las especies; también, si existe algún tipo de patrón que
+sea o no sea consistente con alguna variable ambiental o atributo; del
+mismo modo, cuántas especies indicadoras hay o si hay alguna con
+preferencia por ciertas condiciones ambientales o atributos; de igual
+manera y en un espacio bidimensional, si hay una tendencia de ordenación
+visible de las especies de Myrtaceae; luego, determinar si las
+tendencias de ordenación se asocian con las variables ambientales o
+atributos; determinar, de acuerdo a la estimación de riqueza, si mi
+familia está bien representada, tomando como buena representación un
+85\%; asi mismo, si existe una alguna asociación entre la diversidad
+Alpha y las variables ambientales o atributos y cuales son estas;
+también, ver si hay algún tipo de contribución local o de alguna especie
+a la diversidad Beta; así también, saber si hay alguna especie que
+presente algún patrón aglomerado, cuál es y si presenta alguna
+asociación con las variables ambientales; y determinar si los modelos de
+distribución de especies (\emph{SDM}) predicen adecuadamente las
+ocurrencias de las especies.
 
 \section{Área de estudio}\label{uxe1rea-de-estudio}
 
@@ -371,7 +385,7 @@ la parcela se obtuvieron a través de múltiples censos desde 1982 hasta
 marcado y monitoreo de los tallos leñosos individuales de más de 10 mm
 de diámetro a altura del pecho. Durante los 35 años se censaron más de
 350,000 árboles individuales (Hubbell et al., 2005). Ver figura
-\ref{fig:bci_map}
+\ref{fig:bci_map}.
 
 \begin{figure}
 \centering
@@ -655,8 +669,9 @@ figura \ref{fig:abuxcua}). De las especies de \emph{Myrtaceae} que
 presentan una correlación simple (de Pearson) positiva significativa, en
 comparación a las demás, están \emph{Chamguava schippii} y \emph{Eugenia
 galalonensis} con un índice de correlación de 0.30, también
-\emph{Chamguava schippii} con \emph{Eugenia Nesiotica} con un índice de
-correlación de 0.29 (ver figura \ref{fig:corresp}).
+\emph{Chamguava schippii} con \emph{Eugenia nesiotica} con un índice de
+correlación de 0.29, por lo que estas especies tiene una relación con la
+otra (ver figura \ref{fig:corresp}).
 
 En cuanto a las variables ambientales que se destacan en \emph{pmp}
 están: la geológica, que de acuerdo con el Mapa geológico del canal de
@@ -714,7 +729,7 @@ confirma que comparten el 80\% de sus especies (ver figura
 \ref{fig:riqmifam}).
 
 En cuanto a las variables ambientales, los resultados del análisis de
-correlación para las variables de suelo o edáficas indican que
+correlación para las variables de suelo o edáficas indican que hay
 similaridades importantes para los sitios limitados por los cuadros
 12-16 de la matriz de disimilaridad ordenada (ver figura
 \ref{fig:suelodis}), creando lo que es un gran cluster de variables
@@ -777,11 +792,12 @@ dependencia significativa. También se obtuvieron asociaciones negativas
 significativas entre la abundancia de la familia y las variables
 \texttt{pendiente\ media}, \texttt{vaguada}, \texttt{vertiente} y
 \texttt{heterogeneidad\ ambiental} (ver figura \ref{fig:pearson_geom}).
-En cambio, la correlación de \emph{Spearman} solo tiene 3 asociaciones
-significativas, de las cuales coinciden las negativas con las variables
-de \texttt{vaguada} y \texttt{heterogeneidad\ ambiental} y una positiva
-con \texttt{elevación\ media} (ver figura \ref{fig:spearm_geom}). En el
-caso de la riqueza, no existe ninguna correlación significativa con las
+En cambio, la correlación de \emph{Spearman} señala 3 asociaciones
+significativas con la abundancia de \emph{Myrtaceae}, de las cuales
+coinciden las negativas con las variables de \texttt{vaguada} y
+\texttt{heterogeneidad\ ambiental} y una positiva con
+\texttt{elevación\ media} (ver figura \ref{fig:spearm_geom}). En el caso
+de la riqueza, no existe ninguna correlación significativa con las
 variables geomorfológicas en ambos métodos usados, por lo que la riqueza
 de la familia no tiene una dependencia considerable con la
 geomorfología.
@@ -794,14 +810,14 @@ usando criterios de enlaces aglomerativos simple, completo y por
 promedio (UPGMA) y calculados a partir de matriz de distancia de cuerdas
 , presentan las mismas tendencias aglomerativas que indican la
 existencia de dos grupos de sitios, uno compuesto por dos sitios que se
-distinguen del resto (14 y 19 ) como únicos y uno mas grande y con el
-resto de sitios; en cuanto al método por Ward, existen dos grupos con
-más sitios a diferencia del resto de métodos, aunque los sitios 14 y 19
-siguen apareciendo como grupos únicos, pero están dentro de otro grupo
-más grande. El enlace completo presenta, exceptuando el grupo de los
-sitios 14 y 19, dos grupos definidos entre los sitios 8-20 y 41-44; con
-el enlace UPGMA se aprecia que el sitio 50 es único, lo cual se cumple
-en los otros enlaces aglomerativos (ver figura \ref{fig:enlaces}).
+distinguen del resto (14 y 19 ) como únicos y uno mas grande; en cuanto
+al método por Ward, existen dos grupos con más sitios a diferencia del
+resto de métodos, aunque los sitios 14 y 19 siguen apareciendo como
+grupos únicos, pero están dentro de otro grupo más grande. El enlace
+completo presenta, exceptuando el grupo de los sitios 14 y 19, dos
+grupos definidos entre los sitios 8-20 y 41-44; con el enlace UPGMA se
+aprecia que el sitio 50 es único, lo cual se cumple en los otros enlaces
+aglomerativos (ver figura \ref{fig:enlaces}).
 
 En cuanto al número optimo o idóneo de grupos, calculado con el
 \texttt{ancho\ de\ silueta}, para el método UPGMA es 2
@@ -861,7 +877,7 @@ algunas variables ambientales que corresponden con su característica
 única. Al observar los intervalos de confianza de todas las especies por
 grupos, se denota que para el grupo uno no se obtuvieron especies
 indicadoras con IndVal,indicando que las especies presentes en este
-sitio no tienen una proferencia por el grupo, pero con los intervalos de
+sitio no tienen una preferencia por el grupo, pero con los intervalos de
 confianza, obtenidos con \texttt{strassoc}, se puede concluir que la
 especie indicadora para este grupo pueden ser \emph{Eugenia
 galalonensis} y \emph{Eugenia oesterdiana} con un valor de confianza de
@@ -893,6 +909,32 @@ grupos y es la \emph{Chamguava schippii} con preferencia al grupo tres
 en un 78\%. Hay que destacar que esta especie presenta valores negativos
 en los otros grupos, indicando que no tienen preferencia por los
 hábitats de esos grupos.
+
+La familia \emph{Myrtacea} se organiza de forma continua y acorde a la
+composición de las especies, se distingues dos grupos con el método
+UPGMA muy distintos entre sí, uno grande y con más grupos dentro y otro
+más pequeño y disperso del grupo más grande. Aunque con el método Ward
+se distinguen tres grupos, de los cuales uno coincide con el de UPGMA
+(el más pequeño), lo que lo ratifica la peculiaridad de este grupo
+(sitios 14 y 19).
+
+No existe un patrón consistente entre los grupos de UPGMA con respecto a
+las variables ambientales geomorfológicas, exceptuando a la curvatura de
+perfil media, donde presentan patrones de relación entre ambos grupos. Y
+los grupos Ward no presentan asociaciones consistentes entre si según
+las variables ambientales, al menos no con el grupo tres, los otros dos
+grupos parecen compartir similitudes acordes a variables ambientales
+como heterogeneidad ambiental o aluminio.
+
+De acuerdo con los grupos formados el grupo dos de UPGMA y el tres de
+Ward (sitios 14 y 19), según IndVal, tienen como especie indicadora a
+\emph{Chamguava Schipppii} que lo representa al 97\%. También, se
+identificó para el grupo 2 UPGMA (sitios 14 y 19), que la especie
+\emph{Chamguava schippi} tiene una preferencia por los suelos con pH
+ácido, donde abunda el aluminio, con elevaciones medias, en relieves
+llanos, y concentraciones de nitrógeno, hierro, zinc y boro bajas. El
+resto de grupos UPGMA y Ward no presentan especies con preferencia de
+hábitat, de acuerdo al coeficiente de correlación biserial puntual.
 
 \subsection{Ordenación simple (no restringida) o canónica
 (restringida)}\label{ordenaciuxf3n-simple-no-restringida-o-canuxf3nica-restringida}
@@ -1002,11 +1044,11 @@ medianas; mientras que, los sitios con mayor riqueza de especies son 13,
 medianas (no tan altas o bajas); el rango de riqueza de \emph{Myrtaceae}
 está entre 4 y 7 especies.
 
-Según la curva de rareza de especies de \emph{Myrtaceae comparada con la
-abundancia por sitio de }pmp* en \emph{BCI} demuestra que las especies
-más raras (7) tienden a tener números de abundancias reducidos en
-algunos sitios como 13 y 17, y abundancias moderadas como los sitios 22
-y 40; las especies con una riqueza moderada (6) suelen tener más
+Según la curva de rareza de especies de \emph{Myrtaceae} comparada con
+la abundancia por sitio de \emph{pmp} en \emph{BCI} demuestra que las
+especies más raras (7) tienden a tener números de abundancias reducidos
+en algunos sitios como 13 y 17, y abundancias moderadas como los sitios
+22 y 40; las especies con una riqueza moderada (6) suelen tener más
 individuos por sitios, a diferencia del sitio 19 que tiene una
 abundancia de especies muy grande y una riqueza moderada (6); mientras
 que los sitios de menor riqueza se puede apreciar bajos valores de
@@ -1085,16 +1127,18 @@ negativo o positiva lo que indica que esta especie tiene una
 distribución espacial aleatoria (ver figura \ref{fig:correlog_espc}).
 
 En el caso de las variables ambientales, en algunas
-(\texttt{heterogeneidad\ ambiental,\ pico,\ interfluvio,\ hombrera,\ pie\ de\ monte,\ valle,\ sima,\ curvatura\ tangencial\ media,\ y\ abundancia\ global}),
+(\texttt{heterogeneidad\ ambiental,\ pico},
+\texttt{interfluvio,\ hombrera,\ pie\ de\ monte,\ valle,\ sima,\ curvatura\ tangencial\ media,\ y\ abundancia\ global}),
 no se produjo ninguna autocorrelación ambiental significativa en los
 sitios, indicando que presentan un patrón de distribución dispersa.
 Contrario, las variables
-\texttt{llanura,\ espolón/gajo,\ vertiente,\ vaguada,\ pendiente\ media\ y\ orientación\ media},
-si se presenta un patrón de correlación espacial en los sitios de orden
-1, presentan valores significativos por lo que son muy similares a otros
-sitios. El aluminio que presenta autocorrelación positiva en el sitio
-uno, siendo similar en otros sitios, excepto el sitio 7, con un valor
-significativo negativo contrario al 1. Finalmente, variables como
+\texttt{llanura,\ espolón/gajo,\ vertiente,\ vaguada},
+\texttt{pendiente\ media\ y\ orientación\ media}, si se presenta un
+patrón de correlación espacial en los sitios de orden 1, presentan
+valores significativos por lo que son muy similares a otros sitios. El
+aluminio que presenta autocorrelación positiva en el sitio uno, siendo
+similar en otros sitios, excepto el sitio 7, con un valor significativo
+negativo contrario al 1. Finalmente, variables como
 \texttt{calcio,\ boro,\ cobre,\ hierro,\ potasio,\ magnesio,\ fósforo,\ zinc,\ nitrógeno,\ nitrógeno\ mineralizado,\ pH\ y\ elevación\ media}
 presentan autocorrelaciones muy significativas tanto positivas (sitios 1
 y 2), por lo que están distribuidos de manera similar en otros sitios,
@@ -1105,7 +1149,7 @@ La autocorrelación especial de Mantel (matrices de distancia sin
 tendencias espaciales), de dos matrices (transformada con
 \emph{Hellinger} y de posiciones XY), indica que existen
 autocorrelaciones muy significativas en la primera distancia, baja en la
-tercera y moderada en la 6distancias calculada, por lo que probablemente
+tercera y moderada en la distancias calculada, por lo que probablemente
 sea por variables ambientales, la cual explique la estructura espacial
 de las especies, como aluminio o pH (ver figura
 \ref{fig:mantel_distancia}).
@@ -1130,10 +1174,127 @@ sin tendencias (ver figuras \ref{fig:amb_perm} , \ref{fig:perm_suelo},
 
 \section{Discusión}\label{discusiuxf3n}
 
+Con los hallazgos obtenidos sobre la familia arbórea \emph{Myrtaceae},
+es posible responder las preguntas planteadas sobre la organización de
+los grupos de la familia \emph{Myrtacea}, los patrones consistentes con
+variables ambientales, las especies indicadoras y sus preferencias de
+hábitats, las tendencias de ordenación de las especies, las tendencias
+de ordenación asociadas a variables ambientales, la representatividad
+(85\%) de la familia según la riqueza estimada, la asociación de entre
+diversidad Alpha y variables ambientales, la contribución local o de
+alguna especie a la diversidad beta, los patrones de las especies y su
+asociación con variables ambientales, y la correcta predicción de
+ocurrencias de las especies con los modelos \emph{SDM}. Se corresponden
+y complementan con informaciones disponibles de la familia
+\emph{Myrtaceae}.
+
+La familia \emph{Myrtaceae} presenta patrones de asociación de más de
+70\% entre las especies \emph{Chamguava schippii, Eugenia galalonensis}
+y \emph{Eugenia nesiotica}. De estas especies solo \emph{Eugenia
+galalonensis} es muy abundante y se encuentra ampliamente distribuida en
+la \emph{pmp} y las otras dos se encuentran por debajo de la media (797)
+por lo que se consideran raras, la primera tiene una distribución
+reducida y la tercera se distribuye en proporciones minoriatarias por
+toda la parcela.
+
+Según la disimilaridad de Hellinger , los sitios de la \emph{pmp} se
+aglomeran en seis grupos distintivos entre sí, los cuales comparten
+similitudes superiores al 70\%. Sin embargo, la distancia de Jaccard y
+Bray-Curtis, habla de la existencia de 7 grupos de sitios que comparten
+similaridad superior al 75\%, estos grupos no son muy distintos a los
+obtenidos por el método de Hellinger, pero si son más semejantes.
+
+En cuanto a la asociación con las variables de suelos y mixtas se
+aprecian patrones de aglomeramiento que conforman hasta 5 grupos, de los
+cuales cuatro son pequeños y uno es gigantesco. En el caso de la especie
+se genera un grupo gigante muy similar con 5 de las 7 especies
+presentes, las otras dos son extremadamente raras y no presentan
+asociación. Las variables del suelo, según Pearson y Spearman, en gran
+medida sobre la distribución de la riqueza y no tanto sobre la
+abundancia de esta. Este no es el caso para las variables
+geomorfológicas, que señala una distribución de abundancias de hasta un
+50\% en las llanuras, pero no abundan en zonas de pendientes.
+
+La familia \emph{Myrtacea} se organiza de forma continua y acorde a la
+composición de las especies, se distingues dos grupos con el método
+UPGMA muy distintos entre sí, uno grande y con más grupos dentro y otro
+más pequeño y disperso del grupo más grande. Aunque con el método Ward
+se distinguen tres grupos, de los cuales uno coincide con el de UPGMA
+(el más pequeño), lo que lo ratifica la peculiaridad de este grupo
+(sitios 14 y 19).
+
+No existe un patrón consistente entre los grupos de UPGMA con respecto a
+las variables ambientales geomorfológicas, exceptuando a la curvatura de
+perfil media, donde presentan patrones de relación entre ambos grupos. Y
+los grupos Ward no presentan asociaciones consistentes entre si según
+las variables ambientales, al menos no con el grupo tres, los otros dos
+grupos parecen compartir similitudes acordes a variables ambientales
+como heterogeneidad ambiental o aluminio.
+
+De acuerdo con los grupos formados el grupo dos de UPGMA y el tres de
+Ward (sitios 14 y 19), según IndVal, tienen como especie indicadora a
+\emph{Chamguava Schipppii} que lo representa al 97\%. También, se
+identificó para el grupo 2 UPGMA (sitios 14 y 19), que la especie
+\emph{Chamguava schippi} tiene una preferencia por los suelos con pH
+ácido, donde abunda el aluminio, con elevaciones medias, en relieves
+llanos, y concentraciones de nitrógeno, hierro, zinc y boro bajas. El
+resto de los grupos UPGMA y Ward no presentan especies con preferencia
+de hábitat, de acuerdo con el coeficiente de correlación biserial
+puntual.
+
+Según el escalamiento, las especies \emph{Eugecolo, Myrcgatu} y
+\emph{Eugenesi} tienden a agruparse, la \emph{Eugegala, Chamschi} y
+\emph{Eugeoers} tienden a dispersan del resto, según su contribución a
+los sitios. También, se identificaron varias tendencias de especies que
+se distribuyen según variables ambientales, como \emph{Chamschi} que
+aumenta según la concentración de aluminio o el relieve de llanura;
+también \emph{Psidfrie} que tiende a agruparse hacia el Este-Oeste con
+predominancia de nitrógeno.
+
+En tanto, la representación de la riqueza de la familia
+\emph{Myrtaceae}, se encuentra bien representada, de acuerdo con los
+estimadores de riqueza su representación es del 100\%, correspondiéndose
+con la riqueza real, según el estimador chao no se espera ningún aumento
+en la riqueza de las especies de los sitios, pero si aun aumento en la
+abundancia.
+
+También fue posible identificar la asociación entre la diversidad Alpha
+y las variables ambientales aluminio, calcio, hierro, fósforo y llanura,
+que, de acuerdo a los índices de diversidad, estas variables explican la
+composición de la riqueza en los sitios. En ese mismo contexto, se
+identificaron a las especies \emph{Chamguava schippii} y \emph{Eugenia
+oersteniada} como las mayores contribuyentes a la diversidad beta, y que
+los sitios 14 y 19 son los mayores contribuyentes a la misma.
+
+La especie \emph{Chamguava schippii} presenta patrones aglomerativos
+según la abundancia en los sitios 14 y 19, dejando al resto de sitios
+con bajos valores de abundancia, pero no de riqueza. Pero las especies
+\emph{Eugenia coloradoensis, Psidium friedrichsthalianum} y
+\emph{Eugenia galalonensis} suelen distribuirse, cada una, de forma
+similar en los sitios de orden 1, por lo que la abundancia de cada
+especie en el orden uno es muy similar.
+
+Finalmente, las variables ambientales presentaron patrones
+aglometrativos, a excepción de
+\texttt{heterogeneidad\ ambiental,\ pico,\ interfluvio,\ hombrera,\ pie\ de\ monte,\ valle},
+\texttt{sima},
+\texttt{curvatura\ tangencial\ media,\ y\ abundancia\ global} que se
+dispersan. En cuanto a los modelos de distribución de especies
+\emph{SDM} se corresponde con los correlogramas, siendo sus prediciones
+muy certeras.
+
+Debo destacar, que todo la información que se generó de la familia
+Myrtaceae en la pmp de BCI, puese ser usada para hacer investigaciones
+más profundas de la misma y que los limites de este estudios pueden ser
+tachados como inexistente, debido a que son datos obtenidos de varios
+censos y que se siguen midiendo actualmente. Los estudios de esta indole
+son importantes para conocer el comportamiento de las especies en un
+espacio determinado y unico ambientalemnte.
+
 \section{Agradecimientos}\label{agradecimientos}
 
-A Dios, por no dejarme caer en los días difíciles y darme salud y
-fuerza.
+A \textbf{Dios}, por no dejarme caer en los días difíciles y darme salud
+y fuerza.
 
 A mi maestro, \textbf{Jose Martínez Batlle}, por su entusiasmo,
 dedicación y disponibilidad para enseñar y asesorar durante todo el
@@ -1146,8 +1307,12 @@ Linares}, por apoyarme emocional y moralmente.
 A mi compañero de carrera y amigo \textbf{Welifer Lebron} por su
 asesoramiento y apoyo.
 
-A mi hermoso perrito, \textbf{Snow}, que acompañó como un fiel
-compañero, durante mis días y noches de trabajo
+A mi hermoso perrito, \textbf{Snow}, que acompañó como un fiel compañero
+y apoyo emocional, durante mis días y noches de trabajo.
+
+Último, pero no menos importante, a mí misma, por tener el valor y la
+fuerza de voluntad para embarcarme en este proyecto que supuso un gran
+reto, por no rendirme y llegar hasta el final.
 
 \section{Información de soporte}\label{informaciuxf3n-de-soporte}
 
@@ -1326,6 +1491,27 @@ library gtable\strut
 \end{minipage} & \begin{minipage}[t]{0.80\columnwidth}\centering\strut
 Herramientas que permiten trabajar más fácil con tablas.\strut
 \end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}cc@{}}
+\caption{\label{tab:genero} Géneros y especies presentes en la parcela
+de medición permanente en BCI.}\tabularnewline
+\toprule
+Género & Especies\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Género & Especies\tabularnewline
+\midrule
+\endhead
+Eugenia & galalonensis\tabularnewline
+Eugenia & oerstediana\tabularnewline
+Eugenia & coloradoensis\tabularnewline
+Chamguava & schippii\tabularnewline
+Eugenia & nesiotica\tabularnewline
+Psidium & friedrichsthalianum\tabularnewline
+Myrcia & gatunensis\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -4391,6 +4577,10 @@ com.
 \hypertarget{ref-salazar2000coeficientes}{}
 Salazar, M. E. R. (2000). \emph{Coeficientes de asociación}. Plaza y
 Valdes.
+
+\hypertarget{ref-smithss2021spec}{}
+Smithsonian Tropical Research, I. (2021). \emph{Species list}.
+\url{https://forestgeo.si.edu/sites/neotropics/barro-colorado-island/bci-species/barro-colorado-island-species-list?page=8}.
 
 \hypertarget{ref-stewart1980geologic}{}
 Stewart, R., Stewart, J., \& Woodring, W. (1980). \emph{Geologic map of
