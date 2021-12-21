@@ -487,6 +487,15 @@ Table: \label{tab:estimadores} Estimadores de riqueza de especies
 ````
 
 
+## Análisis de diversidad
+
+````
+`r paste(readLines('diversidad alpha_analisis_de_diversidad.R'), collapse = '\n')`
+````
+
+````
+`r paste(readLines('diversidad beta_analisis_de_diversidad.R'), collapse = '\n')`
+````
 
 ## Ecología espacial
 
