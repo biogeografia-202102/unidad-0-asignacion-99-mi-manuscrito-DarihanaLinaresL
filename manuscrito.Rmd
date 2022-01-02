@@ -8,8 +8,8 @@ output:
     template: svm-latex-ms.tex
     number_sections: true
 title: | 
-        | Estudio de la biodiversidad de Myrtaceae en la Isla de Barrio Colorado, Panamá: Desde la Ecología Numérica.
-        | *Biodiversity study of Myrtaceae on the Island of Barrio Colorado, Panama. From Numerical Ecology*.
+        | Estudio de la biodiversidad de Myrtaceae en la Isla de Barro Colorado, Panamá: Desde la Ecología Numérica.
+        | *Biodiversity study of Myrtaceae on the Island of Barro Colorado, Panama. From Numerical Ecology*.
         
 author:
 - name: Darihana Linares Laureano
